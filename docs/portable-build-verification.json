@@ -5,7 +5,7 @@
     "README.txt",
     "Winstore.exe"
   ],
-  "sha256": "B71C528B089087D7B147DF3D499CD00E8CA7F76B49ADCDB0F018BD437E0CB862",
-  "runtime": "passed",
-  "size_bytes": 25864507
+  "sha256": "1506E8185FD6F55F3850B33462BF214FD1444D1CA3F406C98A514829087121E8",
+  "runtime": "launch passed; icon visually checked in development WebView",
+  "size_bytes": 26019092
 }

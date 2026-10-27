@@ -577,6 +577,7 @@
   {
     "package_id": "RARLab.WinRAR",
     "asset": "/icons/catalog/rarlab-winrar.png",
-    "source": "https://www.google.com/s2/favicons?domain=www.win-rar.com&sz=128"
+    "source": "https://www.rarlab.com/",
+    "method": "Unmodified 256px transparent icon resource extracted from the installed official WinRAR 7.12 executable with Windows SHDefExtractIconW. Replaces an opaque Google favicon."
   }
 ]

@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-10-27T14:44:12.1856784Z",
+  "checked_at": "2026-10-27T19:25:08.8078714Z",
   "installer": "Winstore_0.1.0_x64-setup.exe",
-  "size_bytes": 25426405,
-  "sha256": "08F61CD7C844C6155BA54B630DF1283E2DE4ABA3A628F6595B4D9C5443BE44EB",
+  "size_bytes": 25570806,
+  "sha256": "F60780DDFEC622A397AA323102A7CC6C1591209787F19DCC4E9E51772997316A",
   "authenticode": "NotSigned",
   "frontend_build": "passed",
-  "rust_tests": 15,
+  "rust_tests": 18,
   "clippy": "passed",
-  "packaged_runtime": "passed",
+  "packaged_runtime": "launch passed; icon visually checked in development WebView",
   "update_feed_configured": false,
   "package_installers_executed": false
 }

@@ -77,3 +77,13 @@ Screenshots in `docs/screenshots/` are actual rendered Winstore WebView captures
 See `TASKS_DETAILS_AND_UPDATES.md` for the implemented behavior, stand-in-command queue/restart evidence, persistence/layout/metadata checks, and unsigned/manual-update boundaries. Windows signing was explicitly declined. No package installation, removal, or upgrade was executed in these tests.
 
 Final unsigned NSIS artifact: Winstore_0.1.0_x64-setup.exe (25426405 bytes), SHA-256 08F61CD7C844C6155BA54B630DF1283E2DE4ABA3A628F6595B4D9C5443BE44EB, Authenticode NotSigned. All 15 tests, strict Clippy, production frontend build, installer bundle build, and packaged Tauri runtime checks passed. Production UI is served from tauri.localhost and loads its embedded assets. The release executable is running for handoff. No installer/UAC execution or hosted feed request was performed.
+
+## Dynamic app icon fix
+
+Live-search and inventory-only entries previously had empty icon fields. Shared lazy lookup now reuses bundled images, extracts registered Windows icon resources, and caches matching additional PNGs. LocalSend desktop and CLI family icons are bundled. All 18 Rust tests, strict Clippy, frontend build, and unsigned installer/portable rebuild passed. In the newly extracted portable production app, all four LocalSend search-result icons and its details icon decoded successfully with zero page errors. CPU-Z extraction, Windows Terminal/qBittorrent images, disk cache, and recovery after changing a previously failed image were also checked. See APP_ICON_RESOLUTION.md. No package installations were performed.
+
+## WinRAR banner icon correction
+
+Replaced the 128px opaque favicon with the unchanged 256px transparent icon resource from the installed official WinRAR executable. The actual banner image decoded at 256x256; canvas checks confirmed alpha 0 at its corner and bottom edge. Visually checked the purple banner without the previous white rectangle. Frontend production build passed. This correction changes artwork and provenance only; application logic is unchanged. Capture: screenshots/winstore-winrar-transparent.png.
+
+Unsigned installer and portable ZIP regenerated with the corrected WinRAR artwork. The portable executable was launched for handoff. The artwork was visually verified in the development WebView; the final packaged window was not recaptured.

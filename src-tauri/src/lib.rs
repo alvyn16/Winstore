@@ -1,4 +1,5 @@
 use serde::{Deserialize, Serialize};
+mod app_icons;
 mod app_updates;
 mod inventory;
 mod package_details;
@@ -347,6 +348,7 @@ pub fn run() {
             tasks::get_tasks,
             package_details::get_package_details,
             app_updates::get_update_configuration,
+            app_icons::resolve_app_icon,
             app_updates::check_winstore_update,
             tasks::enqueue_task,
             tasks::cancel_task,

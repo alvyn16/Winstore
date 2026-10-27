@@ -38,7 +38,7 @@ For the unsigned installer and a portable ZIP, run `./scripts/build-windows.ps1`
 - Saved apps have a dedicated page. Sorting, source choices, 100–130% text size, task timeout, and update-check preferences persist locally.
 - App details show source-reported versions, architecture, size, and release information, with unknown fields labeled honestly.
 - Windows installers are unsigned as requested. HTTPS update checking and manual installer downloads are supported when a real feed is configured; this checkout has no hosted feed. See [task, metadata, and installer behavior](docs/TASKS_DETAILS_AND_UPDATES.md).
-- App icons are bundled in `public/icons/`; a missing icon uses a neutral fallback. Logos belong to their respective projects. See [asset sources](docs/ASSET_SOURCES.md).
+- Curated icons and LocalSend artwork are bundled. Live/installed entries reuse catalog icons, registered Windows resources, or lazily cached app logos; unavailable artwork uses initials. Logos belong to their respective projects. See [icon resolution](docs/APP_ICON_RESOLUTION.md) and [asset sources](docs/ASSET_SOURCES.md).
 
 ## Screenshots
 

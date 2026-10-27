@@ -1,0 +1,14 @@
+Winstore additional icon sources
+
+LocalSend: https://github.com/localsend/localsend
+The unchanged official LocalSend icon is bundled for the desktop and CLI
+family entries. See LocalSend-LICENSE.txt for the Apache 2.0 license.
+
+Additional app icons: selfh.st/icons, https://selfh.st/icons
+https://github.com/selfhst/icons
+Icons are fetched unchanged as PNGs and cached locally when needed.
+See selfh-st-icons-LICENSE.txt for the CC BY 4.0 license.
+
+Installed Windows application icons are read from their registered local
+icon resources. All product names, logos, and trademarks belong to their
+respective owners. Displaying an icon does not verify or endorse a package.

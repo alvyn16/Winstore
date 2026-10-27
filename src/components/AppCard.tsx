@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import { Package, Check } from 'lucide-react';
+import { Check } from 'lucide-react';
 import type { AppItem } from '../types';
+import { useAppIcon } from '../useAppIcon';
 
 const iconsNeedingLightSurface = new Set([
   'GitHub.cli', 'GitHub.GitHubDesktop', 'Schniz.fnm', 'JesseDuffield.lazygit',
@@ -8,10 +8,12 @@ const iconsNeedingLightSurface = new Set([
 ]);
 
 export function AppIcon({ app }: { app: AppItem }) {
-  const [failed, setFailed] = useState(false);
-  return <span className={`app-icon ${iconsNeedingLightSurface.has(app.id) ? 'app-icon-backed' : ''}`}>{failed || !app.icon
-    ? <Package aria-hidden="true" />
-    : <img src={app.icon} alt="" loading="lazy" onError={() => setFailed(true)} />}</span>;
+  const icon = useAppIcon(app);
+  const initials = app.name.match(/[\p{L}\p{N}]+/gu)?.slice(0,2).map(word => word[0]).join('').toUpperCase() || '?';
+  const backed = iconsNeedingLightSurface.has(app.id) || app.sources.some(option => iconsNeedingLightSurface.has(option.package_id));
+  return <span ref={icon.ref} className={`app-icon ${backed ? 'app-icon-backed' : ''}`}>{icon.src
+    ? <img src={icon.src} alt="" loading="lazy" onError={icon.onError} />
+    : <span className="app-icon-initials" aria-hidden="true">{initials}</span>}</span>;
 }
 
 export function AppCard({ app, onOpen, className = '' }: {

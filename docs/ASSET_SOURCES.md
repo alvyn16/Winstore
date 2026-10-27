@@ -45,3 +45,13 @@ Screenshots remain the property of their respective projects. Other apps show an
 ## Artcraft apps
 
 The 13 Artcraft app icons and 26 screenshots are bundled from the official `storytold` app repositories. See `artcraft-apps-verification.json` for each exact source URL and `ARTCRAFT_APPS.md` for distribution details. No launcher branding or installer is used as an app entry.
+
+## Dynamic app icons
+
+- LocalSend: the unchanged official 512px logo from https://raw.githubusercontent.com/localsend/localsend/main/app/assets/img/logo-512.png is bundled at `public/icons/extra/localsend.png`. It is also used for LocalSend CLI family results. License: `public/licenses/LocalSend-LICENSE.txt`.
+- Additional live/installed-app logos: [selfh.st/icons](https://selfh.st/icons), https://github.com/selfhst/icons, CC BY 4.0. `src-tauri/catalog/icon-index.json` lists available default PNG names; matching artwork is fetched unchanged and cached only when needed. License copy: `public/licenses/selfh-st-icons-LICENSE.txt`; attribution: `public/licenses/ICON-CREDITS.txt` and app settings.
+- Local installed-app icons are extracted read-only from their registered Windows icon resources; the application executable is not run.
+
+See `APP_ICON_RESOLUTION.md` for lookup behavior and validation.
+
+WinRAR correction: public/icons/catalog/rarlab-winrar.png now contains the official installed WinRAR 7.12 application's 256px transparent Windows icon resource, extracted read-only with SHDefExtractIconW. It replaces the 128px cached Google favicon with an opaque white background. Vendor: https://www.rarlab.com/. No logo redesign or generated replacement was used.

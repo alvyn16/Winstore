@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { invoke } from '@tauri-apps/api/core';
+import { openUrl } from '@tauri-apps/plugin-opener';
 import { Search, Download, RefreshCw, Sun, Moon, Layers, Library, X, Menu, ArrowLeft, ChevronRight, Package, AlertCircle, Check, LoaderCircle, Bookmark } from 'lucide-react';
 import type { AppItem, PackageSource } from './types';
 import { AppCard } from './components/AppCard';
@@ -139,6 +140,7 @@ export default function App() {
       <div className="preference-settings"><h3>Winstore {appUpdates.info?.current_version ?? ''}</h3><label>Check for Winstore updates at startup<input type="checkbox" aria-label="Check for Winstore updates at startup" checked={prefs.preferences.autoCheckUpdates} onChange={event => prefs.setPreferences(previous => ({ ...previous, autoCheckUpdates: event.target.checked }))} /></label><p className="source-note">{appUpdates.info?.configured ? 'Updates download in your browser. Open the unsigned installer to update Winstore.' : 'This build has no update feed configured. Installer downloads are manual.'}</p><button className="secondary-button" disabled={!appUpdates.info?.configured || appUpdates.checking} onClick={() => void appUpdates.check()}>{appUpdates.checking ? 'Checking…' : 'Check for Winstore updates'}</button>{appUpdates.checked && !appUpdates.info?.version && <p role="status">Winstore is up to date.</p>}{appUpdates.info?.version && <><p>Winstore {appUpdates.info.version} is available.</p><p className="release-notes">{appUpdates.info.notes}</p><button className="secondary-button" onClick={() => void appUpdates.download()}>Download Winstore update</button></>}{appUpdates.error && <p role="alert" className="source-warning">{appUpdates.error}</p>}</div>
       {prefs.storageError && <p role="alert" className="source-warning">{prefs.storageError}</p>}
       {store.notice && <p className="source-warning">{store.notice}</p>}
+      <p className="source-note">App icons belong to their projects. Additional icons: <button className="icon-credit-link" onClick={() => void openUrl('https://selfh.st/icons').catch(() => store.setError('Could not open icon credits.'))}>selfh.st/icons</button> (CC BY 4.0).</p>
     </Dialog>}
     {overlay === 'queue' && <TaskQueue queue={taskQueue} onClose={() => setOverlay(null)} />}
   </div>;
