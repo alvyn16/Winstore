@@ -1,0 +1,4438 @@
+[
+  {
+    "id": "Microsoft.VisualStudioCode",
+    "name": "Visual Studio Code",
+    "publisher": "Microsoft",
+    "description": "Edit, debug and develop code with Microsoft's extensible editor.",
+    "category": "Development",
+    "icon": "/icons/app-0.ico",
+    "banner": "https://code.visualstudio.com/assets/home/home-screenshot-win.png",
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/vscode",
+        "version": "1.143.1"
+      },
+      {
+        "source": "winget",
+        "package_id": "Microsoft.VisualStudioCode",
+        "version": "Latest"
+      },
+      {
+        "source": "choco",
+        "package_id": "vscode",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "editor",
+      "code",
+      "developer",
+      "vscode",
+      "development"
+    ],
+    "website": "https://code.visualstudio.com/"
+  },
+  {
+    "id": "Git.Git",
+    "name": "Git",
+    "publisher": "Software Freedom Conservancy",
+    "description": "Track changes and collaborate using distributed version control.",
+    "category": "Development",
+    "icon": "/icons/app-1.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "main/git",
+        "version": "2.56.0.4"
+      },
+      {
+        "source": "winget",
+        "package_id": "Git.Git",
+        "version": "Latest"
+      },
+      {
+        "source": "choco",
+        "package_id": "git",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "vcs",
+      "git",
+      "cli",
+      "development"
+    ],
+    "website": "https://git-scm.com/"
+  },
+  {
+    "id": "Rustlang.Rustup",
+    "name": "Rustup (Rust)",
+    "publisher": "Rust Foundation",
+    "description": "Install and manage Rust compilers and development toolchains.",
+    "category": "Development",
+    "icon": "/icons/app-2.svg",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "main/rustup",
+        "version": "1.29.2"
+      },
+      {
+        "source": "winget",
+        "package_id": "Rustlang.Rustup",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "rust",
+      "compiler",
+      "languages",
+      "development"
+    ],
+    "website": "https://rustup.rs/"
+  },
+  {
+    "id": "OpenJS.NodeJS.LTS",
+    "name": "Node.js LTS",
+    "publisher": "OpenJS Foundation",
+    "description": "The long-term-support Node.js runtime for JavaScript applications.",
+    "category": "Development",
+    "icon": "/icons/app-3.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "main/nodejs-lts",
+        "version": "24.22.1"
+      },
+      {
+        "source": "winget",
+        "package_id": "OpenJS.NodeJS.LTS",
+        "version": "Latest"
+      },
+      {
+        "source": "choco",
+        "package_id": "nodejs-lts",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "javascript",
+      "runtime",
+      "web",
+      "nodejslts",
+      "development"
+    ],
+    "website": "https://nodejs.org/"
+  },
+  {
+    "id": "Valve.Steam",
+    "name": "Steam",
+    "publisher": "Valve Corporation",
+    "description": "Install games and manage your Steam library.",
+    "category": "Gaming",
+    "icon": "/icons/app-4.ico",
+    "banner": "https://cdn.cloudflare.steamstatic.com/store/home/store_home_share.jpg",
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "games/steam",
+        "version": "nightly"
+      },
+      {
+        "source": "winget",
+        "package_id": "Valve.Steam",
+        "version": "Latest"
+      },
+      {
+        "source": "choco",
+        "package_id": "steam",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "gaming",
+      "launcher",
+      "store",
+      "steam"
+    ],
+    "website": "https://store.steampowered.com/about/"
+  },
+  {
+    "id": "HeroicGamesLauncher.HeroicGamesLauncher",
+    "name": "Heroic Games Launcher",
+    "publisher": "Heroic Games",
+    "description": "An open-source launcher for Epic and GOG game libraries.",
+    "category": "Gaming",
+    "icon": "/icons/app-5.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "games/heroic-games-launcher",
+        "version": "2.22.4"
+      },
+      {
+        "source": "winget",
+        "package_id": "HeroicGamesLauncher.HeroicGamesLauncher",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "epic",
+      "gog",
+      "gaming",
+      "heroiclauncher"
+    ],
+    "website": "https://heroicgameslauncher.com/"
+  },
+  {
+    "id": "PrismLauncher.PrismLauncher",
+    "name": "Prism Launcher",
+    "publisher": "Prism Launcher Team",
+    "description": "Manage Minecraft instances, mods and modpacks.",
+    "category": "Gaming",
+    "icon": "/icons/app-6.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "games/prismlauncher",
+        "version": "11.1.1"
+      },
+      {
+        "source": "winget",
+        "package_id": "PrismLauncher.PrismLauncher",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "minecraft",
+      "launcher",
+      "mods",
+      "prismlauncher",
+      "gaming"
+    ],
+    "website": "https://prismlauncher.org/"
+  },
+  {
+    "id": "DolphinEmulator.Dolphin",
+    "name": "Dolphin Emulator",
+    "publisher": "Dolphin Team",
+    "description": "An emulator for two Nintendo video game consoles: GameCube and Wii.",
+    "category": "Gaming",
+    "icon": "/icons/dolphin.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "games/dolphin",
+        "version": "2609a"
+      },
+      {
+        "source": "winget",
+        "package_id": "DolphinEmulator.Dolphin",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "emulator",
+      "nintendo",
+      "gamecube"
+    ]
+  },
+  {
+    "id": "VideoLAN.VLC",
+    "name": "VLC Media Player",
+    "publisher": "VideoLAN",
+    "description": "Play a wide range of local and streamed audio and video formats.",
+    "category": "Audio & Video",
+    "icon": "/icons/vlc.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/vlc",
+        "version": "3.0.24"
+      },
+      {
+        "source": "winget",
+        "package_id": "VideoLAN.VLC",
+        "version": "Latest"
+      },
+      {
+        "source": "choco",
+        "package_id": "vlc",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "player",
+      "video",
+      "media",
+      "vlc",
+      "audio & video"
+    ],
+    "website": "https://www.videolan.org/vlc/"
+  },
+  {
+    "id": "OBSProject.OBSStudio",
+    "name": "OBS Studio",
+    "publisher": "OBS Project",
+    "description": "Record video and stream live with configurable scenes and sources.",
+    "category": "Audio & Video",
+    "icon": "/icons/obs.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/obs-studio",
+        "version": "33.0.0"
+      },
+      {
+        "source": "winget",
+        "package_id": "OBSProject.OBSStudio",
+        "version": "Latest"
+      },
+      {
+        "source": "choco",
+        "package_id": "obs-studio",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "streaming",
+      "recorder",
+      "broadcast",
+      "obs",
+      "audio & video"
+    ],
+    "website": "https://obsproject.com/"
+  },
+  {
+    "id": "Spotify.Spotify",
+    "name": "Spotify",
+    "publisher": "Spotify AB",
+    "description": "Digital music service providing access to millions of songs and podcasts.",
+    "category": "Audio & Video",
+    "icon": "/icons/app-10.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/spotify",
+        "version": "1.3.6.1921.g7086c071a617"
+      },
+      {
+        "source": "winget",
+        "package_id": "Spotify.Spotify",
+        "version": "Latest"
+      },
+      {
+        "source": "choco",
+        "package_id": "spotify",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "music",
+      "streaming",
+      "audio"
+    ]
+  },
+  {
+    "id": "Discord.Discord",
+    "name": "Discord",
+    "publisher": "Discord Inc.",
+    "description": "Voice, video and text chat for communities and friends.",
+    "category": "Communications",
+    "icon": "/icons/app-11.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/discord",
+        "version": "1.0.9259-28"
+      },
+      {
+        "source": "winget",
+        "package_id": "Discord.Discord",
+        "version": "Latest"
+      },
+      {
+        "source": "choco",
+        "package_id": "discord",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "chat",
+      "voice",
+      "messaging",
+      "discord",
+      "communications"
+    ],
+    "website": "https://discord.com/"
+  },
+  {
+    "id": "Mozilla.Firefox",
+    "name": "Mozilla Firefox",
+    "publisher": "Mozilla",
+    "description": "An independent browser with extensions and privacy controls.",
+    "category": "Browsers",
+    "icon": "/icons/app-12.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/firefox",
+        "version": "158.0.1"
+      },
+      {
+        "source": "winget",
+        "package_id": "Mozilla.Firefox",
+        "version": "Latest"
+      },
+      {
+        "source": "choco",
+        "package_id": "firefox",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "browser",
+      "privacy",
+      "web",
+      "firefox",
+      "browsers"
+    ],
+    "website": "https://www.mozilla.org/en-US/firefox/new/"
+  },
+  {
+    "id": "7zip.7zip",
+    "name": "7-Zip",
+    "publisher": "Igor Pavlov",
+    "description": "Create and extract archives with support for many compression formats.",
+    "category": "Utilities",
+    "icon": "/icons/7zip.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "main/7zip",
+        "version": "26.05"
+      },
+      {
+        "source": "winget",
+        "package_id": "7zip.7zip",
+        "version": "Latest"
+      },
+      {
+        "source": "choco",
+        "package_id": "7zip",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "archive",
+      "zip",
+      "compression",
+      "7zip",
+      "utilities"
+    ],
+    "website": "https://www.7-zip.org/"
+  },
+  {
+    "id": "Microsoft.PowerToys",
+    "name": "PowerToys",
+    "publisher": "Microsoft",
+    "description": "A set of utilities for power users to tune and streamline their Windows experience for greater productivity.",
+    "category": "Utilities",
+    "icon": "/icons/powertoys.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/powertoys",
+        "version": "0.102.2933.0"
+      },
+      {
+        "source": "winget",
+        "package_id": "Microsoft.PowerToys",
+        "version": "Latest"
+      },
+      {
+        "source": "choco",
+        "package_id": "powertoys",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "tools",
+      "window-manager",
+      "utility"
+    ]
+  },
+  {
+    "id": "Brave.Brave",
+    "name": "Brave",
+    "publisher": "Brave",
+    "description": "Browse the web with built-in ad and tracker blocking.",
+    "category": "Browsers",
+    "icon": "/icons/catalog/brave-brave.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/brave",
+        "version": "1.98.60"
+      },
+      {
+        "source": "winget",
+        "package_id": "Brave.Brave",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "brave",
+      "browsers"
+    ],
+    "website": "https://www.brave.com"
+  },
+  {
+    "id": "Google.Chrome",
+    "name": "Google Chrome",
+    "publisher": "Google",
+    "description": "Google's browser with profile syncing and extension support.",
+    "category": "Browsers",
+    "icon": "/icons/catalog/google-chrome.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/googlechrome",
+        "version": "156.0.8078.48"
+      },
+      {
+        "source": "winget",
+        "package_id": "Google.Chrome",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "chrome",
+      "browsers"
+    ],
+    "website": "https://www.google.com/chrome/"
+  },
+  {
+    "id": "Hibbiki.Chromium",
+    "name": "Chromium",
+    "publisher": "Hibbiki",
+    "description": "The open-source browser project behind many desktop browsers.",
+    "category": "Browsers",
+    "icon": "/icons/catalog/hibbiki-chromium.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/chromium",
+        "version": "156.0.8078.48-r1706539"
+      },
+      {
+        "source": "winget",
+        "package_id": "Hibbiki.Chromium",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "chromium",
+      "browsers"
+    ],
+    "website": "https://www.chromium.org/"
+  },
+  {
+    "id": "Microsoft.Edge",
+    "name": "Microsoft Edge",
+    "publisher": "Microsoft",
+    "description": "Microsoft's browser with profiles, extensions and Windows integration.",
+    "category": "Browsers",
+    "icon": "/icons/catalog/edge-browser.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "Microsoft.Edge",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "edge",
+      "browsers"
+    ],
+    "website": "https://www.microsoft.com/edge"
+  },
+  {
+    "id": "Mozilla.Firefox.ESR",
+    "name": "Firefox ESR",
+    "publisher": "Mozilla",
+    "description": "The extended-support Firefox release for longer deployment cycles.",
+    "category": "Browsers",
+    "icon": "/icons/catalog/mozilla-firefox-esr.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/firefox-esr",
+        "version": "153.6.0"
+      },
+      {
+        "source": "winget",
+        "package_id": "Mozilla.Firefox.ESR",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "firefoxesr",
+      "browsers"
+    ],
+    "website": "https://www.mozilla.org/en-US/firefox/enterprise/"
+  },
+  {
+    "id": "Ablaze.Floorp",
+    "name": "Floorp",
+    "publisher": "Ablaze",
+    "description": "A customizable Firefox-based browser with flexible workspace layouts.",
+    "category": "Browsers",
+    "icon": "/icons/catalog/ablaze-floorp.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/floorp",
+        "version": "12.20.2"
+      },
+      {
+        "source": "winget",
+        "package_id": "Ablaze.Floorp",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "floorp",
+      "browsers"
+    ],
+    "website": "https://floorp.app/"
+  },
+  {
+    "id": "ImputNet.Helium",
+    "name": "Helium",
+    "publisher": "ImputNet",
+    "description": "A Chromium-based browser focused on a quieter browsing experience.",
+    "category": "Browsers",
+    "icon": "/icons/catalog/imputnet-helium.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/helium",
+        "version": "0.20.1.1"
+      },
+      {
+        "source": "winget",
+        "package_id": "ImputNet.Helium",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "helium",
+      "browsers"
+    ],
+    "website": "https://helium.computer"
+  },
+  {
+    "id": "LibreWolf.LibreWolf",
+    "name": "LibreWolf",
+    "publisher": "LibreWolf",
+    "description": "A Firefox-derived browser with privacy-oriented defaults.",
+    "category": "Browsers",
+    "icon": "/icons/catalog/librewolf-librewolf.svg",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/librewolf",
+        "version": "158.0.1-2"
+      },
+      {
+        "source": "winget",
+        "package_id": "LibreWolf.LibreWolf",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "librewolf",
+      "browsers"
+    ],
+    "website": "https://librewolf.net/"
+  },
+  {
+    "id": "MullvadVPN.MullvadBrowser",
+    "name": "Mullvad Browser",
+    "publisher": "MullvadVPN",
+    "description": "A browser developed by Mullvad and the Tor Project.",
+    "category": "Browsers",
+    "icon": "/icons/catalog/mullvad-browser.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/mullvad-browser",
+        "version": "15.0.26"
+      },
+      {
+        "source": "winget",
+        "package_id": "MullvadVPN.MullvadBrowser",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "mullvadbrowser",
+      "browsers"
+    ],
+    "website": "https://mullvad.net/browser"
+  },
+  {
+    "id": "TorProject.TorBrowser",
+    "name": "Tor Browser",
+    "publisher": "TorProject",
+    "description": "Browse through the Tor network using the official Tor browser.",
+    "category": "Browsers",
+    "icon": "/icons/catalog/torproject-torbrowser.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/tor-browser",
+        "version": "15.0.26"
+      },
+      {
+        "source": "winget",
+        "package_id": "TorProject.TorBrowser",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "tor",
+      "browsers"
+    ],
+    "website": "https://www.torproject.org/"
+  },
+  {
+    "id": "eloston.ungoogled-chromium",
+    "name": "Ungoogled Chromium",
+    "publisher": "eloston",
+    "description": "Chromium with Google service integrations removed.",
+    "category": "Browsers",
+    "icon": "/icons/catalog/eloston-ungoogled-chromium.svg",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/ungoogled-chromium",
+        "version": "156.0.8078.47-1.1"
+      },
+      {
+        "source": "winget",
+        "package_id": "eloston.ungoogled-chromium",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "ungoogled",
+      "browsers"
+    ],
+    "website": "https://github.com/Eloston/ungoogled-chromium"
+  },
+  {
+    "id": "Vivaldi.Vivaldi",
+    "name": "Vivaldi",
+    "publisher": "Vivaldi",
+    "description": "A customizable browser with tabs, panels and built-in tools.",
+    "category": "Browsers",
+    "icon": "/icons/catalog/vivaldi-vivaldi.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/vivaldi",
+        "version": "8.2.4133.94"
+      },
+      {
+        "source": "winget",
+        "package_id": "Vivaldi.Vivaldi",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "vivaldi",
+      "browsers"
+    ],
+    "website": "https://vivaldi.com/"
+  },
+  {
+    "id": "Waterfox.Waterfox",
+    "name": "Waterfox",
+    "publisher": "Waterfox",
+    "description": "A Firefox-based browser with customization and privacy controls.",
+    "category": "Browsers",
+    "icon": "/icons/catalog/waterfox-waterfox.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/waterfox",
+        "version": "6.7.7"
+      },
+      {
+        "source": "winget",
+        "package_id": "Waterfox.Waterfox",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "waterfox",
+      "browsers"
+    ],
+    "website": "https://www.waterfox.net/"
+  },
+  {
+    "id": "Zen-Team.Zen-Browser",
+    "name": "Zen Browser",
+    "publisher": "Zen-Team",
+    "description": "A Firefox-based browser with vertical tabs and workspaces.",
+    "category": "Browsers",
+    "icon": "/icons/catalog/zen-team-zen-browser.svg",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/zen-browser",
+        "version": "1.23.4b"
+      },
+      {
+        "source": "winget",
+        "package_id": "Zen-Team.Zen-Browser",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "zen",
+      "browsers"
+    ],
+    "website": "https://zen-browser.app/"
+  },
+  {
+    "id": "Betterbird.Betterbird",
+    "name": "Betterbird",
+    "publisher": "Betterbird",
+    "description": "A Thunderbird-based email client with additional refinements.",
+    "category": "Communications",
+    "icon": "/icons/catalog/betterbird-betterbird.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/betterbird",
+        "version": "153.6.0esr-bb12"
+      },
+      {
+        "source": "winget",
+        "package_id": "Betterbird.Betterbird",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "betterbird",
+      "communications"
+    ],
+    "website": "https://www.betterbird.eu/"
+  },
+  {
+    "id": "ChatterinoTeam.Chatterino",
+    "name": "Chatterino",
+    "publisher": "ChatterinoTeam",
+    "description": "A desktop Twitch chat client with channel and emote tools.",
+    "category": "Communications",
+    "icon": "/icons/catalog/chatterinoteam-chatterino.svg",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/chatterino",
+        "version": "2.5.6"
+      },
+      {
+        "source": "winget",
+        "package_id": "ChatterinoTeam.Chatterino",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "chatterino",
+      "communications"
+    ],
+    "website": "https://www.chatterino.com/"
+  },
+  {
+    "id": "SpikeHD.Dorion",
+    "name": "Dorion",
+    "publisher": "SpikeHD",
+    "description": "An alternative desktop Discord client with themes and plugins.",
+    "category": "Communications",
+    "icon": "/icons/catalog/spikehd-dorion.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "SpikeHD.Dorion",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "dorion",
+      "communications"
+    ],
+    "website": "https://spikehd.dev/projects/dorion/"
+  },
+  {
+    "id": "Element.Element",
+    "name": "Element",
+    "publisher": "Element",
+    "description": "A Matrix messaging client for individual and group conversations.",
+    "category": "Communications",
+    "icon": "/icons/catalog/element-element.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/element",
+        "version": "1.12.32"
+      },
+      {
+        "source": "winget",
+        "package_id": "Element.Element",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "element",
+      "communications"
+    ],
+    "website": "https://element.io/"
+  },
+  {
+    "id": "Proton.ProtonMail",
+    "name": "Proton Mail",
+    "publisher": "Proton",
+    "description": "The desktop client for Proton's email service.",
+    "category": "Communications",
+    "icon": "/icons/catalog/proton-protonmail.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/proton-mail",
+        "version": "1.14.0"
+      },
+      {
+        "source": "winget",
+        "package_id": "Proton.ProtonMail",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "protonmail",
+      "communications"
+    ],
+    "website": "https://proton.me/mail"
+  },
+  {
+    "id": "Tox.qTox",
+    "name": "qTox",
+    "publisher": "Tox",
+    "description": "A desktop messaging client built on the Tox protocol.",
+    "category": "Communications",
+    "icon": "/icons/catalog/tox-qtox.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/qtox",
+        "version": "1.17.6"
+      },
+      {
+        "source": "winget",
+        "package_id": "Tox.qTox",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "qtox",
+      "communications"
+    ],
+    "website": "https://qtox.github.io/"
+  },
+  {
+    "id": "OpenWhisperSystems.Signal",
+    "name": "Signal",
+    "publisher": "OpenWhisperSystems",
+    "description": "Private messaging, voice calls and video calls on desktop.",
+    "category": "Communications",
+    "icon": "/icons/catalog/openwhispersystems-signal.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/signal",
+        "version": "8.32.0"
+      },
+      {
+        "source": "winget",
+        "package_id": "OpenWhisperSystems.Signal",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "signal",
+      "communications"
+    ],
+    "website": "https://signal.org/"
+  },
+  {
+    "id": "SlackTechnologies.Slack",
+    "name": "Slack",
+    "publisher": "SlackTechnologies",
+    "description": "Team messaging with channels, integrations and shared files.",
+    "category": "Communications",
+    "icon": "/icons/catalog/slacktechnologies-slack.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/slack",
+        "version": "4.53.269"
+      },
+      {
+        "source": "winget",
+        "package_id": "SlackTechnologies.Slack",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "slack",
+      "communications"
+    ],
+    "website": "https://slack.com/"
+  },
+  {
+    "id": "Microsoft.Teams",
+    "name": "Microsoft Teams",
+    "publisher": "Microsoft",
+    "description": "Meet, call and collaborate using Microsoft's team workspace.",
+    "category": "Communications",
+    "icon": "/icons/catalog/microsoft-teams.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "Microsoft.Teams",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "teams",
+      "communications"
+    ],
+    "website": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software"
+  },
+  {
+    "id": "TeamSpeakSystems.TeamSpeakClient",
+    "name": "TeamSpeak 3",
+    "publisher": "TeamSpeakSystems",
+    "description": "The classic TeamSpeak voice-chat client for community servers.",
+    "category": "Communications",
+    "icon": "/icons/catalog/teamspeaksystems-teamspeakclient.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/teamspeak3",
+        "version": "3.6.2"
+      },
+      {
+        "source": "winget",
+        "package_id": "TeamSpeakSystems.TeamSpeakClient",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "teamspeak3",
+      "communications"
+    ],
+    "website": "https://www.teamspeak.com/"
+  },
+  {
+    "id": "TeamSpeakSystems.TeamSpeakClient.Beta.6",
+    "name": "TeamSpeak 6",
+    "publisher": "TeamSpeakSystems",
+    "description": "The newer TeamSpeak client, currently distributed as a beta.",
+    "category": "Communications",
+    "icon": "/icons/catalog/teamspeaksystems-teamspeakclient-beta-6.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "TeamSpeakSystems.TeamSpeakClient.Beta.6",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "teamspeak6",
+      "communications"
+    ],
+    "website": "https://www.teamspeak.com/"
+  },
+  {
+    "id": "Telegram.TelegramDesktop",
+    "name": "Telegram",
+    "publisher": "Telegram",
+    "description": "Desktop messaging with channels, groups and file sharing.",
+    "category": "Communications",
+    "icon": "/icons/catalog/telegram-telegramdesktop.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/telegram",
+        "version": "7.3.3"
+      },
+      {
+        "source": "winget",
+        "package_id": "Telegram.TelegramDesktop",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "telegram",
+      "communications"
+    ],
+    "website": "https://telegram.org/"
+  },
+  {
+    "id": "Mozilla.Thunderbird",
+    "name": "Thunderbird",
+    "publisher": "Mozilla",
+    "description": "Manage email, calendars, contacts and news feeds.",
+    "category": "Communications",
+    "icon": "/icons/catalog/mozilla-thunderbird.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/thunderbird",
+        "version": "158.0.1"
+      },
+      {
+        "source": "winget",
+        "package_id": "Mozilla.Thunderbird",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "thunderbird",
+      "communications"
+    ],
+    "website": "https://www.thunderbird.net/"
+  },
+  {
+    "id": "Vencord.Vesktop",
+    "name": "Vesktop",
+    "publisher": "Vencord",
+    "description": "An alternative Discord desktop client from the Vencord project.",
+    "category": "Communications",
+    "icon": "/icons/catalog/vencord-vesktop.svg",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/vesktop",
+        "version": "1.6.8"
+      },
+      {
+        "source": "winget",
+        "package_id": "Vencord.Vesktop",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "vesktop",
+      "communications"
+    ],
+    "website": "https://vesktop.dev"
+  },
+  {
+    "id": "Rakuten.Viber",
+    "name": "Viber",
+    "publisher": "Rakuten",
+    "description": "Desktop messaging and calls linked to your Viber account.",
+    "category": "Communications",
+    "icon": "/icons/catalog/rakuten-viber.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "Rakuten.Viber",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "viber",
+      "communications"
+    ],
+    "website": "https://www.viber.com/"
+  },
+  {
+    "id": "9NKSQGP7F2NH",
+    "name": "WhatsApp Desktop",
+    "publisher": "WhatsApp Inc.",
+    "description": "Use WhatsApp messaging and calls on your Windows PC.",
+    "category": "Communications",
+    "icon": "/icons/catalog/9nksqgp7f2nh.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "9NKSQGP7F2NH",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "whatsapp",
+      "communications",
+      "Microsoft Store"
+    ],
+    "website": "https://www.whatsapp.com/download"
+  },
+  {
+    "id": "Zoom.Zoom",
+    "name": "Zoom",
+    "publisher": "Zoom",
+    "description": "Host or join video meetings and share your screen.",
+    "category": "Communications",
+    "icon": "/icons/catalog/zoom-zoom.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/zoom",
+        "version": "7.2.1.48556"
+      },
+      {
+        "source": "winget",
+        "package_id": "Zoom.Zoom",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "zoom",
+      "communications"
+    ],
+    "website": "https://zoom.us/"
+  },
+  {
+    "id": "Bruno.Bruno",
+    "name": "Bruno",
+    "publisher": "Bruno",
+    "description": "Test APIs using collections stored alongside your project files.",
+    "category": "Development",
+    "icon": "/icons/catalog/bruno-bruno.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/bruno",
+        "version": "4.3.0"
+      },
+      {
+        "source": "winget",
+        "package_id": "Bruno.Bruno",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "bruno",
+      "development"
+    ],
+    "website": "https://www.usebruno.com/"
+  },
+  {
+    "id": "OpenAI.ChatGPT",
+    "name": "ChatGPT Desktop",
+    "publisher": "OpenAI",
+    "description": "The official ChatGPT desktop app for Windows.",
+    "category": "Development",
+    "icon": "/icons/catalog/logo-chatgpt.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "OpenAI.ChatGPT",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "chatgpt",
+      "development"
+    ],
+    "website": "https://chatgpt.com/download/"
+  },
+  {
+    "id": "Anthropic.Claude",
+    "name": "Claude Desktop",
+    "publisher": "Anthropic",
+    "description": "The official Claude desktop app from Anthropic.",
+    "category": "Development",
+    "icon": "/icons/catalog/logo-anthropic.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/claude",
+        "version": "3.6556.2"
+      },
+      {
+        "source": "winget",
+        "package_id": "Anthropic.Claude",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "claude",
+      "development"
+    ],
+    "website": "https://claude.ai/download"
+  },
+  {
+    "id": "Anthropic.ClaudeCode",
+    "name": "Claude Code",
+    "publisher": "Anthropic",
+    "description": "Anthropic's coding assistant for terminal-based development.",
+    "category": "Development",
+    "icon": "/icons/catalog/logo-anthropic.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "main/claude-code",
+        "version": "2.1.311"
+      },
+      {
+        "source": "winget",
+        "package_id": "Anthropic.ClaudeCode",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "claude-code",
+      "development"
+    ],
+    "website": "https://code.claude.com/"
+  },
+  {
+    "id": "Kitware.CMake",
+    "name": "CMake",
+    "publisher": "Kitware",
+    "description": "Configure and generate build systems for cross-platform projects.",
+    "category": "Development",
+    "icon": "/icons/catalog/kitware-cmake.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "main/cmake",
+        "version": "4.4.4"
+      },
+      {
+        "source": "winget",
+        "package_id": "Kitware.CMake",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "cmake",
+      "development"
+    ],
+    "website": "https://cmake.org/"
+  },
+  {
+    "id": "OpenAI.Codex",
+    "name": "Codex",
+    "publisher": "OpenAI",
+    "description": "OpenAI's coding agent for terminal-based development workflows.",
+    "category": "Development",
+    "icon": "/icons/catalog/openai-codex.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "main/codex",
+        "version": "0.164.0"
+      },
+      {
+        "source": "winget",
+        "package_id": "OpenAI.Codex",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "codex",
+      "development"
+    ],
+    "website": "https://developers.openai.com/codex/cli"
+  },
+  {
+    "id": "Anysphere.Cursor",
+    "name": "Cursor",
+    "publisher": "Anysphere",
+    "description": "A code editor with integrated AI-assisted development tools.",
+    "category": "Development",
+    "icon": "/icons/catalog/anysphere-cursor.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/cursor",
+        "version": "3.27.14"
+      },
+      {
+        "source": "winget",
+        "package_id": "Anysphere.Cursor",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "cursor",
+      "development"
+    ],
+    "website": "https://cursor.com/"
+  },
+  {
+    "id": "Docker.DockerDesktop",
+    "name": "Docker Desktop",
+    "publisher": "Docker",
+    "description": "Build and run containers with Docker's desktop environment.",
+    "category": "Development",
+    "icon": "/icons/catalog/docker-dockerdesktop.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "Docker.DockerDesktop",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "docker",
+      "development"
+    ],
+    "website": "https://www.docker.com/products/docker-desktop/"
+  },
+  {
+    "id": "Schniz.fnm",
+    "name": "Fast Node Manager",
+    "publisher": "Schniz",
+    "description": "Install and switch between Node.js versions from your terminal.",
+    "category": "Development",
+    "icon": "/icons/catalog/schniz-fnm.svg",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "main/fnm",
+        "version": "1.39.0"
+      },
+      {
+        "source": "winget",
+        "package_id": "Schniz.fnm",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "fnm",
+      "development"
+    ],
+    "website": "https://github.com/Schniz/fnm"
+  },
+  {
+    "id": "GitExtensionsTeam.GitExtensions",
+    "name": "Git Extensions",
+    "publisher": "GitExtensionsTeam",
+    "description": "Manage Git repositories through a graphical Windows interface.",
+    "category": "Development",
+    "icon": "/icons/catalog/gitextensionsteam-gitextensions.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/gitextensions",
+        "version": "7.2.1.7"
+      },
+      {
+        "source": "winget",
+        "package_id": "GitExtensionsTeam.GitExtensions",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "gitextensions",
+      "development"
+    ],
+    "website": "https://gitextensions.github.io/"
+  },
+  {
+    "id": "GitHub.cli",
+    "name": "GitHub CLI",
+    "publisher": "GitHub",
+    "description": "Work with GitHub issues, pull requests and releases from a terminal.",
+    "category": "Development",
+    "icon": "/icons/catalog/github-cli.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "main/gh",
+        "version": "2.103.3"
+      },
+      {
+        "source": "winget",
+        "package_id": "GitHub.cli",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "githubcli",
+      "development"
+    ],
+    "website": "https://cli.github.com/"
+  },
+  {
+    "id": "GitHub.GitHubDesktop",
+    "name": "GitHub Desktop",
+    "publisher": "GitHub",
+    "description": "Review changes and manage GitHub repositories visually.",
+    "category": "Development",
+    "icon": "/icons/catalog/github-githubdesktop.svg",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/github",
+        "version": "3.6.7"
+      },
+      {
+        "source": "winget",
+        "package_id": "GitHub.GitHubDesktop",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "githubdesktop",
+      "development"
+    ],
+    "website": "https://desktop.github.com/"
+  },
+  {
+    "id": "GoLang.Go",
+    "name": "Go",
+    "publisher": "The Go Authors",
+    "description": "Install the Go programming language compiler and tools.",
+    "category": "Development",
+    "icon": "/icons/catalog/golang-go.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "main/go",
+        "version": "1.27.3"
+      },
+      {
+        "source": "winget",
+        "package_id": "GoLang.Go",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "golang",
+      "development"
+    ],
+    "website": "https://go.dev/"
+  },
+  {
+    "id": "JesseDuffield.lazygit",
+    "name": "Lazygit",
+    "publisher": "JesseDuffield",
+    "description": "A terminal interface for staging, committing and browsing Git history.",
+    "category": "Development",
+    "icon": "/icons/catalog/jesseduffield-lazygit.svg",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/lazygit",
+        "version": "0.66.2"
+      },
+      {
+        "source": "winget",
+        "package_id": "JesseDuffield.lazygit",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "lazygit",
+      "development"
+    ],
+    "website": "https://github.com/jesseduffield/lazygit/"
+  },
+  {
+    "id": "DEVCOM.Lua",
+    "name": "Lua",
+    "publisher": "Lua for Windows",
+    "description": "A lightweight scripting language for embedded and standalone use.",
+    "category": "Development",
+    "icon": "/icons/catalog/logo-lua.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "main/lua",
+        "version": "5.5.0"
+      },
+      {
+        "source": "winget",
+        "package_id": "DEVCOM.Lua",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "lua",
+      "development"
+    ],
+    "website": "https://www.lua.org/"
+  },
+  {
+    "id": "Neovim.Neovim",
+    "name": "Neovim",
+    "publisher": "Neovim",
+    "description": "An extensible terminal editor built on the Vim editing model.",
+    "category": "Development",
+    "icon": "/icons/catalog/neovim-neovim.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "main/neovim",
+        "version": "0.12.6"
+      },
+      {
+        "source": "winget",
+        "package_id": "Neovim.Neovim",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "neovim",
+      "development"
+    ],
+    "website": "https://neovim.io/"
+  },
+  {
+    "id": "OpenJS.NodeJS",
+    "name": "Node.js",
+    "publisher": "OpenJS",
+    "description": "The current Node.js JavaScript runtime release.",
+    "category": "Development",
+    "icon": "/icons/catalog/openjs-nodejs.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "main/nodejs",
+        "version": "26.12.1"
+      },
+      {
+        "source": "winget",
+        "package_id": "OpenJS.NodeJS",
+        "version": "Latest"
+      },
+      {
+        "source": "choco",
+        "package_id": "nodejs.install",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "nodejs",
+      "development"
+    ],
+    "website": "https://nodejs.org/"
+  },
+  {
+    "id": "pnpm.pnpm",
+    "name": "pnpm",
+    "publisher": "pnpm",
+    "description": "Manage JavaScript packages with a shared content-addressable store.",
+    "category": "Development",
+    "icon": "/icons/catalog/pnpm-pnpm.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "main/pnpm",
+        "version": "12.16.0"
+      },
+      {
+        "source": "winget",
+        "package_id": "pnpm.pnpm",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "development"
+    ],
+    "website": "https://pnpm.io/"
+  },
+  {
+    "id": "JanDeDobbeleer.OhMyPosh",
+    "name": "Oh My Posh",
+    "publisher": "JanDeDobbeleer",
+    "description": "Customize your shell prompt with themes and contextual segments.",
+    "category": "Development",
+    "icon": "/icons/catalog/jandedobbeleer-ohmyposh.svg",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "main/oh-my-posh",
+        "version": "31.9.1"
+      },
+      {
+        "source": "winget",
+        "package_id": "JanDeDobbeleer.OhMyPosh",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "ohmyposh",
+      "development"
+    ],
+    "website": "https://ohmyposh.dev/"
+  },
+  {
+    "id": "Postman.Postman",
+    "name": "Postman",
+    "publisher": "Postman",
+    "description": "Design, send and organize requests when developing APIs.",
+    "category": "Development",
+    "icon": "/icons/catalog/logo-postman.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/postman",
+        "version": "12.34.1"
+      },
+      {
+        "source": "winget",
+        "package_id": "Postman.Postman",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "postman",
+      "development"
+    ],
+    "website": "https://www.postman.com/downloads/"
+  },
+  {
+    "id": "Python.Python.3.14",
+    "name": "Python 3",
+    "publisher": "Python",
+    "description": "Install the Python programming language and standard tools.",
+    "category": "Development",
+    "icon": "/icons/catalog/python-python-3-14.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "versions/python314",
+        "version": "3.14.10"
+      },
+      {
+        "source": "winget",
+        "package_id": "Python.Python.3.14",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "python3",
+      "development"
+    ],
+    "website": "https://www.python.org/"
+  },
+  {
+    "id": "RubyInstallerTeam.Ruby.4.0",
+    "name": "Ruby",
+    "publisher": "RubyInstaller Team",
+    "description": "Install the Ruby language runtime for scripts and applications.",
+    "category": "Development",
+    "icon": "/icons/catalog/rubyinstallerteam-ruby-4-0.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "main/ruby",
+        "version": "4.0.9-1"
+      },
+      {
+        "source": "winget",
+        "package_id": "RubyInstallerTeam.Ruby.4.0",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "ruby",
+      "development"
+    ],
+    "website": "https://rubyinstaller.org/"
+  },
+  {
+    "id": "Starship.Starship",
+    "name": "Starship",
+    "publisher": "Starship",
+    "description": "A configurable cross-shell prompt with project-aware information.",
+    "category": "Development",
+    "icon": "/icons/catalog/starship-starship.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "main/starship",
+        "version": "1.27.0"
+      },
+      {
+        "source": "winget",
+        "package_id": "Starship.Starship",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "starship",
+      "development"
+    ],
+    "website": "https://starship.rs/"
+  },
+  {
+    "id": "SublimeHQ.SublimeText.4",
+    "name": "Sublime Text",
+    "publisher": "SublimeHQ",
+    "description": "Edit code and text with a lightweight, extensible editor.",
+    "category": "Development",
+    "icon": "/icons/catalog/sublimehq-sublimetext-4.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/sublime-text",
+        "version": "4-4215"
+      },
+      {
+        "source": "winget",
+        "package_id": "SublimeHQ.SublimeText.4",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "sublime",
+      "development"
+    ],
+    "website": "https://www.sublimetext.com/"
+  },
+  {
+    "id": "WinsiderSS.SystemInformer",
+    "name": "System Informer",
+    "publisher": "WinsiderSS",
+    "description": "Inspect processes, services and system activity on Windows.",
+    "category": "Utilities",
+    "icon": "/icons/catalog/winsiderss-systeminformer.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/systeminformer",
+        "version": "4.0.26241.138"
+      },
+      {
+        "source": "winget",
+        "package_id": "WinsiderSS.SystemInformer",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "systeminformer",
+      "utilities"
+    ],
+    "website": "https://systeminformer.com/"
+  },
+  {
+    "id": "Unity.UnityHub",
+    "name": "Unity Hub",
+    "publisher": "Unity",
+    "description": "Install and manage Unity editors and game-development projects.",
+    "category": "Development",
+    "icon": "/icons/catalog/unity-unityhub.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "Unity.UnityHub",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "unity",
+      "development"
+    ],
+    "website": "https://unity.com/"
+  },
+  {
+    "id": "astral-sh.uv",
+    "name": "uv",
+    "publisher": "astral-sh",
+    "description": "Manage Python packages, projects and environments with uv.",
+    "category": "Development",
+    "icon": "/icons/catalog/astral-sh-uv.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "main/uv",
+        "version": "0.13.6"
+      },
+      {
+        "source": "winget",
+        "package_id": "astral-sh.uv",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "uv",
+      "development"
+    ],
+    "website": "https://docs.astral.sh/uv/getting-started/installation/"
+  },
+  {
+    "id": "Hashicorp.Vagrant",
+    "name": "Vagrant",
+    "publisher": "Hashicorp",
+    "description": "Configure and manage reproducible development environments.",
+    "category": "Development",
+    "icon": "/icons/catalog/hashicorp-vagrant.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "main/vagrant",
+        "version": "2.4.9"
+      },
+      {
+        "source": "winget",
+        "package_id": "Hashicorp.Vagrant",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "vagrant",
+      "development"
+    ],
+    "website": "https://developer.hashicorp.com/vagrant"
+  },
+  {
+    "id": "Microsoft.VisualStudio.2022.Community",
+    "name": "Visual Studio 2022 Community",
+    "publisher": "Microsoft",
+    "description": "Microsoft's integrated development environment, 2022 edition.",
+    "category": "Development",
+    "icon": "/icons/catalog/microsoft-visualstudio-2022-community.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "Microsoft.VisualStudio.2022.Community",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "visualstudio2022",
+      "development"
+    ],
+    "website": "https://visualstudio.microsoft.com/"
+  },
+  {
+    "id": "Microsoft.VisualStudio.Community",
+    "name": "Visual Studio 2026 Community",
+    "publisher": "Microsoft",
+    "description": "The current Community edition of Microsoft's development environment.",
+    "category": "Development",
+    "icon": "/icons/catalog/microsoft-visualstudio-community.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "Microsoft.VisualStudio.Community",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "visualstudio2026",
+      "development"
+    ],
+    "website": "https://visualstudio.microsoft.com/"
+  },
+  {
+    "id": "VSCodium.VSCodium",
+    "name": "VSCodium",
+    "publisher": "VSCodium",
+    "description": "Community-built binaries of the open-source VS Code codebase.",
+    "category": "Development",
+    "icon": "/icons/catalog/vscodium-vscodium.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/vscodium",
+        "version": "1.143.17183"
+      },
+      {
+        "source": "winget",
+        "package_id": "VSCodium.VSCodium",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "vscodium",
+      "development"
+    ],
+    "website": "https://vscodium.com/"
+  },
+  {
+    "id": "Yarn.Yarn",
+    "name": "Yarn",
+    "publisher": "Yarn",
+    "description": "Manage JavaScript project dependencies and package scripts.",
+    "category": "Development",
+    "icon": "/icons/catalog/yarn-yarn.svg",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "main/yarn",
+        "version": "1.22.22"
+      },
+      {
+        "source": "winget",
+        "package_id": "Yarn.Yarn",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "yarn",
+      "development"
+    ],
+    "website": "https://yarnpkg.com/"
+  },
+  {
+    "id": "ZedIndustries.Zed",
+    "name": "Zed",
+    "publisher": "ZedIndustries",
+    "description": "A code editor with collaboration and development tools.",
+    "category": "Development",
+    "icon": "/icons/catalog/zedindustries-zed.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/zed",
+        "version": "1.25.3"
+      },
+      {
+        "source": "winget",
+        "package_id": "ZedIndustries.Zed",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "zed",
+      "development"
+    ],
+    "website": "https://zed.dev/"
+  },
+  {
+    "id": "Adobe.Acrobat.Reader.64-bit",
+    "name": "Adobe Acrobat Reader",
+    "publisher": "Adobe",
+    "description": "View, annotate and print PDF documents.",
+    "category": "Documents",
+    "icon": "/icons/catalog/adobe-acrobat-reader-64-bit.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "Adobe.Acrobat.Reader.64-bit",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "adobe",
+      "documents"
+    ],
+    "website": "https://www.adobe.com/acrobat/pdf-reader.html"
+  },
+  {
+    "id": "Foxit.FoxitReader",
+    "name": "Foxit PDF Reader",
+    "publisher": "Foxit",
+    "description": "Read, comment on and fill PDF documents.",
+    "category": "Documents",
+    "icon": "/icons/catalog/foxit-foxitreader.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/foxit-reader",
+        "version": "2026.2.1"
+      },
+      {
+        "source": "winget",
+        "package_id": "Foxit.FoxitReader",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "foxit",
+      "documents"
+    ],
+    "website": "https://www.foxit.com/pdf-reader/"
+  },
+  {
+    "id": "Joplin.Joplin",
+    "name": "Joplin",
+    "publisher": "Joplin",
+    "description": "Organize notes and to-do lists in Markdown notebooks.",
+    "category": "Documents",
+    "icon": "/icons/catalog/joplin-joplin.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/joplin",
+        "version": "3.7.21"
+      },
+      {
+        "source": "winget",
+        "package_id": "Joplin.Joplin",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "joplin",
+      "documents"
+    ],
+    "website": "https://joplinapp.org/"
+  },
+  {
+    "id": "TheDocumentFoundation.LibreOffice",
+    "name": "LibreOffice",
+    "publisher": "The Document Foundation",
+    "description": "Create documents, spreadsheets, presentations and other office files.",
+    "category": "Documents",
+    "icon": "/icons/catalog/thedocumentfoundation-libreoffice.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/libreoffice",
+        "version": "26.8.1"
+      },
+      {
+        "source": "winget",
+        "package_id": "TheDocumentFoundation.LibreOffice",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "libreoffice",
+      "documents"
+    ],
+    "website": "https://www.libreoffice.org/"
+  },
+  {
+    "id": "Cyanfish.NAPS2",
+    "name": "NAPS2",
+    "publisher": "Cyanfish",
+    "description": "Scan paper documents and combine pages into PDFs.",
+    "category": "Documents",
+    "icon": "/icons/catalog/cyanfish-naps2.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/naps2",
+        "version": "8.6.0"
+      },
+      {
+        "source": "winget",
+        "package_id": "Cyanfish.NAPS2",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "naps2",
+      "documents"
+    ],
+    "website": "https://www.naps2.com/"
+  },
+  {
+    "id": "Obsidian.Obsidian",
+    "name": "Obsidian",
+    "publisher": "Obsidian",
+    "description": "Build a personal knowledge base using linked Markdown notes.",
+    "category": "Documents",
+    "icon": "/icons/catalog/obsidian-obsidian.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/obsidian",
+        "version": "1.14.5"
+      },
+      {
+        "source": "winget",
+        "package_id": "Obsidian.Obsidian",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "obsidian",
+      "documents"
+    ],
+    "website": "https://obsidian.md/"
+  },
+  {
+    "id": "KDE.Okular",
+    "name": "Okular",
+    "publisher": "KDE",
+    "description": "Read and annotate PDFs and other document formats.",
+    "category": "Documents",
+    "icon": "/icons/catalog/kde-okular.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/okular",
+        "version": "26.08-8165"
+      },
+      {
+        "source": "winget",
+        "package_id": "KDE.Okular",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "okular",
+      "documents"
+    ],
+    "website": "https://okular.kde.org/"
+  },
+  {
+    "id": "ONLYOFFICE.DesktopEditors",
+    "name": "ONLYOFFICE Desktop",
+    "publisher": "ONLYOFFICE",
+    "description": "Edit documents, spreadsheets and presentations on your desktop.",
+    "category": "Documents",
+    "icon": "/icons/catalog/onlyoffice-desktopeditors.webp",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/onlyoffice-desktopeditors",
+        "version": "10.0.0"
+      },
+      {
+        "source": "winget",
+        "package_id": "ONLYOFFICE.DesktopEditors",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "onlyoffice",
+      "documents"
+    ],
+    "website": "https://www.onlyoffice.com/desktop.aspx"
+  },
+  {
+    "id": "TrackerSoftware.PDF-XChangeEditor",
+    "name": "PDF-XChange Editor",
+    "publisher": "TrackerSoftware",
+    "description": "View, edit and annotate PDF documents.",
+    "category": "Documents",
+    "icon": "/icons/catalog/trackersoftware-pdf-xchangeeditor.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/pdf-xchange-editor",
+        "version": "11.1.1.0"
+      },
+      {
+        "source": "winget",
+        "package_id": "TrackerSoftware.PDF-XChangeEditor",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "pdf-xchange",
+      "documents"
+    ],
+    "website": "https://www.pdf-xchange.com/"
+  },
+  {
+    "id": "geeksoftwareGmbH.PDF24Creator",
+    "name": "PDF24 Creator",
+    "publisher": "geeksoftwareGmbH",
+    "description": "Create, merge, convert and organize PDF files.",
+    "category": "Documents",
+    "icon": "/icons/catalog/geeksoftwaregmbh-pdf24creator.svg",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "geeksoftwareGmbH.PDF24Creator",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "pdf24creator",
+      "documents"
+    ],
+    "website": "https://tools.pdf24.org/en/creator"
+  },
+  {
+    "id": "PDFgear.PDFgear",
+    "name": "PDFgear",
+    "publisher": "PDFgear",
+    "description": "Read, edit, convert and organize PDF documents.",
+    "category": "Documents",
+    "icon": "/icons/catalog/pdfgear-pdfgear.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/pdfgear",
+        "version": "3.0.1"
+      },
+      {
+        "source": "winget",
+        "package_id": "PDFgear.PDFgear",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "pdfgear",
+      "documents"
+    ],
+    "website": "https://www.pdfgear.com/"
+  },
+  {
+    "id": "PDFsam.PDFsam",
+    "name": "PDFsam Basic",
+    "publisher": "PDFsam",
+    "description": "Split, merge and rearrange pages in PDF files.",
+    "category": "Documents",
+    "icon": "/icons/catalog/pdfsam-pdfsam.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/pdfsam",
+        "version": "6.0.6"
+      },
+      {
+        "source": "winget",
+        "package_id": "PDFsam.PDFsam",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "pdfsam",
+      "documents"
+    ],
+    "website": "https://pdfsam.org/"
+  },
+  {
+    "id": "pbek.QOwnNotes",
+    "name": "QOwnNotes",
+    "publisher": "pbek",
+    "description": "Write and organize plain-text Markdown notes.",
+    "category": "Documents",
+    "icon": "/icons/catalog/pbek-qownnotes.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/qownnotes",
+        "version": "26.10.12"
+      },
+      {
+        "source": "winget",
+        "package_id": "pbek.QOwnNotes",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "qownnotes",
+      "documents"
+    ],
+    "website": "https://www.qownnotes.org/"
+  },
+  {
+    "id": "Automattic.Simplenote",
+    "name": "Simplenote",
+    "publisher": "Automattic",
+    "description": "A focused note-taking app with cross-device synchronization.",
+    "category": "Documents",
+    "icon": "/icons/catalog/automattic-simplenote.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/simplenote",
+        "version": "2.27.1"
+      },
+      {
+        "source": "winget",
+        "package_id": "Automattic.Simplenote",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "simplenote",
+      "documents"
+    ],
+    "website": "https://simplenote.com/"
+  },
+  {
+    "id": "SumatraPDF.SumatraPDF",
+    "name": "Sumatra PDF",
+    "publisher": "SumatraPDF",
+    "description": "A lightweight reader for PDFs, ebooks and comic archives.",
+    "category": "Documents",
+    "icon": "/icons/catalog/sumatrapdf-sumatrapdf.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/sumatrapdf",
+        "version": "3.6.1"
+      },
+      {
+        "source": "winget",
+        "package_id": "SumatraPDF.SumatraPDF",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "sumatra",
+      "documents"
+    ],
+    "website": "https://www.sumatrapdfreader.org/free-pdf-reader.html"
+  },
+  {
+    "id": "Xournal++.Xournal++",
+    "name": "Xournal++",
+    "publisher": "Xournal++",
+    "description": "Handwrite notes and annotate documents with pen input.",
+    "category": "Documents",
+    "icon": "/icons/catalog/xournal-xournal.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/xournalpp",
+        "version": "1.3.8"
+      },
+      {
+        "source": "winget",
+        "package_id": "Xournal++.Xournal++",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "xournal",
+      "documents"
+    ],
+    "website": "https://xournalpp.github.io/"
+  },
+  {
+    "id": "DigitalScholar.Zotero",
+    "name": "Zotero",
+    "publisher": "DigitalScholar",
+    "description": "Collect references, organize research and create bibliographies.",
+    "category": "Documents",
+    "icon": "/icons/catalog/digitalscholar-zotero.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/zotero",
+        "version": "10.0.6"
+      },
+      {
+        "source": "winget",
+        "package_id": "DigitalScholar.Zotero",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "zotero",
+      "documents"
+    ],
+    "website": "https://www.zotero.org/"
+  },
+  {
+    "id": "Blizzard.BattleNet",
+    "name": "Battle.net",
+    "publisher": "Blizzard Entertainment",
+    "description": "Install and manage Blizzard games using the Battle.net launcher.",
+    "category": "Gaming",
+    "icon": "/icons/catalog/blizzard-battlenet.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "games/battlenet",
+        "version": "2.0.0.4232"
+      },
+      {
+        "source": "winget",
+        "package_id": "Blizzard.BattleNet",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "battlenet",
+      "gaming"
+    ],
+    "website": "https://battle.net"
+  },
+  {
+    "id": "Cemu.Cemu",
+    "name": "Cemu",
+    "publisher": "Cemu",
+    "description": "A Wii U emulator for playing compatible games on PC.",
+    "category": "Gaming",
+    "icon": "/icons/catalog/cemu-cemu.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "games/cemu",
+        "version": "2.6"
+      },
+      {
+        "source": "winget",
+        "package_id": "Cemu.Cemu",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "cemu",
+      "gaming"
+    ],
+    "website": "https://cemu.info/"
+  },
+  {
+    "id": "ElectronicArts.EADesktop",
+    "name": "EA App",
+    "publisher": "ElectronicArts",
+    "description": "Install and manage your EA games and library.",
+    "category": "Gaming",
+    "icon": "/icons/catalog/electronicarts-eadesktop.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "ElectronicArts.EADesktop",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "eaapp",
+      "gaming"
+    ],
+    "website": "https://www.ea.com/ea-app"
+  },
+  {
+    "id": "EpicGames.EpicGamesLauncher",
+    "name": "Epic Games Launcher",
+    "publisher": "EpicGames",
+    "description": "Browse, install and manage games in your Epic library.",
+    "category": "Gaming",
+    "icon": "/icons/catalog/epicgames-epicgameslauncher.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "games/epic-games-launcher",
+        "version": "20.3.3"
+      },
+      {
+        "source": "winget",
+        "package_id": "EpicGames.EpicGamesLauncher",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "epicgames",
+      "gaming"
+    ],
+    "website": "https://www.epicgames.com/store/en-US/"
+  },
+  {
+    "id": "ES-DE.EmulationStation-DE",
+    "name": "EmulationStation Desktop Edition",
+    "publisher": "ES-DE Project",
+    "description": "Organize and launch an emulated game collection.",
+    "category": "Gaming",
+    "icon": "/icons/catalog/es-de-emulationstation-de.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "games/es-de",
+        "version": "3.5.0"
+      },
+      {
+        "source": "winget",
+        "package_id": "ES-DE.EmulationStation-DE",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "emulationstation",
+      "gaming"
+    ],
+    "website": "https://es-de.org/"
+  },
+  {
+    "id": "Nvidia.GeForceNow",
+    "name": "GeForce NOW",
+    "publisher": "Nvidia",
+    "description": "Stream supported games through NVIDIA's cloud gaming service.",
+    "category": "Gaming",
+    "icon": "/icons/catalog/nvidia-geforcenow.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "Nvidia.GeForceNow",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "geforcenow",
+      "gaming"
+    ],
+    "website": "https://www.nvidia.com/en-us/geforce-now/"
+  },
+  {
+    "id": "GOG.Galaxy",
+    "name": "GOG Galaxy",
+    "publisher": "GOG",
+    "description": "Manage your GOG library and connected game collections.",
+    "category": "Gaming",
+    "icon": "/icons/catalog/gog-galaxy.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "games/goggalaxy",
+        "version": "2.1.10.56"
+      },
+      {
+        "source": "winget",
+        "package_id": "GOG.Galaxy",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "gog",
+      "gaming"
+    ],
+    "website": "https://www.gog.com/galaxy"
+  },
+  {
+    "id": "ItchIo.Itch",
+    "name": "itch.io",
+    "publisher": "ItchIo",
+    "description": "Install and manage independent games from itch.io.",
+    "category": "Gaming",
+    "icon": "/icons/catalog/itchio-itch.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "games/itch",
+        "version": "26.22.0"
+      },
+      {
+        "source": "winget",
+        "package_id": "ItchIo.Itch",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "itch",
+      "gaming"
+    ],
+    "website": "https://itch.io/"
+  },
+  {
+    "id": "Modrinth.ModrinthApp",
+    "name": "Modrinth App",
+    "publisher": "Modrinth",
+    "description": "Install Minecraft modpacks and manage modded game profiles.",
+    "category": "Gaming",
+    "icon": "/icons/catalog/modrinth-modrinthapp.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "Modrinth.ModrinthApp",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "modrinth",
+      "gaming"
+    ],
+    "website": "https://modrinth.com/app"
+  },
+  {
+    "id": "Overwolf.CurseForge",
+    "name": "CurseForge",
+    "publisher": "Overwolf",
+    "description": "Find and manage game mods and modpacks.",
+    "category": "Gaming",
+    "icon": "/icons/catalog/overwolf-curseforge.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "Overwolf.CurseForge",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "curseforge",
+      "gaming"
+    ],
+    "website": "https://www.curseforge.com/"
+  },
+  {
+    "id": "Playnite.Playnite",
+    "name": "Playnite",
+    "publisher": "Playnite",
+    "description": "Bring game libraries together in a customizable desktop launcher.",
+    "category": "Gaming",
+    "icon": "/icons/catalog/playnite-playnite.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/playnite",
+        "version": "10.63"
+      },
+      {
+        "source": "winget",
+        "package_id": "Playnite.Playnite",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "playnite",
+      "gaming"
+    ],
+    "website": "https://playnite.link/"
+  },
+  {
+    "id": "Roblox.Roblox",
+    "name": "Roblox",
+    "publisher": "Roblox",
+    "description": "Launch Roblox experiences on your Windows PC.",
+    "category": "Gaming",
+    "icon": "/icons/catalog/roblox-roblox.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "Roblox.Roblox",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "roblox",
+      "gaming"
+    ],
+    "website": "https://www.roblox.com/"
+  },
+  {
+    "id": "Ubisoft.Connect",
+    "name": "Ubisoft Connect",
+    "publisher": "Ubisoft",
+    "description": "Install Ubisoft games and access your connected library.",
+    "category": "Gaming",
+    "icon": "/icons/catalog/ubisoft-connect.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "versions/ubisoftconnect",
+        "version": "nightly"
+      },
+      {
+        "source": "winget",
+        "package_id": "Ubisoft.Connect",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "ubisoft",
+      "gaming"
+    ],
+    "website": "https://ubisoftconnect.com/"
+  },
+  {
+    "id": "VirtualDesktop.Streamer",
+    "name": "Virtual Desktop Streamer",
+    "publisher": "VirtualDesktop",
+    "description": "Stream your PC to a compatible Virtual Desktop headset client.",
+    "category": "Gaming",
+    "icon": "/icons/catalog/virtualdesktop-streamer.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "VirtualDesktop.Streamer",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "virtualdesktop",
+      "gaming"
+    ],
+    "website": "https://www.vrdesktop.net/"
+  },
+  {
+    "id": "AIMP.AIMP",
+    "name": "AIMP",
+    "publisher": "AIMP",
+    "description": "Play music and organize local audio libraries.",
+    "category": "Audio & Video",
+    "icon": "/icons/catalog/aimp-aimp.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/aimp",
+        "version": "5.40.2727"
+      },
+      {
+        "source": "winget",
+        "package_id": "AIMP.AIMP",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "aimp",
+      "audio & video"
+    ],
+    "website": "https://www.aimp.ru/"
+  },
+  {
+    "id": "Audacity.Audacity",
+    "name": "Audacity",
+    "publisher": "Audacity",
+    "description": "Record, edit and export multitrack audio.",
+    "category": "Audio & Video",
+    "icon": "/icons/catalog/logo-audacity.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/audacity",
+        "version": "4.0.1"
+      },
+      {
+        "source": "winget",
+        "package_id": "Audacity.Audacity",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "audacity",
+      "audio & video"
+    ],
+    "website": "https://www.audacityteam.org/"
+  },
+  {
+    "id": "BlenderFoundation.Blender",
+    "name": "Blender",
+    "publisher": "BlenderFoundation",
+    "description": "Create 3D models, animation, renders and visual effects.",
+    "category": "Graphics",
+    "icon": "/icons/catalog/logo-blender.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/blender",
+        "version": "5.2.3"
+      },
+      {
+        "source": "winget",
+        "package_id": "BlenderFoundation.Blender",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "blender",
+      "graphics"
+    ],
+    "website": "https://www.blender.org/"
+  },
+  {
+    "id": "calibre.calibre",
+    "name": "Calibre",
+    "publisher": "calibre",
+    "description": "Organize, convert and transfer ebooks in your library.",
+    "category": "Documents",
+    "icon": "/icons/catalog/calibre-calibre.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/calibre",
+        "version": "9.17.0"
+      },
+      {
+        "source": "winget",
+        "package_id": "calibre.calibre",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "calibre",
+      "documents"
+    ],
+    "website": "https://calibre-ebook.com/"
+  },
+  {
+    "id": "File-New-Project.EarTrumpet",
+    "name": "EarTrumpet",
+    "publisher": "File-New-Project",
+    "description": "Control Windows audio volume separately for each application.",
+    "category": "Audio & Video",
+    "icon": "/icons/catalog/file-new-project-eartrumpet.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/eartrumpet",
+        "version": "2.3.0"
+      },
+      {
+        "source": "winget",
+        "package_id": "File-New-Project.EarTrumpet",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "eartrumpet",
+      "audio & video"
+    ],
+    "website": "https://eartrumpet.app/"
+  },
+  {
+    "id": "AdrienAllard.FileConverter",
+    "name": "File Converter",
+    "publisher": "AdrienAllard",
+    "description": "Convert media and document files from Windows Explorer.",
+    "category": "Audio & Video",
+    "icon": "/icons/catalog/adrienallard-fileconverter.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "AdrienAllard.FileConverter",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "fileconverter",
+      "audio & video"
+    ],
+    "website": "https://file-converter.io/"
+  },
+  {
+    "id": "PeterPawlowski.foobar2000",
+    "name": "foobar2000",
+    "publisher": "PeterPawlowski",
+    "description": "Play and organize music with a customizable audio player.",
+    "category": "Audio & Video",
+    "icon": "/icons/catalog/peterpawlowski-foobar2000.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/foobar2000",
+        "version": "2.26.1"
+      },
+      {
+        "source": "winget",
+        "package_id": "PeterPawlowski.foobar2000",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "foobar",
+      "audio & video"
+    ],
+    "website": "https://www.foobar2000.org/"
+  },
+  {
+    "id": "GIMP.GIMP.3",
+    "name": "GIMP",
+    "publisher": "GIMP Team",
+    "description": "Edit photographs and create raster graphics.",
+    "category": "Graphics",
+    "icon": "/icons/catalog/gimp-gimp-3.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/gimp",
+        "version": "3.2.6"
+      },
+      {
+        "source": "winget",
+        "package_id": "GIMP.GIMP.3",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "gimp",
+      "graphics"
+    ],
+    "website": "https://www.gimp.org/"
+  },
+  {
+    "id": "HandBrake.HandBrake",
+    "name": "HandBrake",
+    "publisher": "HandBrake",
+    "description": "Transcode video files using configurable encoding presets.",
+    "category": "Audio & Video",
+    "icon": "/icons/catalog/handbrake-handbrake.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/handbrake",
+        "version": "1.11.2"
+      },
+      {
+        "source": "winget",
+        "package_id": "HandBrake.HandBrake",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "handbrake",
+      "audio & video"
+    ],
+    "website": "https://handbrake.fr/"
+  },
+  {
+    "id": "DuongDieuPhap.ImageGlass",
+    "name": "ImageGlass",
+    "publisher": "DuongDieuPhap",
+    "description": "Browse photos and images with a focused desktop viewer.",
+    "category": "Graphics",
+    "icon": "/icons/catalog/duongdieuphap-imageglass.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/imageglass",
+        "version": "10.0.6.906"
+      },
+      {
+        "source": "winget",
+        "package_id": "DuongDieuPhap.ImageGlass",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "imageglass",
+      "graphics"
+    ],
+    "website": "https://imageglass.org/"
+  },
+  {
+    "id": "IrfanSkiljan.IrfanView",
+    "name": "IrfanView",
+    "publisher": "IrfanSkiljan",
+    "description": "View, convert and batch-process image files.",
+    "category": "Graphics",
+    "icon": "/icons/catalog/irfanskiljan-irfanview.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/irfanview",
+        "version": "4.76"
+      },
+      {
+        "source": "winget",
+        "package_id": "IrfanSkiljan.IrfanView",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "irfanview",
+      "graphics"
+    ],
+    "website": "https://irfanview.com/"
+  },
+  {
+    "id": "Apple.iTunes",
+    "name": "iTunes",
+    "publisher": "Apple",
+    "description": "Manage music and supported Apple media libraries.",
+    "category": "Audio & Video",
+    "icon": "/icons/catalog/apple-itunes.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "Apple.iTunes",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "itunes",
+      "audio & video"
+    ],
+    "website": "https://www.apple.com/itunes/"
+  },
+  {
+    "id": "CodecGuide.K-LiteCodecPack.Standard",
+    "name": "K-Lite Codec Pack Standard",
+    "publisher": "CodecGuide",
+    "description": "Install a collection of media playback codecs and tools.",
+    "category": "Audio & Video",
+    "icon": "/icons/catalog/codecguide-k-litecodecpack-standard.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "CodecGuide.K-LiteCodecPack.Standard",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "klite",
+      "audio & video"
+    ],
+    "website": "https://www.codecguide.com/"
+  },
+  {
+    "id": "mpc-qt.mpc-qt",
+    "name": "mpc-qt",
+    "publisher": "mpc-qt",
+    "description": "Play video using a Qt interface inspired by classic media players.",
+    "category": "Audio & Video",
+    "icon": "/icons/catalog/mpc-qt-mpc-qt.svg",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/mpc-qt",
+        "version": "26.07"
+      },
+      {
+        "source": "winget",
+        "package_id": "mpc-qt.mpc-qt",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "mpc-qt",
+      "audio & video"
+    ],
+    "website": "https://mpc-qt.github.io"
+  },
+  {
+    "id": "clsid2.mpc-hc",
+    "name": "Media Player Classic - Home Cinema",
+    "publisher": "clsid2",
+    "description": "A classic desktop video player maintained by the MPC-HC project.",
+    "category": "Audio & Video",
+    "icon": "/icons/catalog/clsid2-mpc-hc.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/mpc-hc",
+        "version": "1.7.13"
+      },
+      {
+        "source": "winget",
+        "package_id": "clsid2.mpc-hc",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "mpchc",
+      "audio & video"
+    ],
+    "website": "https://mpc-hc.org/"
+  },
+  {
+    "id": "shinchiro.mpv",
+    "name": "mpv",
+    "publisher": "shinchiro",
+    "description": "Play audio and video using a configurable media engine.",
+    "category": "Audio & Video",
+    "icon": "/icons/catalog/shinchiro-mpv.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/mpv",
+        "version": "0.41.0"
+      },
+      {
+        "source": "winget",
+        "package_id": "shinchiro.mpv",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "mpv",
+      "audio & video"
+    ],
+    "website": "https://mpv.io/"
+  },
+  {
+    "id": "nomacs.nomacs",
+    "name": "nomacs",
+    "publisher": "nomacs",
+    "description": "View and compare images with a cross-platform image viewer.",
+    "category": "Graphics",
+    "icon": "/icons/catalog/nomacs-nomacs.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/nomacs",
+        "version": "3.22.4"
+      },
+      {
+        "source": "winget",
+        "package_id": "nomacs.nomacs",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "nomacs",
+      "graphics"
+    ],
+    "website": "https://nomacs.org/"
+  },
+  {
+    "id": "Notepad++.Notepad++",
+    "name": "Notepad++",
+    "publisher": "Notepad++",
+    "description": "Edit source code and text with tabs, plugins and syntax highlighting.",
+    "category": "Development",
+    "icon": "/icons/catalog/notepad-notepad-.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/notepadplusplus",
+        "version": "8.9.8.1"
+      },
+      {
+        "source": "winget",
+        "package_id": "Notepad++.Notepad++",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "notepad",
+      "development"
+    ],
+    "website": "https://notepad-plus-plus.org/"
+  },
+  {
+    "id": "dotPDN.PaintDotNet",
+    "name": "Paint.NET",
+    "publisher": "dotPDN LLC",
+    "description": "Edit images using layers, effects and desktop drawing tools.",
+    "category": "Graphics",
+    "icon": "/icons/catalog/dotpdn-paintdotnet.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/paint.net",
+        "version": "5.1.12"
+      },
+      {
+        "source": "winget",
+        "package_id": "dotPDN.PaintDotNet",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "paint",
+      "graphics"
+    ],
+    "website": "https://www.getpaint.net/"
+  },
+  {
+    "id": "ShareX.ShareX",
+    "name": "ShareX",
+    "publisher": "ShareX",
+    "description": "Capture screenshots and record or share your desktop.",
+    "category": "Graphics",
+    "icon": "/icons/catalog/sharex-sharex.ico",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/sharex",
+        "version": "21.0.0"
+      },
+      {
+        "source": "winget",
+        "package_id": "ShareX.ShareX",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "sharex",
+      "graphics"
+    ],
+    "website": "https://getsharex.com/"
+  },
+  {
+    "id": "RARLab.WinRAR",
+    "name": "WinRAR",
+    "publisher": "RARLAB",
+    "description": "Create, extract and manage RAR, ZIP and other archive files.",
+    "category": "Utilities",
+    "icon": "/icons/catalog/rarlab-winrar.png",
+    "banner": null,
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "scoop",
+    "sources": [
+      {
+        "source": "scoop",
+        "package_id": "extras/winrar",
+        "version": "7.23"
+      },
+      {
+        "source": "winget",
+        "package_id": "RARLab.WinRAR",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "winrar",
+      "utilities"
+    ],
+    "website": "https://www.win-rar.com/"
+  },
+  {
+    "id": "ArtCraft.PhotoCraft",
+    "name": "PhotoCraft",
+    "publisher": "Artcraft",
+    "description": "Edit layered images with masks, brushes and adjustment tools.",
+    "category": "Graphics",
+    "icon": "/icons/artcraft/photocraft.png",
+    "banner": null,
+    "website": "https://getartcraft.com/apps/photocraft",
+    "publisher_download": {
+      "url": "https://github.com/storytold/photocraft/releases/download/v0.16.0/photocraft-0.16.0-windows-x64.msi",
+      "release_url": "https://github.com/storytold/photocraft/releases/tag/v0.16.0",
+      "version": "0.16.0",
+      "size_bytes": 74760192
+    },
+    "screenshots": [
+      {
+        "src": "/previews/artcraft/photocraft-1.jpg",
+        "caption": "PhotoCraft — photocraft demo"
+      },
+      {
+        "src": "/previews/artcraft/photocraft-2.jpg",
+        "caption": "PhotoCraft — photocraft adjustments"
+      }
+    ],
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": null,
+    "sources": [],
+    "tags": [
+      "Artcraft",
+      "creative tools",
+      "early release",
+      "graphics"
+    ]
+  },
+  {
+    "id": "ArtCraft.VectorCraft",
+    "name": "VectorCraft",
+    "publisher": "Artcraft",
+    "description": "Create vector artwork with paths, shapes and editable effects.",
+    "category": "Graphics",
+    "icon": "/icons/artcraft/vectorcraft.png",
+    "banner": null,
+    "website": "https://getartcraft.com/apps/vectorcraft",
+    "publisher_download": {
+      "url": "https://github.com/storytold/vectorcraft/releases/download/v0.17.0/vectorcraft-0.17.0-windows-x64.msi",
+      "release_url": "https://github.com/storytold/vectorcraft/releases/tag/v0.17.0",
+      "version": "0.17.0",
+      "size_bytes": 106770432
+    },
+    "screenshots": [
+      {
+        "src": "/previews/artcraft/vectorcraft-1.png",
+        "caption": "VectorCraft — shot 1 neon"
+      },
+      {
+        "src": "/previews/artcraft/vectorcraft-2.png",
+        "caption": "VectorCraft — shot 2 ribbons"
+      }
+    ],
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "ArtCraft.VectorCraft",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "Artcraft",
+      "creative tools",
+      "early release",
+      "graphics"
+    ]
+  },
+  {
+    "id": "ArtCraft.FilmCraft",
+    "name": "FilmCraft",
+    "publisher": "Artcraft",
+    "description": "Edit video with a timeline, effects and color tools.",
+    "category": "Audio & Video",
+    "icon": "/icons/artcraft/filmcraft.png",
+    "banner": null,
+    "website": "https://getartcraft.com/apps/filmcraft",
+    "publisher_download": {
+      "url": "https://github.com/storytold/filmcraft/releases/download/v0.13.0/filmcraft-0.13.0-windows-x64.msi",
+      "release_url": "https://github.com/storytold/filmcraft/releases/tag/v0.13.0",
+      "version": "0.13.0",
+      "size_bytes": 83537920
+    },
+    "screenshots": [
+      {
+        "src": "/previews/artcraft/filmcraft-1.png",
+        "caption": "FilmCraft — filmcraft hero"
+      },
+      {
+        "src": "/previews/artcraft/filmcraft-2.png",
+        "caption": "FilmCraft — filmcraft assembly"
+      }
+    ],
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "ArtCraft.FilmCraft",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "Artcraft",
+      "creative tools",
+      "early release",
+      "audio & video"
+    ]
+  },
+  {
+    "id": "ArtCraft.LightCraft",
+    "name": "LightCraft",
+    "publisher": "Artcraft",
+    "description": "Organize photographs and develop raw images locally.",
+    "category": "Graphics",
+    "icon": "/icons/artcraft/lightcraft.png",
+    "banner": null,
+    "website": "https://getartcraft.com/apps/lightcraft",
+    "publisher_download": {
+      "url": "https://github.com/storytold/lightcraft/releases/download/v0.14.0/lightcraft-0.14.0-windows-x64.msi",
+      "release_url": "https://github.com/storytold/lightcraft/releases/tag/v0.14.0",
+      "version": "0.14.0",
+      "size_bytes": 91385856
+    },
+    "screenshots": [
+      {
+        "src": "/previews/artcraft/lightcraft-1.jpg",
+        "caption": "LightCraft — hero tetons"
+      },
+      {
+        "src": "/previews/artcraft/lightcraft-2.jpg",
+        "caption": "LightCraft — curve tetons"
+      }
+    ],
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": null,
+    "sources": [],
+    "tags": [
+      "Artcraft",
+      "creative tools",
+      "early release",
+      "graphics"
+    ]
+  },
+  {
+    "id": "ArtCraft.PdfCraft",
+    "name": "PdfCraft",
+    "publisher": "Artcraft",
+    "description": "Read, combine, split and organize PDF documents.",
+    "category": "Documents",
+    "icon": "/icons/artcraft/pdfcraft.png",
+    "banner": null,
+    "website": "https://getartcraft.com/apps/pdfcraft",
+    "publisher_download": {
+      "url": "https://github.com/storytold/pdfcraft/releases/download/v0.14.0/pdfcraft-0.14.0-windows-x64.msi",
+      "release_url": "https://github.com/storytold/pdfcraft/releases/tag/v0.14.0",
+      "version": "0.14.0",
+      "size_bytes": 73740288
+    },
+    "screenshots": [
+      {
+        "src": "/previews/artcraft/pdfcraft-1.png",
+        "caption": "PdfCraft — pdfcraft viewer"
+      },
+      {
+        "src": "/previews/artcraft/pdfcraft-2.png",
+        "caption": "PdfCraft — pdfcraft scripts"
+      }
+    ],
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "ArtCraft.PdfCraft",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "Artcraft",
+      "creative tools",
+      "early release",
+      "documents"
+    ]
+  },
+  {
+    "id": "ArtCraft.EffectCraft",
+    "name": "EffectCraft",
+    "publisher": "Artcraft",
+    "description": "Create motion graphics, compositing and visual effects.",
+    "category": "Graphics",
+    "icon": "/icons/artcraft/effectcraft.png",
+    "banner": null,
+    "website": "https://getartcraft.com/apps/effectcraft",
+    "publisher_download": {
+      "url": "https://github.com/storytold/effectcraft/releases/download/v0.17.0/effectcraft-0.17.0-windows-x64.msi",
+      "release_url": "https://github.com/storytold/effectcraft/releases/tag/v0.17.0",
+      "version": "0.17.0",
+      "size_bytes": 51462144
+    },
+    "screenshots": [
+      {
+        "src": "/previews/artcraft/effectcraft-1.png",
+        "caption": "EffectCraft — effectcraft hero"
+      },
+      {
+        "src": "/previews/artcraft/effectcraft-2.png",
+        "caption": "EffectCraft — effectcraft graph editor"
+      }
+    ],
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "ArtCraft.EffectCraft",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "Artcraft",
+      "creative tools",
+      "early release",
+      "graphics"
+    ]
+  },
+  {
+    "id": "ArtCraft.DesignCraft",
+    "name": "DesignCraft",
+    "publisher": "Artcraft",
+    "description": "Lay out pages and prepare documents for publishing.",
+    "category": "Graphics",
+    "icon": "/icons/artcraft/designcraft.png",
+    "banner": null,
+    "website": "https://getartcraft.com/apps/designcraft",
+    "publisher_download": {
+      "url": "https://github.com/storytold/designcraft/releases/download/v0.13.0/designcraft-0.13.0-windows-x64.msi",
+      "release_url": "https://github.com/storytold/designcraft/releases/tag/v0.13.0",
+      "version": "0.13.0",
+      "size_bytes": 89624576
+    },
+    "screenshots": [
+      {
+        "src": "/previews/artcraft/designcraft-1.png",
+        "caption": "DesignCraft — ui spread"
+      },
+      {
+        "src": "/previews/artcraft/designcraft-2.png",
+        "caption": "DesignCraft — page cover"
+      }
+    ],
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": null,
+    "sources": [],
+    "tags": [
+      "Artcraft",
+      "creative tools",
+      "early release",
+      "graphics"
+    ]
+  },
+  {
+    "id": "ArtCraft.FigCraft",
+    "name": "FigCraft",
+    "publisher": "Artcraft",
+    "description": "Design interfaces and build interactive prototypes.",
+    "category": "Graphics",
+    "icon": "/icons/artcraft/figcraft.png",
+    "banner": null,
+    "website": "https://getartcraft.com/apps/figcraft",
+    "publisher_download": {
+      "url": "https://github.com/storytold/figcraft/releases/download/v0.11.2/figcraft-0.11.2-windows-x64.msi",
+      "release_url": "https://github.com/storytold/figcraft/releases/tag/v0.11.2",
+      "version": "0.11.2",
+      "size_bytes": 71077888
+    },
+    "screenshots": [
+      {
+        "src": "/previews/artcraft/figcraft-1.png",
+        "caption": "FigCraft — shot 1 hero"
+      },
+      {
+        "src": "/previews/artcraft/figcraft-2.png",
+        "caption": "FigCraft — shot 2 components"
+      }
+    ],
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": null,
+    "sources": [],
+    "tags": [
+      "Artcraft",
+      "creative tools",
+      "early release",
+      "graphics"
+    ]
+  },
+  {
+    "id": "ArtCraft.WordCraft",
+    "name": "WordCraft",
+    "publisher": "Artcraft",
+    "description": "Write and format documents in a native word processor.",
+    "category": "Documents",
+    "icon": "/icons/artcraft/wordcraft.png",
+    "banner": null,
+    "website": "https://getartcraft.com/apps/wordcraft",
+    "publisher_download": {
+      "url": "https://github.com/storytold/wordcraft/releases/download/v0.11.0/wordcraft-0.11.0-windows-x64.msi",
+      "release_url": "https://github.com/storytold/wordcraft/releases/tag/v0.11.0",
+      "version": "0.11.0",
+      "size_bytes": 84500480
+    },
+    "screenshots": [
+      {
+        "src": "/previews/artcraft/wordcraft-1.png",
+        "caption": "WordCraft — hero"
+      },
+      {
+        "src": "/previews/artcraft/wordcraft-2.png",
+        "caption": "WordCraft — review"
+      }
+    ],
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": null,
+    "sources": [],
+    "tags": [
+      "Artcraft",
+      "creative tools",
+      "early release",
+      "documents"
+    ]
+  },
+  {
+    "id": "ArtCraft.SoundCraft",
+    "name": "SoundCraft",
+    "publisher": "Artcraft",
+    "description": "Record, edit and mix audio in a desktop workspace.",
+    "category": "Audio & Video",
+    "icon": "/icons/artcraft/soundcraft.png",
+    "banner": null,
+    "website": "https://getartcraft.com/apps/soundcraft",
+    "publisher_download": {
+      "url": "https://github.com/storytold/soundcraft/releases/download/v0.13.1/soundcraft-0.13.1-windows-x64.msi",
+      "release_url": "https://github.com/storytold/soundcraft/releases/tag/v0.13.1",
+      "version": "0.13.1",
+      "size_bytes": 12304384
+    },
+    "screenshots": [
+      {
+        "src": "/previews/artcraft/soundcraft-1.png",
+        "caption": "SoundCraft — edit"
+      },
+      {
+        "src": "/previews/artcraft/soundcraft-2.png",
+        "caption": "SoundCraft — mix"
+      }
+    ],
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "ArtCraft.SoundCraft",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "Artcraft",
+      "creative tools",
+      "early release",
+      "audio & video"
+    ]
+  },
+  {
+    "id": "ArtCraft.DeckCraft",
+    "name": "DeckCraft",
+    "publisher": "Artcraft",
+    "description": "Create and present slide decks.",
+    "category": "Documents",
+    "icon": "/icons/artcraft/deckcraft.png",
+    "banner": null,
+    "website": "https://getartcraft.com/apps/deckcraft",
+    "publisher_download": {
+      "url": "https://github.com/storytold/deckcraft/releases/download/v0.11.1/deckcraft-0.11.1-windows-x64.msi",
+      "release_url": "https://github.com/storytold/deckcraft/releases/tag/v0.11.1",
+      "version": "0.11.1",
+      "size_bytes": 64397312
+    },
+    "screenshots": [
+      {
+        "src": "/previews/artcraft/deckcraft-1.png",
+        "caption": "DeckCraft — editor"
+      },
+      {
+        "src": "/previews/artcraft/deckcraft-2.png",
+        "caption": "DeckCraft — shape format"
+      }
+    ],
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": null,
+    "sources": [],
+    "tags": [
+      "Artcraft",
+      "creative tools",
+      "early release",
+      "documents"
+    ]
+  },
+  {
+    "id": "ArtCraft.CadCraft",
+    "name": "CADCraft",
+    "publisher": "Artcraft",
+    "description": "Draft and edit computer-aided design drawings.",
+    "category": "Graphics",
+    "icon": "/icons/artcraft/cadcraft.png",
+    "banner": null,
+    "website": "https://getartcraft.com/apps/cadcraft",
+    "publisher_download": {
+      "url": "https://github.com/storytold/cadcraft/releases/download/v0.13.0/cadcraft-0.13.0-windows-x64.msi",
+      "release_url": "https://github.com/storytold/cadcraft/releases/tag/v0.13.0",
+      "version": "0.13.0",
+      "size_bytes": 51941376
+    },
+    "screenshots": [
+      {
+        "src": "/previews/artcraft/cadcraft-1.png",
+        "caption": "CADCraft — ui apartment"
+      },
+      {
+        "src": "/previews/artcraft/cadcraft-2.png",
+        "caption": "CADCraft — ui layout"
+      }
+    ],
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "ArtCraft.CadCraft",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "Artcraft",
+      "creative tools",
+      "early release",
+      "graphics"
+    ]
+  },
+  {
+    "id": "ArtCraft.GridCraft",
+    "name": "GridCraft",
+    "publisher": "Artcraft",
+    "description": "Build spreadsheets with formulas and data-analysis tools.",
+    "category": "Documents",
+    "icon": "/icons/artcraft/gridcraft.png",
+    "banner": null,
+    "website": "https://getartcraft.com/apps/gridcraft",
+    "publisher_download": {
+      "url": "https://github.com/storytold/gridcraft/releases/download/v0.12.1/gridcraft-0.12.1-windows-x64.msi",
+      "release_url": "https://github.com/storytold/gridcraft/releases/tag/v0.12.1",
+      "version": "0.12.1",
+      "size_bytes": 14905344
+    },
+    "screenshots": [
+      {
+        "src": "/previews/artcraft/gridcraft-1.png",
+        "caption": "GridCraft — hero sales"
+      },
+      {
+        "src": "/previews/artcraft/gridcraft-2.png",
+        "caption": "GridCraft — budget"
+      }
+    ],
+    "is_verified": false,
+    "is_installed": false,
+    "has_update": false,
+    "default_source": "winget",
+    "sources": [
+      {
+        "source": "winget",
+        "package_id": "ArtCraft.GridCraft",
+        "version": "Latest"
+      }
+    ],
+    "tags": [
+      "Artcraft",
+      "creative tools",
+      "early release",
+      "documents"
+    ]
+  }
+]

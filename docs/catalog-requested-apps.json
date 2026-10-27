@@ -1,0 +1,770 @@
+[
+  {
+    "name": "Brave",
+    "package_id": "Brave.Brave",
+    "repository": "winget",
+    "verified_version": "155.1.97.56"
+  },
+  {
+    "name": "Google Chrome",
+    "package_id": "Google.Chrome",
+    "repository": "winget",
+    "verified_version": "156.0.8078.48"
+  },
+  {
+    "name": "Chromium",
+    "package_id": "Hibbiki.Chromium",
+    "repository": "winget",
+    "verified_version": "156.0.8078.48"
+  },
+  {
+    "name": "Microsoft Edge",
+    "package_id": "Microsoft.Edge",
+    "repository": "winget",
+    "verified_version": "156.0.4314.50"
+  },
+  {
+    "name": "Mozilla Firefox",
+    "package_id": "Mozilla.Firefox",
+    "repository": "winget",
+    "verified_version": "157.0.1"
+  },
+  {
+    "name": "Firefox ESR",
+    "package_id": "Mozilla.Firefox.ESR",
+    "repository": "winget",
+    "verified_version": "153.4.0"
+  },
+  {
+    "name": "Floorp",
+    "package_id": "Ablaze.Floorp",
+    "repository": "winget",
+    "verified_version": "12.18.1@156.0.1"
+  },
+  {
+    "name": "Helium",
+    "package_id": "ImputNet.Helium",
+    "repository": "winget",
+    "verified_version": "0.20.1.1"
+  },
+  {
+    "name": "LibreWolf",
+    "package_id": "LibreWolf.LibreWolf",
+    "repository": "winget",
+    "verified_version": "158.0.1-2"
+  },
+  {
+    "name": "Mullvad Browser",
+    "package_id": "MullvadVPN.MullvadBrowser",
+    "repository": "winget",
+    "verified_version": "15.0.26"
+  },
+  {
+    "name": "Tor Browser",
+    "package_id": "TorProject.TorBrowser",
+    "repository": "winget",
+    "verified_version": "15.0.26"
+  },
+  {
+    "name": "Ungoogled Chromium",
+    "package_id": "eloston.ungoogled-chromium",
+    "repository": "winget",
+    "verified_version": "155.0.8059.84"
+  },
+  {
+    "name": "Vivaldi",
+    "package_id": "Vivaldi.Vivaldi",
+    "repository": "winget",
+    "verified_version": "8.2.4133.94"
+  },
+  {
+    "name": "Waterfox",
+    "package_id": "Waterfox.Waterfox",
+    "repository": "winget",
+    "verified_version": "6.7.6"
+  },
+  {
+    "name": "Zen Browser",
+    "package_id": "Zen-Team.Zen-Browser",
+    "repository": "winget",
+    "verified_version": "1.23.4b"
+  },
+  {
+    "name": "Betterbird",
+    "package_id": "Betterbird.Betterbird",
+    "repository": "winget",
+    "verified_version": "153.5.0"
+  },
+  {
+    "name": "Chatterino",
+    "package_id": "ChatterinoTeam.Chatterino",
+    "repository": "winget",
+    "verified_version": "2.5.5"
+  },
+  {
+    "name": "Discord",
+    "package_id": "Discord.Discord",
+    "repository": "winget",
+    "verified_version": "1.0.9266"
+  },
+  {
+    "name": "Dorion",
+    "package_id": "SpikeHD.Dorion",
+    "repository": "winget",
+    "verified_version": "6.14.0"
+  },
+  {
+    "name": "Element",
+    "package_id": "Element.Element",
+    "repository": "winget",
+    "verified_version": "1.12.32"
+  },
+  {
+    "name": "Proton Mail",
+    "package_id": "Proton.ProtonMail",
+    "repository": "winget",
+    "verified_version": "1.14.0"
+  },
+  {
+    "name": "qTox",
+    "package_id": "Tox.qTox",
+    "repository": "winget",
+    "verified_version": "1.18.5"
+  },
+  {
+    "name": "Signal",
+    "package_id": "OpenWhisperSystems.Signal",
+    "repository": "winget",
+    "verified_version": "8.32.0"
+  },
+  {
+    "name": "Slack",
+    "package_id": "SlackTechnologies.Slack",
+    "repository": "winget",
+    "verified_version": "4.52.182"
+  },
+  {
+    "name": "Microsoft Teams",
+    "package_id": "Microsoft.Teams",
+    "repository": "winget",
+    "verified_version": "26225.1806.5074.1452"
+  },
+  {
+    "name": "TeamSpeak 3",
+    "package_id": "TeamSpeakSystems.TeamSpeakClient",
+    "repository": "winget",
+    "verified_version": "3.6.2"
+  },
+  {
+    "name": "TeamSpeak 6",
+    "package_id": "TeamSpeakSystems.TeamSpeakClient.Beta.6",
+    "repository": "winget",
+    "verified_version": "6.0.0-beta4.1"
+  },
+  {
+    "name": "Telegram",
+    "package_id": "Telegram.TelegramDesktop",
+    "repository": "winget",
+    "verified_version": "7.3.3"
+  },
+  {
+    "name": "Thunderbird",
+    "package_id": "Mozilla.Thunderbird",
+    "repository": "winget",
+    "verified_version": "158.0.1"
+  },
+  {
+    "name": "Vesktop",
+    "package_id": "Vencord.Vesktop",
+    "repository": "winget",
+    "verified_version": "1.6.8"
+  },
+  {
+    "name": "Viber",
+    "package_id": "Rakuten.Viber",
+    "repository": "winget",
+    "verified_version": "29.1.0.0"
+  },
+  {
+    "name": "WhatsApp Desktop",
+    "package_id": "9NKSQGP7F2NH",
+    "repository": "msstore",
+    "verified_version": null
+  },
+  {
+    "name": "Zoom",
+    "package_id": "Zoom.Zoom",
+    "repository": "winget",
+    "verified_version": "7.2.48556"
+  },
+  {
+    "name": "Bruno",
+    "package_id": "Bruno.Bruno",
+    "repository": "winget",
+    "verified_version": "4.3.0"
+  },
+  {
+    "name": "ChatGPT Desktop",
+    "package_id": "OpenAI.ChatGPT",
+    "repository": "winget",
+    "verified_version": "26.1021.3705.0"
+  },
+  {
+    "name": "Claude Desktop",
+    "package_id": "Anthropic.Claude",
+    "repository": "winget",
+    "verified_version": "2.42304.2"
+  },
+  {
+    "name": "Claude Code",
+    "package_id": "Anthropic.ClaudeCode",
+    "repository": "winget",
+    "verified_version": "2.1.302"
+  },
+  {
+    "name": "CMake",
+    "package_id": "Kitware.CMake",
+    "repository": "winget",
+    "verified_version": "4.4.4"
+  },
+  {
+    "name": "Codex",
+    "package_id": "OpenAI.Codex",
+    "repository": "winget",
+    "verified_version": "0.161.0"
+  },
+  {
+    "name": "Cursor",
+    "package_id": "Anysphere.Cursor",
+    "repository": "winget",
+    "verified_version": "3.20.14"
+  },
+  {
+    "name": "Docker Desktop",
+    "package_id": "Docker.DockerDesktop",
+    "repository": "winget",
+    "verified_version": "4.97.0"
+  },
+  {
+    "name": "Fast Node Manager",
+    "package_id": "Schniz.fnm",
+    "repository": "winget",
+    "verified_version": "1.39.0"
+  },
+  {
+    "name": "Git",
+    "package_id": "Git.Git",
+    "repository": "winget",
+    "verified_version": "2.56.0.3"
+  },
+  {
+    "name": "Git Extensions",
+    "package_id": "GitExtensionsTeam.GitExtensions",
+    "repository": "winget",
+    "verified_version": "7.2.1.7"
+  },
+  {
+    "name": "GitHub CLI",
+    "package_id": "GitHub.cli",
+    "repository": "winget",
+    "verified_version": "2.103.3"
+  },
+  {
+    "name": "GitHub Desktop",
+    "package_id": "GitHub.GitHubDesktop",
+    "repository": "winget",
+    "verified_version": "3.6.10"
+  },
+  {
+    "name": "Go",
+    "package_id": "GoLang.Go",
+    "repository": "winget",
+    "verified_version": "1.27.0"
+  },
+  {
+    "name": "Lazygit",
+    "package_id": "JesseDuffield.lazygit",
+    "repository": "winget",
+    "verified_version": "0.66.1"
+  },
+  {
+    "name": "Lua",
+    "package_id": "DEVCOM.Lua",
+    "repository": "winget",
+    "verified_version": "5.4.6"
+  },
+  {
+    "name": "Neovim",
+    "package_id": "Neovim.Neovim",
+    "repository": "winget",
+    "verified_version": "0.12.6"
+  },
+  {
+    "name": "Node.js",
+    "package_id": "OpenJS.NodeJS",
+    "repository": "winget",
+    "verified_version": "26.12.1"
+  },
+  {
+    "name": "Node.js LTS",
+    "package_id": "OpenJS.NodeJS.LTS",
+    "repository": "winget",
+    "verified_version": "24.22.1"
+  },
+  {
+    "name": "pnpm",
+    "package_id": "pnpm.pnpm",
+    "repository": "winget",
+    "verified_version": "12.15.0"
+  },
+  {
+    "name": "Oh My Posh",
+    "package_id": "JanDeDobbeleer.OhMyPosh",
+    "repository": "winget",
+    "verified_version": "31.9.1"
+  },
+  {
+    "name": "Postman",
+    "package_id": "Postman.Postman",
+    "repository": "winget",
+    "verified_version": "12.34.0"
+  },
+  {
+    "name": "Python 3",
+    "package_id": "Python.Python.3.14",
+    "repository": "winget",
+    "verified_version": "3.14.7"
+  },
+  {
+    "name": "Ruby",
+    "package_id": "RubyInstallerTeam.Ruby.4.0",
+    "repository": "winget",
+    "verified_version": "4.0.9-1"
+  },
+  {
+    "name": "Rustup (Rust)",
+    "package_id": "Rustlang.Rustup",
+    "repository": "winget",
+    "verified_version": "1.29.1"
+  },
+  {
+    "name": "Starship",
+    "package_id": "Starship.Starship",
+    "repository": "winget",
+    "verified_version": "1.27.0"
+  },
+  {
+    "name": "Sublime Text",
+    "package_id": "SublimeHQ.SublimeText.4",
+    "repository": "winget",
+    "verified_version": "4.0.0.421500"
+  },
+  {
+    "name": "System Informer",
+    "package_id": "WinsiderSS.SystemInformer",
+    "repository": "winget",
+    "verified_version": "4.0.26241.138"
+  },
+  {
+    "name": "Unity Hub",
+    "package_id": "Unity.UnityHub",
+    "repository": "winget",
+    "verified_version": "3.22.4.65535"
+  },
+  {
+    "name": "uv",
+    "package_id": "astral-sh.uv",
+    "repository": "winget",
+    "verified_version": "0.13.5"
+  },
+  {
+    "name": "Vagrant",
+    "package_id": "Hashicorp.Vagrant",
+    "repository": "winget",
+    "verified_version": "2.4.9"
+  },
+  {
+    "name": "Visual Studio 2022 Community",
+    "package_id": "Microsoft.VisualStudio.2022.Community",
+    "repository": "winget",
+    "verified_version": "17.14.43"
+  },
+  {
+    "name": "Visual Studio 2026 Community",
+    "package_id": "Microsoft.VisualStudio.Community",
+    "repository": "winget",
+    "verified_version": "18.11.2"
+  },
+  {
+    "name": "Visual Studio Code",
+    "package_id": "Microsoft.VisualStudioCode",
+    "repository": "winget",
+    "verified_version": "1.142.0"
+  },
+  {
+    "name": "VSCodium",
+    "package_id": "VSCodium.VSCodium",
+    "repository": "winget",
+    "verified_version": "1.143.17183"
+  },
+  {
+    "name": "Yarn",
+    "package_id": "Yarn.Yarn",
+    "repository": "winget",
+    "verified_version": "1.22.22"
+  },
+  {
+    "name": "Zed",
+    "package_id": "ZedIndustries.Zed",
+    "repository": "winget",
+    "verified_version": "1.25.3"
+  },
+  {
+    "name": "Adobe Acrobat Reader",
+    "package_id": "Adobe.Acrobat.Reader.64-bit",
+    "repository": "winget",
+    "verified_version": "26.002.22031"
+  },
+  {
+    "name": "Foxit PDF Reader",
+    "package_id": "Foxit.FoxitReader",
+    "repository": "winget",
+    "verified_version": "2026.2.1.39815"
+  },
+  {
+    "name": "Joplin",
+    "package_id": "Joplin.Joplin",
+    "repository": "winget",
+    "verified_version": "3.7.21"
+  },
+  {
+    "name": "LibreOffice",
+    "package_id": "TheDocumentFoundation.LibreOffice",
+    "repository": "winget",
+    "verified_version": "26.8.1.1"
+  },
+  {
+    "name": "NAPS2",
+    "package_id": "Cyanfish.NAPS2",
+    "repository": "winget",
+    "verified_version": "8.6.0"
+  },
+  {
+    "name": "Obsidian",
+    "package_id": "Obsidian.Obsidian",
+    "repository": "winget",
+    "verified_version": "1.14.5"
+  },
+  {
+    "name": "Okular",
+    "package_id": "KDE.Okular",
+    "repository": "winget",
+    "verified_version": "26.08.1"
+  },
+  {
+    "name": "ONLYOFFICE Desktop",
+    "package_id": "ONLYOFFICE.DesktopEditors",
+    "repository": "winget",
+    "verified_version": "10.0.0"
+  },
+  {
+    "name": "PDF-XChange Editor",
+    "package_id": "TrackerSoftware.PDF-XChangeEditor",
+    "repository": "winget",
+    "verified_version": "11.1.1.0"
+  },
+  {
+    "name": "PDF24 Creator",
+    "package_id": "geeksoftwareGmbH.PDF24Creator",
+    "repository": "winget",
+    "verified_version": "11.30.1"
+  },
+  {
+    "name": "PDFgear",
+    "package_id": "PDFgear.PDFgear",
+    "repository": "winget",
+    "verified_version": "3.0.1"
+  },
+  {
+    "name": "PDFsam Basic",
+    "package_id": "PDFsam.PDFsam",
+    "repository": "winget",
+    "verified_version": "6.0.6.0"
+  },
+  {
+    "name": "QOwnNotes",
+    "package_id": "pbek.QOwnNotes",
+    "repository": "winget",
+    "verified_version": "26.10.12"
+  },
+  {
+    "name": "Simplenote",
+    "package_id": "Automattic.Simplenote",
+    "repository": "winget",
+    "verified_version": "2.24.0"
+  },
+  {
+    "name": "Sumatra PDF",
+    "package_id": "SumatraPDF.SumatraPDF",
+    "repository": "winget",
+    "verified_version": "3.6.1"
+  },
+  {
+    "name": "Xournal++",
+    "package_id": "Xournal++.Xournal++",
+    "repository": "winget",
+    "verified_version": "1.3.8"
+  },
+  {
+    "name": "Zotero",
+    "package_id": "DigitalScholar.Zotero",
+    "repository": "winget",
+    "verified_version": "10.0.6"
+  },
+  {
+    "name": "Battle.net",
+    "package_id": "Blizzard.BattleNet",
+    "repository": "winget",
+    "verified_version": "2.0.0.4232"
+  },
+  {
+    "name": "Cemu",
+    "package_id": "Cemu.Cemu",
+    "repository": "winget",
+    "verified_version": "2.6"
+  },
+  {
+    "name": "EA App",
+    "package_id": "ElectronicArts.EADesktop",
+    "repository": "winget",
+    "verified_version": "13.813.1.6327"
+  },
+  {
+    "name": "Epic Games Launcher",
+    "package_id": "EpicGames.EpicGamesLauncher",
+    "repository": "winget",
+    "verified_version": "1.3.210.0"
+  },
+  {
+    "name": "EmulationStation Desktop Edition",
+    "package_id": "ES-DE.EmulationStation-DE",
+    "repository": "winget",
+    "verified_version": "3.5.0"
+  },
+  {
+    "name": "GeForce NOW",
+    "package_id": "Nvidia.GeForceNow",
+    "repository": "winget",
+    "verified_version": "2.0.89.154"
+  },
+  {
+    "name": "GOG Galaxy",
+    "package_id": "GOG.Galaxy",
+    "repository": "winget",
+    "verified_version": "2.1.10.56"
+  },
+  {
+    "name": "Heroic Games Launcher",
+    "package_id": "HeroicGamesLauncher.HeroicGamesLauncher",
+    "repository": "winget",
+    "verified_version": "2.22.4"
+  },
+  {
+    "name": "itch.io",
+    "package_id": "ItchIo.Itch",
+    "repository": "winget",
+    "verified_version": "26.22.0"
+  },
+  {
+    "name": "Modrinth App",
+    "package_id": "Modrinth.ModrinthApp",
+    "repository": "winget",
+    "verified_version": "0.22.0"
+  },
+  {
+    "name": "CurseForge",
+    "package_id": "Overwolf.CurseForge",
+    "repository": "winget",
+    "verified_version": "0.220.1-9343"
+  },
+  {
+    "name": "Playnite",
+    "package_id": "Playnite.Playnite",
+    "repository": "winget",
+    "verified_version": "10.58"
+  },
+  {
+    "name": "Prism Launcher",
+    "package_id": "PrismLauncher.PrismLauncher",
+    "repository": "winget",
+    "verified_version": "11.1.1"
+  },
+  {
+    "name": "Roblox",
+    "package_id": "Roblox.Roblox",
+    "repository": "winget",
+    "verified_version": "0.744"
+  },
+  {
+    "name": "Steam",
+    "package_id": "Valve.Steam",
+    "repository": "winget",
+    "verified_version": "2.10.91.91"
+  },
+  {
+    "name": "Ubisoft Connect",
+    "package_id": "Ubisoft.Connect",
+    "repository": "winget",
+    "verified_version": "174.2.0.13389"
+  },
+  {
+    "name": "Virtual Desktop Streamer",
+    "package_id": "VirtualDesktop.Streamer",
+    "repository": "winget",
+    "verified_version": "1.34.22"
+  },
+  {
+    "name": "AIMP",
+    "package_id": "AIMP.AIMP",
+    "repository": "winget",
+    "verified_version": "5.10.2418"
+  },
+  {
+    "name": "Audacity",
+    "package_id": "Audacity.Audacity",
+    "repository": "winget",
+    "verified_version": "4.0.1.262721353"
+  },
+  {
+    "name": "Blender",
+    "package_id": "BlenderFoundation.Blender",
+    "repository": "winget",
+    "verified_version": "5.2.3"
+  },
+  {
+    "name": "Calibre",
+    "package_id": "calibre.calibre",
+    "repository": "winget",
+    "verified_version": "9.17.0"
+  },
+  {
+    "name": "EarTrumpet",
+    "package_id": "File-New-Project.EarTrumpet",
+    "repository": "winget",
+    "verified_version": "2.3.0.0"
+  },
+  {
+    "name": "File Converter",
+    "package_id": "AdrienAllard.FileConverter",
+    "repository": "winget",
+    "verified_version": "2.2"
+  },
+  {
+    "name": "foobar2000",
+    "package_id": "PeterPawlowski.foobar2000",
+    "repository": "winget",
+    "verified_version": "2.26.1"
+  },
+  {
+    "name": "GIMP",
+    "package_id": "GIMP.GIMP.3",
+    "repository": "winget",
+    "verified_version": "3.2.6.0"
+  },
+  {
+    "name": "HandBrake",
+    "package_id": "HandBrake.HandBrake",
+    "repository": "winget",
+    "verified_version": "1.11.2"
+  },
+  {
+    "name": "ImageGlass",
+    "package_id": "DuongDieuPhap.ImageGlass",
+    "repository": "winget",
+    "verified_version": "10.0.906.0"
+  },
+  {
+    "name": "IrfanView",
+    "package_id": "IrfanSkiljan.IrfanView",
+    "repository": "winget",
+    "verified_version": "4.76"
+  },
+  {
+    "name": "iTunes",
+    "package_id": "Apple.iTunes",
+    "repository": "winget",
+    "verified_version": "12.13.11.1"
+  },
+  {
+    "name": "K-Lite Codec Pack Standard",
+    "package_id": "CodecGuide.K-LiteCodecPack.Standard",
+    "repository": "winget",
+    "verified_version": "20.1.0"
+  },
+  {
+    "name": "mpc-qt",
+    "package_id": "mpc-qt.mpc-qt",
+    "repository": "winget",
+    "verified_version": "26.07"
+  },
+  {
+    "name": "Media Player Classic - Home Cinema",
+    "package_id": "clsid2.mpc-hc",
+    "repository": "winget",
+    "verified_version": "2.8.4"
+  },
+  {
+    "name": "mpv",
+    "package_id": "shinchiro.mpv",
+    "repository": "winget",
+    "verified_version": "0.41.0"
+  },
+  {
+    "name": "nomacs",
+    "package_id": "nomacs.nomacs",
+    "repository": "winget",
+    "verified_version": "3.22.4"
+  },
+  {
+    "name": "Notepad++",
+    "package_id": "Notepad++.Notepad++",
+    "repository": "winget",
+    "verified_version": "8.9.8.1"
+  },
+  {
+    "name": "OBS Studio",
+    "package_id": "OBSProject.OBSStudio",
+    "repository": "winget",
+    "verified_version": "33.0.0"
+  },
+  {
+    "name": "Paint.NET",
+    "package_id": "dotPDN.PaintDotNet",
+    "repository": "winget",
+    "verified_version": "5.1.12"
+  },
+  {
+    "name": "ShareX",
+    "package_id": "ShareX.ShareX",
+    "repository": "winget",
+    "verified_version": "21.0.0"
+  },
+  {
+    "name": "VLC Media Player",
+    "package_id": "VideoLAN.VLC",
+    "repository": "winget",
+    "verified_version": "3.0.24"
+  },
+  {
+    "name": "WinRAR",
+    "package_id": "RARLab.WinRAR",
+    "repository": "winget",
+    "verified_version": "7.23.0"
+  },
+  {
+    "name": "7-Zip",
+    "package_id": "7zip.7zip",
+    "repository": "winget",
+    "verified_version": "26.05"
+  }
+]

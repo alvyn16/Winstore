@@ -1,0 +1,1063 @@
+{
+  "checked_at": "2026-10-27",
+  "mappings": [
+    {
+      "id": "Git.Git",
+      "package_id": "main/git",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Main/master/bucket/git.json",
+      "version": "2.56.0.4",
+      "homepage": "https://gitforwindows.org",
+      "description": "A free and open source distributed version control system.",
+      "valid": true
+    },
+    {
+      "id": "OpenJS.NodeJS.LTS",
+      "package_id": "main/nodejs-lts",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Main/master/bucket/nodejs-lts.json",
+      "version": "24.22.1",
+      "homepage": "https://nodejs.org",
+      "description": "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications. (Long Term Support)",
+      "valid": true
+    },
+    {
+      "id": "HeroicGamesLauncher.HeroicGamesLauncher",
+      "package_id": "games/heroic-games-launcher",
+      "url": "https://raw.githubusercontent.com/Calinou/scoop-games/master/bucket/heroic-games-launcher.json",
+      "version": "2.22.4",
+      "homepage": "https://heroicgameslauncher.com/",
+      "description": "Unofficial native GUI reimplementation for GOG and Epic Games Launcher",
+      "valid": true
+    },
+    {
+      "id": "Rustlang.Rustup",
+      "package_id": "main/rustup",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Main/master/bucket/rustup.json",
+      "version": "1.29.2",
+      "homepage": "https://rustup.rs",
+      "description": "Manage multiple rust installations with ease",
+      "valid": true
+    },
+    {
+      "id": "DolphinEmulator.Dolphin",
+      "package_id": "games/dolphin",
+      "url": "https://raw.githubusercontent.com/Calinou/scoop-games/master/bucket/dolphin.json",
+      "version": "2609a",
+      "homepage": "https://dolphin-emu.org/",
+      "description": "Nintendo GameCube and Wii emulator, with enhancements and Netplay",
+      "valid": true
+    },
+    {
+      "id": "Valve.Steam",
+      "package_id": "games/steam",
+      "url": "https://raw.githubusercontent.com/Calinou/scoop-games/master/bucket/steam.json",
+      "version": "nightly",
+      "homepage": "https://store.steampowered.com/",
+      "description": "Gaming hardware and software store by Valve Corporation",
+      "valid": true
+    },
+    {
+      "id": "PrismLauncher.PrismLauncher",
+      "package_id": "games/prismlauncher",
+      "url": "https://raw.githubusercontent.com/Calinou/scoop-games/master/bucket/prismlauncher.json",
+      "version": "11.1.1",
+      "homepage": "https://prismlauncher.org/",
+      "description": "An open source Minecraft launcher with the ability to manage multiple instances, accounts and mods. Focused on user freedom and free redistributability.",
+      "valid": true
+    },
+    {
+      "id": "Microsoft.VisualStudioCode",
+      "package_id": "extras/vscode",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/vscode.json",
+      "version": "1.143.1",
+      "homepage": "https://code.visualstudio.com/",
+      "description": "Lightweight but powerful source code editor",
+      "valid": true
+    },
+    {
+      "id": "VideoLAN.VLC",
+      "package_id": "extras/vlc",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/vlc.json",
+      "version": "3.0.24",
+      "homepage": "https://www.videolan.org/",
+      "description": "A free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.",
+      "valid": true
+    },
+    {
+      "id": "OBSProject.OBSStudio",
+      "package_id": "extras/obs-studio",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/obs-studio.json",
+      "version": "33.0.0",
+      "homepage": "https://obsproject.com",
+      "description": "Video recording and live streaming software",
+      "valid": true
+    },
+    {
+      "id": "Mozilla.Firefox",
+      "package_id": "extras/firefox",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/firefox.json",
+      "version": "158.0.1",
+      "homepage": "https://www.firefox.com/",
+      "description": "Popular open source web browser.",
+      "valid": true
+    },
+    {
+      "id": "Discord.Discord",
+      "package_id": "extras/discord",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/discord.json",
+      "version": "1.0.9259-28",
+      "homepage": "https://discord.com",
+      "description": "Free Voice and Text Chat",
+      "valid": true
+    },
+    {
+      "id": "7zip.7zip",
+      "package_id": "main/7zip",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Main/master/bucket/7zip.json",
+      "version": "26.05",
+      "homepage": "https://www.7-zip.org",
+      "description": "A multi-format file archiver with high compression ratios.",
+      "valid": true
+    },
+    {
+      "id": "Microsoft.PowerToys",
+      "package_id": "extras/powertoys",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/powertoys.json",
+      "version": "0.102.2933.0",
+      "homepage": "https://github.com/microsoft/PowerToys",
+      "description": "A set of utilities for power users to tune and streamline their Windows experience for greater productivity.",
+      "valid": true
+    },
+    {
+      "id": "Brave.Brave",
+      "package_id": "extras/brave",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/brave.json",
+      "version": "1.98.60",
+      "homepage": "https://brave.com",
+      "description": "Secure, Fast & Private Web Browser with Adblocker",
+      "valid": true
+    },
+    {
+      "id": "Google.Chrome",
+      "package_id": "extras/googlechrome",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/googlechrome.json",
+      "version": "156.0.8078.48",
+      "homepage": "https://www.google.com/chrome/",
+      "description": "Fast, secure, and free web browser, built for the modern web.",
+      "valid": true
+    },
+    {
+      "id": "Spotify.Spotify",
+      "package_id": "extras/spotify",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/spotify.json",
+      "version": "1.3.6.1921.g7086c071a617",
+      "homepage": "https://www.spotify.com/",
+      "description": "A digital music service that gives you access to millions of songs.",
+      "valid": true
+    },
+    {
+      "id": "Hibbiki.Chromium",
+      "package_id": "extras/chromium",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/chromium.json",
+      "version": "156.0.8078.48-r1706539",
+      "homepage": "https://www.chromium.org",
+      "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web.",
+      "valid": true
+    },
+    {
+      "id": "Ablaze.Floorp",
+      "package_id": "extras/floorp",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/floorp.json",
+      "version": "12.20.2",
+      "homepage": "https://github.com/Floorp-Projects",
+      "description": "A Browser build for keeping the Open, Private and Sustainable Web alive. Based on Mozilla Firefox.",
+      "valid": true
+    },
+    {
+      "id": "ImputNet.Helium",
+      "package_id": "extras/helium",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/helium.json",
+      "version": "0.20.1.1",
+      "homepage": "https://helium.computer",
+      "description": "The Chromium-based web browser made for people, with love. Best privacy by default, unbiased ad-blocking, no bloat and no noise.",
+      "valid": true
+    },
+    {
+      "id": "Mozilla.Firefox.ESR",
+      "package_id": "extras/firefox-esr",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/firefox-esr.json",
+      "version": "153.6.0",
+      "homepage": "https://www.firefox.com/browsers/enterprise/",
+      "description": "Extended Support Release of Firefox: the popular open source web browser",
+      "valid": true
+    },
+    {
+      "id": "LibreWolf.LibreWolf",
+      "package_id": "extras/librewolf",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/librewolf.json",
+      "version": "158.0.1-2",
+      "homepage": "https://librewolf.net/",
+      "description": "A fork of Firefox, focused on privacy, security and freedom.",
+      "valid": true
+    },
+    {
+      "id": "TorProject.TorBrowser",
+      "package_id": "extras/tor-browser",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/tor-browser.json",
+      "version": "15.0.26",
+      "homepage": "https://www.torproject.org/",
+      "description": "Web browser that connects to the internet via the Tor anonymity network",
+      "valid": true
+    },
+    {
+      "id": "MullvadVPN.MullvadBrowser",
+      "package_id": "extras/mullvad-browser",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/mullvad-browser.json",
+      "version": "15.0.26",
+      "homepage": "https://mullvad.net/en/browser",
+      "description": "A privacy-focused web browser developed in collaboration between Mullvad VPN and the Tor Project, produced to minimize tracking and fingerprinting.",
+      "valid": true
+    },
+    {
+      "id": "eloston.ungoogled-chromium",
+      "package_id": "extras/ungoogled-chromium",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/ungoogled-chromium.json",
+      "version": "156.0.8078.47-1.1",
+      "homepage": "https://ungoogled-software.github.io/ungoogled-chromium-binaries/",
+      "description": "Google Chromium, sans integration with Google.",
+      "valid": true
+    },
+    {
+      "id": "Waterfox.Waterfox",
+      "package_id": "extras/waterfox",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/waterfox.json",
+      "version": "6.7.7",
+      "homepage": "https://www.waterfox.net",
+      "description": "The 100% fresh, free-range, ethical browser",
+      "valid": true
+    },
+    {
+      "id": "Zen-Team.Zen-Browser",
+      "package_id": "extras/zen-browser",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/zen-browser.json",
+      "version": "1.23.4b",
+      "homepage": "https://www.zen-browser.app/",
+      "description": "A open-source browser based on the Firefox engine",
+      "valid": true
+    },
+    {
+      "id": "Vivaldi.Vivaldi",
+      "package_id": "extras/vivaldi",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/vivaldi.json",
+      "version": "8.2.4133.94",
+      "homepage": "https://vivaldi.com/",
+      "description": "An innovatively designed web browser, based on Blink, for users in Vivaldi.net community that replaced departed My Opera.",
+      "valid": true
+    },
+    {
+      "id": "Betterbird.Betterbird",
+      "package_id": "extras/betterbird",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/betterbird.json",
+      "version": "153.6.0esr-bb12",
+      "homepage": "https://www.betterbird.eu",
+      "description": "A fine-tuned version of Mozilla Thunderbird with new features, bug fixes and telemetry turned off",
+      "valid": true
+    },
+    {
+      "id": "ChatterinoTeam.Chatterino",
+      "package_id": "extras/chatterino",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/chatterino.json",
+      "version": "2.5.6",
+      "homepage": "https://chatterino.com",
+      "description": "Twitch chat client",
+      "valid": true
+    },
+    {
+      "id": "Proton.ProtonMail",
+      "package_id": "extras/proton-mail",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/proton-mail.json",
+      "version": "1.14.0",
+      "homepage": "https://proton.me/mail",
+      "description": "Secure email that protects your privacy by Proton.",
+      "valid": true
+    },
+    {
+      "id": "Element.Element",
+      "package_id": "extras/element",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/element.json",
+      "version": "1.12.32",
+      "homepage": "https://element.io",
+      "description": "A decentralised, encrypted chat & collaboration powered by matrix.org",
+      "valid": true
+    },
+    {
+      "id": "Tox.qTox",
+      "package_id": "extras/qtox",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/qtox.json",
+      "version": "1.17.6",
+      "homepage": "https://qtox.github.io/",
+      "description": "Chat, voice, video, and file transfer IM client using the encrypted peer-to-peer Tox protocol.",
+      "valid": true
+    },
+    {
+      "id": "SlackTechnologies.Slack",
+      "package_id": "extras/slack",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/slack.json",
+      "version": "4.53.269",
+      "homepage": "https://slack.com",
+      "description": "Collaboration software",
+      "valid": true
+    },
+    {
+      "id": "OpenWhisperSystems.Signal",
+      "package_id": "extras/signal",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/signal.json",
+      "version": "8.32.0",
+      "homepage": "https://signal.org",
+      "description": "A cross-platform encrypted messaging service.",
+      "valid": true
+    },
+    {
+      "id": "TeamSpeakSystems.TeamSpeakClient",
+      "package_id": "extras/teamspeak3",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/teamspeak3.json",
+      "version": "3.6.2",
+      "homepage": "https://www.teamspeak.com/",
+      "description": "An out-of-this-world VoIP solution. A mission-critical voice communication solution",
+      "valid": true
+    },
+    {
+      "id": "Telegram.TelegramDesktop",
+      "package_id": "extras/telegram",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/telegram.json",
+      "version": "7.3.3",
+      "homepage": "https://telegram.org",
+      "description": "A messaging app with a focus on speed and security",
+      "valid": true
+    },
+    {
+      "id": "Mozilla.Thunderbird",
+      "package_id": "extras/thunderbird",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/thunderbird.json",
+      "version": "158.0.1",
+      "homepage": "https://www.thunderbird.net",
+      "description": "A free email application that’s easy to set up and customize.",
+      "valid": true
+    },
+    {
+      "id": "Anthropic.ClaudeCode",
+      "package_id": "main/claude-code",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Main/master/bucket/claude-code.json",
+      "version": "2.1.311",
+      "homepage": "https://claude.com/product/claude-code",
+      "description": "An agentic coding tool built by Anthropic that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows.",
+      "valid": true
+    },
+    {
+      "id": "Vencord.Vesktop",
+      "package_id": "extras/vesktop",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/vesktop.json",
+      "version": "1.6.8",
+      "homepage": "https://github.com/Vencord/Vesktop",
+      "description": "A cross platform electron-based desktop app aiming to give you a snappier Discord experience with Vencord pre-installed",
+      "valid": true
+    },
+    {
+      "id": "Bruno.Bruno",
+      "package_id": "extras/bruno",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/bruno.json",
+      "version": "4.3.0",
+      "homepage": "https://www.usebruno.com/",
+      "description": "Open source IDE for exploring and testing APIs (lightweight alternative to Postman/Insomnia)",
+      "valid": true
+    },
+    {
+      "id": "Zoom.Zoom",
+      "package_id": "extras/zoom",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/zoom.json",
+      "version": "7.2.1.48556",
+      "homepage": "https://zoom.us",
+      "description": "Video and audio conferencing, chat, and webinars",
+      "valid": true
+    },
+    {
+      "id": "Anthropic.Claude",
+      "package_id": "extras/claude",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/claude.json",
+      "version": "3.6556.2",
+      "homepage": "https://claude.com/product/overview",
+      "description": "Next generation AI assistant built by Anthropic.",
+      "valid": true
+    },
+    {
+      "id": "Schniz.fnm",
+      "package_id": "main/fnm",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Main/master/bucket/fnm.json",
+      "version": "1.39.0",
+      "homepage": "https://fnm.vercel.app",
+      "description": "Cross-platform Node.js version switcher",
+      "valid": true
+    },
+    {
+      "id": "Kitware.CMake",
+      "package_id": "main/cmake",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Main/master/bucket/cmake.json",
+      "version": "4.4.4",
+      "homepage": "https://cmake.org",
+      "description": "Family of tools designed to build, test and package software",
+      "valid": true
+    },
+    {
+      "id": "GitHub.cli",
+      "package_id": "main/gh",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Main/master/bucket/gh.json",
+      "version": "2.103.3",
+      "homepage": "https://cli.github.com",
+      "description": "Official GitHub CLI",
+      "valid": true
+    },
+    {
+      "id": "GoLang.Go",
+      "package_id": "main/go",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Main/master/bucket/go.json",
+      "version": "1.27.3",
+      "homepage": "https://go.dev",
+      "description": "An open source programming language that makes it easy to build simple, reliable, and efficient software.",
+      "valid": true
+    },
+    {
+      "id": "OpenAI.Codex",
+      "package_id": "main/codex",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Main/master/bucket/codex.json",
+      "version": "0.164.0",
+      "homepage": "https://github.com/openai/codex",
+      "description": "OpenAI's Codex AI coding assistant",
+      "valid": true
+    },
+    {
+      "id": "Anysphere.Cursor",
+      "package_id": "extras/cursor",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/cursor.json",
+      "version": "3.27.14",
+      "homepage": "https://www.cursor.com/",
+      "description": "The AI Code Editor",
+      "valid": true
+    },
+    {
+      "id": "DEVCOM.Lua",
+      "package_id": "main/lua",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Main/master/bucket/lua.json",
+      "version": "5.5.0",
+      "homepage": "https://www.lua.org",
+      "description": "A powerful, efficient, lightweight, embeddable scripting language.",
+      "valid": true
+    },
+    {
+      "id": "Neovim.Neovim",
+      "package_id": "main/neovim",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Main/master/bucket/neovim.json",
+      "version": "0.12.6",
+      "homepage": "https://neovim.io/",
+      "description": "Vim-fork focused on extensibility and usability",
+      "valid": true
+    },
+    {
+      "id": "JesseDuffield.lazygit",
+      "package_id": "extras/lazygit",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/lazygit.json",
+      "version": "0.66.2",
+      "homepage": "https://github.com/jesseduffield/lazygit",
+      "description": "A simple terminal UI for git commands",
+      "valid": true
+    },
+    {
+      "id": "GitHub.GitHubDesktop",
+      "package_id": "extras/github",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/github.json",
+      "version": "3.6.7",
+      "homepage": "https://desktop.github.com/",
+      "description": "Extend your GitHub workflow beyond your browser.",
+      "valid": true
+    },
+    {
+      "id": "pnpm.pnpm",
+      "package_id": "main/pnpm",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Main/master/bucket/pnpm.json",
+      "version": "12.16.0",
+      "homepage": "https://pnpm.io/",
+      "description": "A fast and disk space efficient Node package manager.",
+      "valid": true
+    },
+    {
+      "id": "GitExtensionsTeam.GitExtensions",
+      "package_id": "extras/gitextensions",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/gitextensions.json",
+      "version": "7.2.1.7",
+      "homepage": "https://gitextensions.github.io/",
+      "description": "A graphical user interface for Git that allows you to control Git without using the commandline.",
+      "valid": true
+    },
+    {
+      "id": "OpenJS.NodeJS",
+      "package_id": "main/nodejs",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Main/master/bucket/nodejs.json",
+      "version": "26.12.1",
+      "homepage": "https://nodejs.org",
+      "description": "An asynchronous event driven JavaScript runtime designed to build scalable network applications.",
+      "valid": true
+    },
+    {
+      "id": "Python.Python.3.14",
+      "package_id": "versions/python314",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Versions/master/bucket/python314.json",
+      "version": "3.14.10",
+      "homepage": "https://www.python.org/",
+      "description": "A programming language that lets you work quickly and integrate systems more effectively.",
+      "valid": true
+    },
+    {
+      "id": "Starship.Starship",
+      "package_id": "main/starship",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Main/master/bucket/starship.json",
+      "version": "1.27.0",
+      "homepage": "https://starship.rs",
+      "description": "The minimal, blazing fast, and extremely customizable prompt for any shell!",
+      "valid": true
+    },
+    {
+      "id": "Postman.Postman",
+      "package_id": "extras/postman",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/postman.json",
+      "version": "12.34.1",
+      "homepage": "https://www.getpostman.com/",
+      "description": "Complete API development environment.",
+      "valid": true
+    },
+    {
+      "id": "RubyInstallerTeam.Ruby.4.0",
+      "package_id": "main/ruby",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Main/master/bucket/ruby.json",
+      "version": "4.0.9-1",
+      "homepage": "https://rubyinstaller.org",
+      "description": "A dynamic programming language with a focus on simplicity and productivity.",
+      "valid": true
+    },
+    {
+      "id": "JanDeDobbeleer.OhMyPosh",
+      "package_id": "main/oh-my-posh",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Main/master/bucket/oh-my-posh.json",
+      "version": "31.9.1",
+      "homepage": "https://ohmyposh.dev",
+      "description": "A prompt theme engine for any shell",
+      "valid": true
+    },
+    {
+      "id": "SublimeHQ.SublimeText.4",
+      "package_id": "extras/sublime-text",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/sublime-text.json",
+      "version": "4-4215",
+      "homepage": "https://www.sublimetext.com",
+      "description": "A sophisticated text editor for code, markup and prose",
+      "valid": true
+    },
+    {
+      "id": "WinsiderSS.SystemInformer",
+      "package_id": "extras/systeminformer",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/systeminformer.json",
+      "version": "4.0.26241.138",
+      "homepage": "https://systeminformer.sourceforge.io/",
+      "description": "A powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware.",
+      "valid": true
+    },
+    {
+      "id": "astral-sh.uv",
+      "package_id": "main/uv",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Main/master/bucket/uv.json",
+      "version": "0.13.6",
+      "homepage": "https://docs.astral.sh/uv/",
+      "description": "An extremely fast Python package installer and resolver, written in Rust.",
+      "valid": true
+    },
+    {
+      "id": "Hashicorp.Vagrant",
+      "package_id": "main/vagrant",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Main/master/bucket/vagrant.json",
+      "version": "2.4.9",
+      "homepage": "https://www.vagrantup.com/",
+      "description": "A tool for building and managing virtual machine environments in a single workflow.",
+      "valid": true
+    },
+    {
+      "id": "Yarn.Yarn",
+      "package_id": "main/yarn",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Main/master/bucket/yarn.json",
+      "version": "1.22.22",
+      "homepage": "https://yarnpkg.com/",
+      "description": "Node.js dependency manager",
+      "valid": true
+    },
+    {
+      "id": "VSCodium.VSCodium",
+      "package_id": "extras/vscodium",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/vscodium.json",
+      "version": "1.143.17183",
+      "homepage": "https://vscodium.com/",
+      "description": "A community-driven, freely-licensed binary distribution of Microsoft's editor VS Code.",
+      "valid": true
+    },
+    {
+      "id": "ZedIndustries.Zed",
+      "package_id": "extras/zed",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/zed.json",
+      "version": "1.25.3",
+      "homepage": "https://zed.dev/",
+      "description": "Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. It's also open source.",
+      "valid": true
+    },
+    {
+      "id": "Foxit.FoxitReader",
+      "package_id": "extras/foxit-reader",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/foxit-reader.json",
+      "version": "2026.2.1",
+      "homepage": "https://www.foxit.com/pdf-reader/",
+      "description": "Fast and feature rich PDF reader that offers a delightful reading experience.",
+      "valid": true
+    },
+    {
+      "id": "Joplin.Joplin",
+      "package_id": "extras/joplin",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/joplin.json",
+      "version": "3.7.21",
+      "homepage": "https://joplinapp.org",
+      "description": "A note taking and to-do application with synchronization capabilities",
+      "valid": true
+    },
+    {
+      "id": "Cyanfish.NAPS2",
+      "package_id": "extras/naps2",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/naps2.json",
+      "version": "8.6.0",
+      "homepage": "https://www.naps2.com/",
+      "description": "Scan documents to PDF and more, as simply as possible",
+      "valid": true
+    },
+    {
+      "id": "TheDocumentFoundation.LibreOffice",
+      "package_id": "extras/libreoffice",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/libreoffice.json",
+      "version": "26.8.1",
+      "homepage": "https://libreoffice.org/",
+      "description": "Powerful and free office suite, a successor to OpenOffice(.org).",
+      "valid": true
+    },
+    {
+      "id": "Obsidian.Obsidian",
+      "package_id": "extras/obsidian",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/obsidian.json",
+      "version": "1.14.5",
+      "homepage": "https://obsidian.md",
+      "description": "Powerful knowledge base that works on top of a local folder of plain text Markdown files.",
+      "valid": true
+    },
+    {
+      "id": "ONLYOFFICE.DesktopEditors",
+      "package_id": "extras/onlyoffice-desktopeditors",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/onlyoffice-desktopeditors.json",
+      "version": "10.0.0",
+      "homepage": "https://www.onlyoffice.com/apps.aspx",
+      "description": "Office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit documents.",
+      "valid": true
+    },
+    {
+      "id": "KDE.Okular",
+      "package_id": "extras/okular",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/okular.json",
+      "version": "26.08-8165",
+      "homepage": "https://okular.kde.org",
+      "description": "Universal document viewer",
+      "valid": true
+    },
+    {
+      "id": "PDFsam.PDFsam",
+      "package_id": "extras/pdfsam",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/pdfsam.json",
+      "version": "6.0.6",
+      "homepage": "https://github.com/torakiki/pdfsam",
+      "description": "A JavaFX desktop application to split, merge, rotate and perform other manipulations on PDF documents",
+      "valid": true
+    },
+    {
+      "id": "PDFgear.PDFgear",
+      "package_id": "extras/pdfgear",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/pdfgear.json",
+      "version": "3.0.1",
+      "homepage": "https://www.pdfgear.com",
+      "description": "A free, cross-platform PDF application that allows you to read, edit, convert, and merge documents across devices without requiring registration.",
+      "valid": true
+    },
+    {
+      "id": "Automattic.Simplenote",
+      "package_id": "extras/simplenote",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/simplenote.json",
+      "version": "2.27.1",
+      "homepage": "https://simplenote.com",
+      "description": "Simplenote is an easy way to keep notes, lists, ideas and more. Your notes stay in sync with all your devices for free.",
+      "valid": true
+    },
+    {
+      "id": "pbek.QOwnNotes",
+      "package_id": "extras/qownnotes",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/qownnotes.json",
+      "version": "26.10.12",
+      "homepage": "https://www.qownnotes.org/",
+      "description": "Plain-text notepad and todo-list manager with markdown support and Nextcloud / ownCloud integration",
+      "valid": true
+    },
+    {
+      "id": "Xournal++.Xournal++",
+      "package_id": "extras/xournalpp",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/xournalpp.json",
+      "version": "1.3.8",
+      "homepage": "https://github.com/xournalpp/xournalpp",
+      "description": "A handwriting notetaking software with PDF annotation support",
+      "valid": true
+    },
+    {
+      "id": "SumatraPDF.SumatraPDF",
+      "package_id": "extras/sumatrapdf",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/sumatrapdf.json",
+      "version": "3.6.1",
+      "homepage": "https://www.sumatrapdfreader.org/free-pdf-reader",
+      "description": "PDF and eBook reader",
+      "valid": true
+    },
+    {
+      "id": "DigitalScholar.Zotero",
+      "package_id": "extras/zotero",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/zotero.json",
+      "version": "10.0.6",
+      "homepage": "https://www.zotero.org/",
+      "description": "Open-source reference management software to manage bibliographic data and related research materials.",
+      "valid": true
+    },
+    {
+      "id": "TrackerSoftware.PDF-XChangeEditor",
+      "package_id": "extras/pdf-xchange-editor",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/pdf-xchange-editor.json",
+      "version": "11.1.1.0",
+      "homepage": "https://www.pdf-xchange.com/product/pdf-xchange-editor",
+      "description": "A fast and feature-rich PDF viewer/editor.",
+      "valid": true
+    },
+    {
+      "id": "Blizzard.BattleNet",
+      "package_id": "games/battlenet",
+      "url": "https://raw.githubusercontent.com/Calinou/scoop-games/master/bucket/battlenet.json",
+      "version": "2.0.0.4232",
+      "homepage": "https://battle.net/",
+      "description": "Blizzard's official games client",
+      "valid": true
+    },
+    {
+      "id": "Cemu.Cemu",
+      "package_id": "games/cemu",
+      "url": "https://raw.githubusercontent.com/Calinou/scoop-games/master/bucket/cemu.json",
+      "version": "2.6",
+      "homepage": "https://cemu.info/",
+      "description": "A Nintendo WiiU emulator capable of online play",
+      "valid": true
+    },
+    {
+      "id": "ItchIo.Itch",
+      "package_id": "games/itch",
+      "url": "https://raw.githubusercontent.com/Calinou/scoop-games/master/bucket/itch.json",
+      "version": "26.22.0",
+      "homepage": "https://itch.io/app",
+      "description": "Desktop app for itch.io, an indie game online store",
+      "valid": true
+    },
+    {
+      "id": "EpicGames.EpicGamesLauncher",
+      "package_id": "games/epic-games-launcher",
+      "url": "https://raw.githubusercontent.com/Calinou/scoop-games/master/bucket/epic-games-launcher.json",
+      "version": "20.3.3",
+      "homepage": "https://store.epicgames.com/",
+      "description": "The official launcher for Epic Games Store",
+      "valid": true
+    },
+    {
+      "id": "ES-DE.EmulationStation-DE",
+      "package_id": "games/es-de",
+      "url": "https://raw.githubusercontent.com/Calinou/scoop-games/master/bucket/es-de.json",
+      "version": "3.5.0",
+      "homepage": "https://gitlab.com/es-de/emulationstation-de",
+      "description": "EmulationStation Desktop Edition is a frontend for browsing and launching games from your multi-platform collection",
+      "valid": true
+    },
+    {
+      "id": "GOG.Galaxy",
+      "package_id": "games/goggalaxy",
+      "url": "https://raw.githubusercontent.com/Calinou/scoop-games/master/bucket/goggalaxy.json",
+      "version": "2.1.10.56",
+      "homepage": "https://www.gog.com/galaxy",
+      "description": "GOG Galaxy 2.0. Gaming Client designed for a convenient purchasing, playing and updating of mostly DRM-free games",
+      "valid": true
+    },
+    {
+      "id": "Ubisoft.Connect",
+      "package_id": "versions/ubisoftconnect",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Versions/master/bucket/ubisoftconnect.json",
+      "version": "nightly",
+      "homepage": "https://ubisoftconnect.com",
+      "description": "Ubisoft PC games Launcher",
+      "valid": true
+    },
+    {
+      "id": "Playnite.Playnite",
+      "package_id": "extras/playnite",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/playnite.json",
+      "version": "10.63",
+      "homepage": "https://playnite.link",
+      "description": "Video game library manager and launcher with support for 3rd party libraries like Steam, GOG, Origin, Battle.net, ...",
+      "valid": true
+    },
+    {
+      "id": "AIMP.AIMP",
+      "package_id": "extras/aimp",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/aimp.json",
+      "version": "5.40.2727",
+      "homepage": "https://www.aimp.ru",
+      "description": "Audio player",
+      "valid": true
+    },
+    {
+      "id": "Audacity.Audacity",
+      "package_id": "extras/audacity",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/audacity.json",
+      "version": "4.0.1",
+      "homepage": "https://www.audacityteam.org",
+      "description": "An easy-to-use, multi-track audio editor and recorder",
+      "valid": true
+    },
+    {
+      "id": "BlenderFoundation.Blender",
+      "package_id": "extras/blender",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/blender.json",
+      "version": "5.2.3",
+      "homepage": "https://www.blender.org",
+      "description": "3D creation suite",
+      "valid": true
+    },
+    {
+      "id": "File-New-Project.EarTrumpet",
+      "package_id": "extras/eartrumpet",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/eartrumpet.json",
+      "version": "2.3.0",
+      "homepage": "https://github.com/File-New-Project/EarTrumpet",
+      "description": "Volume control for Windows",
+      "valid": true
+    },
+    {
+      "id": "calibre.calibre",
+      "package_id": "extras/calibre",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/calibre.json",
+      "version": "9.17.0",
+      "homepage": "https://calibre-ebook.com",
+      "description": "Powerful and easy to use e-book manager",
+      "valid": true
+    },
+    {
+      "id": "GIMP.GIMP.3",
+      "package_id": "extras/gimp",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/gimp.json",
+      "version": "3.2.6",
+      "homepage": "https://www.gimp.org",
+      "description": "GNU Image Manipulation Program",
+      "valid": true
+    },
+    {
+      "id": "PeterPawlowski.foobar2000",
+      "package_id": "extras/foobar2000",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/foobar2000.json",
+      "version": "2.26.1",
+      "homepage": "https://www.foobar2000.org/",
+      "description": "An advanced freeware audio player for the Windows platform.",
+      "valid": true
+    },
+    {
+      "id": "HandBrake.HandBrake",
+      "package_id": "extras/handbrake",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/handbrake.json",
+      "version": "1.11.2",
+      "homepage": "https://handbrake.fr",
+      "description": "A tool for converting video from nearly any format to a selection of modern, widely supported codecs.",
+      "valid": true
+    },
+    {
+      "id": "DuongDieuPhap.ImageGlass",
+      "package_id": "extras/imageglass",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/imageglass.json",
+      "version": "10.0.6.906",
+      "homepage": "https://imageglass.org",
+      "description": "A lightweight, versatile image viewer",
+      "valid": true
+    },
+    {
+      "id": "IrfanSkiljan.IrfanView",
+      "package_id": "extras/irfanview",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/irfanview.json",
+      "version": "4.76",
+      "homepage": "https://www.irfanview.com",
+      "description": "A fast, compact and innovative graphic viewer (with PlugIns)",
+      "valid": true
+    },
+    {
+      "id": "mpc-qt.mpc-qt",
+      "package_id": "extras/mpc-qt",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/mpc-qt.json",
+      "version": "26.07",
+      "homepage": "https://mpc-qt.github.io",
+      "description": "A clone of Media Player Classic reimplemented in Qt.",
+      "valid": true
+    },
+    {
+      "id": "clsid2.mpc-hc",
+      "package_id": "extras/mpc-hc",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/mpc-hc.json",
+      "version": "1.7.13",
+      "homepage": "https://mpc-hc.org",
+      "description": "An extremely light-weight, open source media player for Windows.",
+      "valid": true
+    },
+    {
+      "id": "shinchiro.mpv",
+      "package_id": "extras/mpv",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/mpv.json",
+      "version": "0.41.0",
+      "homepage": "https://mpv.io",
+      "description": "A free, open source, and cross-platform media player",
+      "valid": true
+    },
+    {
+      "id": "nomacs.nomacs",
+      "package_id": "extras/nomacs",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/nomacs.json",
+      "version": "3.22.4",
+      "homepage": "https://nomacs.org",
+      "description": "Image viewer to view all common image formats including RAW and psd images",
+      "valid": true
+    },
+    {
+      "id": "Notepad++.Notepad++",
+      "package_id": "extras/notepadplusplus",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/notepadplusplus.json",
+      "version": "8.9.8.1",
+      "homepage": "https://notepad-plus-plus.org",
+      "description": "A free source code editor and Notepad replacement that supports several languages.",
+      "valid": true
+    },
+    {
+      "id": "dotPDN.PaintDotNet",
+      "package_id": "extras/paint.net",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/paint.net.json",
+      "version": "5.1.12",
+      "homepage": "https://www.getpaint.net",
+      "description": "Image and photo editor",
+      "valid": true
+    },
+    {
+      "id": "ShareX.ShareX",
+      "package_id": "extras/sharex",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/sharex.json",
+      "version": "21.0.0",
+      "homepage": "https://getsharex.com/",
+      "description": "Screen capture, file sharing and productivity tool.",
+      "valid": true
+    },
+    {
+      "id": "RARLab.WinRAR",
+      "package_id": "extras/winrar",
+      "url": "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/bucket/winrar.json",
+      "version": "7.23",
+      "homepage": "https://rarlab.com/",
+      "description": "Powerful archive manager",
+      "valid": true
+    }
+  ],
+  "unmapped": [
+    {
+      "id": "Microsoft.Edge",
+      "package_id": "extras/microsoft-edge",
+      "status": 404
+    },
+    {
+      "id": "SpikeHD.Dorion",
+      "package_id": "extras/dorion",
+      "status": 404
+    },
+    {
+      "id": "Microsoft.Teams",
+      "package_id": "extras/microsoft-teams",
+      "status": 404
+    },
+    {
+      "id": "TeamSpeakSystems.TeamSpeakClient.Beta.6",
+      "package_id": "extras/teamspeak",
+      "status": 404
+    },
+    {
+      "id": "Rakuten.Viber",
+      "package_id": "extras/viber",
+      "status": 404
+    },
+    {
+      "id": "Docker.DockerDesktop",
+      "package_id": "extras/docker",
+      "status": 404
+    },
+    {
+      "id": "Unity.UnityHub",
+      "package_id": "extras/unityhub",
+      "status": 404
+    },
+    {
+      "id": "Adobe.Acrobat.Reader.64-bit",
+      "package_id": "extras/adobe-acrobat-reader",
+      "status": 404
+    },
+    {
+      "id": "geeksoftwareGmbH.PDF24Creator",
+      "package_id": "extras/pdf24-creator",
+      "status": 404
+    },
+    {
+      "id": "ElectronicArts.EADesktop",
+      "package_id": "games/ea-app",
+      "status": 404
+    },
+    {
+      "id": "Nvidia.GeForceNow",
+      "package_id": "games/geforce-now",
+      "status": 404
+    },
+    {
+      "id": "Modrinth.ModrinthApp",
+      "package_id": "games/modrinth-app",
+      "status": 404
+    },
+    {
+      "id": "AdrienAllard.FileConverter",
+      "package_id": "extras/file-converter",
+      "status": 404
+    },
+    {
+      "id": "Apple.iTunes",
+      "package_id": "extras/itunes",
+      "status": 404
+    },
+    {
+      "id": "CodecGuide.K-LiteCodecPack.Standard",
+      "package_id": "extras/k-lite-codec-pack-standard",
+      "status": 404
+    }
+  ]
+}

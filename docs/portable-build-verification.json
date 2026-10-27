@@ -1,0 +1,11 @@
+{
+  "archive": "src-tauri/target/release/bundle/portable/Winstore_0.1.0_x64-portable.zip",
+  "signature": "NotSigned",
+  "contents": [
+    "README.txt",
+    "Winstore.exe"
+  ],
+  "sha256": "B71C528B089087D7B147DF3D499CD00E8CA7F76B49ADCDB0F018BD437E0CB862",
+  "runtime": "passed",
+  "size_bytes": 25864507
+}

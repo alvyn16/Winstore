@@ -1,0 +1,11 @@
+Winstore app icon generated with the built-in ImageGen tool. Saved master: `public/winstore.png`. Platform sizes were exported using `tauri icon` into `src-tauri/icons/`.
+
+Reference: Bazaar's original storefront icon, viewed from the archived official source at https://github.com/bazaar-org/bazaar/blob/main/data/icons/hicolor/scalable/apps/io.github.kolunmi.Bazaar.svg and the Flathub app icon. The reference is saved under `assets/ui-reference/`; it is not used as Winstore's executable icon. Winstore's generated design uses software tiles instead of Bazaar's fruit.
+
+Generation prompt:
+
+Create one finished desktop application icon for Winstore, inspired by the supplied reference image of the original Bazaar software-store icon. Reference role: design inspiration for its friendly market stall, striped awning, rounded forms, warm wooden base, and GNOME/Adwaita icon visual language. Create a distinct new design: a compact charming market stall with a coral-red and warm white striped canopy, softly rounded scalloped awning edge, a warm walnut-brown wooden counter and side posts, and inside the stall four simple colorful rounded software tiles, blue, emerald, amber and violet, arranged as a clear four-pane window/store display rather than the original fruit. Gentle dimensional shading, precise clean silhouettes, tactile almost-vector 3D icon finish, excellent legibility at 16, 32, 48 pixels. Front-facing symmetrical view, no perspective skew, square canvas, object occupies approximately 88 percent width and height with an even transparent margin. Truly transparent background. No text, no letters, no logo labels, no ground plane, no surrounding square background, no watermark. Output a single icon, not a sheet or variants.
+
+Cleanup prompt:
+
+Clean up this generated application icon for production. Preserve the market stall and four colored software tiles exactly in design, color, shape, proportions and shading. Remove all stray colored fragments, scattered specks, streaks, detached pixels or artifacts floating above and outside the stall canopy, especially across the top transparent margin. Keep a transparent background, a centered square composition, and smooth edges. No new elements, text, background, or detached shadows.

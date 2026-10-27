@@ -1,0 +1,590 @@
+[
+  {
+    "name": "PhotoCraft",
+    "website": "https://getartcraft.com/apps/photocraft",
+    "repository": "storytold/photocraft",
+    "release_url": "https://github.com/storytold/photocraft/releases/tag/v0.16.0",
+    "version": "v0.16.0",
+    "windows_installers": [
+      {
+        "name": "photocraft-0.16.0-windows-x64.msi",
+        "url": "https://github.com/storytold/photocraft/releases/download/v0.16.0/photocraft-0.16.0-windows-x64.msi",
+        "size": 74760192,
+        "digest": "sha256:1a073b3ce410cd68bed8c1e5d63f825a8cb578c78106bd54e598d8b07edb6982"
+      }
+    ],
+    "local_previews": [
+      {
+        "src": "/previews/artcraft/photocraft-1.jpg",
+        "caption": "PhotoCraft — photocraft demo"
+      },
+      {
+        "src": "/previews/artcraft/photocraft-2.jpg",
+        "caption": "PhotoCraft — photocraft adjustments"
+      }
+    ],
+    "asset_sources": [
+      {
+        "asset": "/icons/artcraft/photocraft.png",
+        "source": "https://raw.githubusercontent.com/storytold/photocraft/main/assets/app-icon/hicolor/256x256/apps/ai.storyteller.photocraft.png"
+      },
+      {
+        "asset": "/previews/artcraft/photocraft-1.jpg",
+        "source": "https://raw.githubusercontent.com/storytold/photocraft/main/docs/images/photocraft-demo.jpg"
+      },
+      {
+        "asset": "/previews/artcraft/photocraft-2.jpg",
+        "source": "https://raw.githubusercontent.com/storytold/photocraft/main/docs/images/photocraft-adjustments.jpg"
+      }
+    ],
+    "local_icon": "/icons/artcraft/photocraft.png",
+    "winget_package": null,
+    "winget_version_observed": null
+  },
+  {
+    "name": "VectorCraft",
+    "website": "https://getartcraft.com/apps/vectorcraft",
+    "repository": "storytold/vectorcraft",
+    "release_url": "https://github.com/storytold/vectorcraft/releases/tag/v0.17.0",
+    "version": "v0.17.0",
+    "windows_installers": [
+      {
+        "name": "vectorcraft-0.17.0-windows-x64.msi",
+        "url": "https://github.com/storytold/vectorcraft/releases/download/v0.17.0/vectorcraft-0.17.0-windows-x64.msi",
+        "size": 106770432,
+        "digest": "sha256:861f4e9fe943dacddfd30bc6512a20a4db2fbc554a6daa4101595c2fc85d11c1"
+      }
+    ],
+    "local_previews": [
+      {
+        "src": "/previews/artcraft/vectorcraft-1.png",
+        "caption": "VectorCraft — shot 1 neon"
+      },
+      {
+        "src": "/previews/artcraft/vectorcraft-2.png",
+        "caption": "VectorCraft — shot 2 ribbons"
+      }
+    ],
+    "asset_sources": [
+      {
+        "asset": "/icons/artcraft/vectorcraft.png",
+        "source": "https://raw.githubusercontent.com/storytold/vectorcraft/main/assets/app-icon/hicolor/256x256/apps/ai.storyteller.vectorcraft.png"
+      },
+      {
+        "asset": "/previews/artcraft/vectorcraft-1.png",
+        "source": "https://raw.githubusercontent.com/storytold/vectorcraft/main/docs/images/shot-1-neon.png"
+      },
+      {
+        "asset": "/previews/artcraft/vectorcraft-2.png",
+        "source": "https://raw.githubusercontent.com/storytold/vectorcraft/main/docs/images/shot-2-ribbons.png"
+      }
+    ],
+    "local_icon": "/icons/artcraft/vectorcraft.png",
+    "winget_package": "ArtCraft.VectorCraft",
+    "winget_version_observed": "0.17.0",
+    "winget_installer_manifest": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/ArtCraft/VectorCraft/0.17.0/ArtCraft.VectorCraft.installer.yaml",
+    "winget_installer_urls": [
+      "https://github.com/storytold/vectorcraft/releases/download/v0.17.0/vectorcraft-0.17.0-windows-x86.msi",
+      "https://github.com/storytold/vectorcraft/releases/download/v0.17.0/vectorcraft-0.17.0-windows-x64.msi",
+      "https://github.com/storytold/vectorcraft/releases/download/v0.17.0/vectorcraft-0.17.0-windows-arm64.msi"
+    ]
+  },
+  {
+    "name": "FilmCraft",
+    "website": "https://getartcraft.com/apps/filmcraft",
+    "repository": "storytold/filmcraft",
+    "release_url": "https://github.com/storytold/filmcraft/releases/tag/v0.13.0",
+    "version": "v0.13.0",
+    "windows_installers": [
+      {
+        "name": "filmcraft-0.13.0-windows-x64.msi",
+        "url": "https://github.com/storytold/filmcraft/releases/download/v0.13.0/filmcraft-0.13.0-windows-x64.msi",
+        "size": 83537920,
+        "digest": "sha256:6e9e2903ca47cbf677d598391e76ed862223a86c0d6d79da7a93a32455b5f593"
+      }
+    ],
+    "local_previews": [
+      {
+        "src": "/previews/artcraft/filmcraft-1.png",
+        "caption": "FilmCraft — filmcraft hero"
+      },
+      {
+        "src": "/previews/artcraft/filmcraft-2.png",
+        "caption": "FilmCraft — filmcraft assembly"
+      }
+    ],
+    "asset_sources": [
+      {
+        "asset": "/icons/artcraft/filmcraft.png",
+        "source": "https://raw.githubusercontent.com/storytold/filmcraft/main/assets/app-icon/hicolor/256x256/apps/ai.storyteller.filmcraft.png"
+      },
+      {
+        "asset": "/previews/artcraft/filmcraft-1.png",
+        "source": "https://raw.githubusercontent.com/storytold/filmcraft/main/docs/images/filmcraft-hero.png"
+      },
+      {
+        "asset": "/previews/artcraft/filmcraft-2.png",
+        "source": "https://raw.githubusercontent.com/storytold/filmcraft/main/docs/images/filmcraft-assembly.png"
+      }
+    ],
+    "local_icon": "/icons/artcraft/filmcraft.png",
+    "winget_package": "ArtCraft.FilmCraft",
+    "winget_version_observed": "0.9.0",
+    "winget_installer_manifest": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/ArtCraft/FilmCraft/0.9.0/ArtCraft.FilmCraft.installer.yaml",
+    "winget_installer_urls": [
+      "https://github.com/storytold/filmcraft/releases/download/v0.9.0/filmcraft-0.9.0-windows-x86.msi",
+      "https://github.com/storytold/filmcraft/releases/download/v0.9.0/filmcraft-0.9.0-windows-x64.msi",
+      "https://github.com/storytold/filmcraft/releases/download/v0.9.0/filmcraft-0.9.0-windows-arm64.msi"
+    ]
+  },
+  {
+    "name": "LightCraft",
+    "website": "https://getartcraft.com/apps/lightcraft",
+    "repository": "storytold/lightcraft",
+    "release_url": "https://github.com/storytold/lightcraft/releases/tag/v0.14.0",
+    "version": "v0.14.0",
+    "windows_installers": [
+      {
+        "name": "lightcraft-0.14.0-windows-x64.msi",
+        "url": "https://github.com/storytold/lightcraft/releases/download/v0.14.0/lightcraft-0.14.0-windows-x64.msi",
+        "size": 91385856,
+        "digest": "sha256:e6af550325aeb61d576da85eab114a8896c85fab77c522ffae8991aa844ae46f"
+      }
+    ],
+    "local_previews": [
+      {
+        "src": "/previews/artcraft/lightcraft-1.jpg",
+        "caption": "LightCraft — hero tetons"
+      },
+      {
+        "src": "/previews/artcraft/lightcraft-2.jpg",
+        "caption": "LightCraft — curve tetons"
+      }
+    ],
+    "asset_sources": [
+      {
+        "asset": "/icons/artcraft/lightcraft.png",
+        "source": "https://raw.githubusercontent.com/storytold/lightcraft/main/assets/app-icon/hicolor/256x256/apps/ai.storyteller.lightcraft.png"
+      },
+      {
+        "asset": "/previews/artcraft/lightcraft-1.jpg",
+        "source": "https://raw.githubusercontent.com/storytold/lightcraft/main/docs/images/hero-tetons.jpg"
+      },
+      {
+        "asset": "/previews/artcraft/lightcraft-2.jpg",
+        "source": "https://raw.githubusercontent.com/storytold/lightcraft/main/docs/images/curve-tetons.jpg"
+      }
+    ],
+    "local_icon": "/icons/artcraft/lightcraft.png",
+    "winget_package": null,
+    "winget_version_observed": null
+  },
+  {
+    "name": "PdfCraft",
+    "website": "https://getartcraft.com/apps/pdfcraft",
+    "repository": "storytold/pdfcraft",
+    "release_url": "https://github.com/storytold/pdfcraft/releases/tag/v0.14.0",
+    "version": "v0.14.0",
+    "windows_installers": [
+      {
+        "name": "pdfcraft-0.14.0-windows-x64.msi",
+        "url": "https://github.com/storytold/pdfcraft/releases/download/v0.14.0/pdfcraft-0.14.0-windows-x64.msi",
+        "size": 73740288,
+        "digest": "sha256:600f5745198096c91980855572e8d5f6e2302abd89aaa8fb1e74cb392c7e865f"
+      }
+    ],
+    "local_previews": [
+      {
+        "src": "/previews/artcraft/pdfcraft-1.png",
+        "caption": "PdfCraft — pdfcraft viewer"
+      },
+      {
+        "src": "/previews/artcraft/pdfcraft-2.png",
+        "caption": "PdfCraft — pdfcraft scripts"
+      }
+    ],
+    "asset_sources": [
+      {
+        "asset": "/icons/artcraft/pdfcraft.png",
+        "source": "https://raw.githubusercontent.com/storytold/pdfcraft/main/assets/app-icon/hicolor/256x256/apps/ai.storyteller.pdfcraft.png"
+      },
+      {
+        "asset": "/previews/artcraft/pdfcraft-1.png",
+        "source": "https://raw.githubusercontent.com/storytold/pdfcraft/main/docs/images/pdfcraft-viewer.png"
+      },
+      {
+        "asset": "/previews/artcraft/pdfcraft-2.png",
+        "source": "https://raw.githubusercontent.com/storytold/pdfcraft/main/docs/images/pdfcraft-scripts.png"
+      }
+    ],
+    "local_icon": "/icons/artcraft/pdfcraft.png",
+    "winget_package": "ArtCraft.PdfCraft",
+    "winget_version_observed": "0.9.0",
+    "winget_installer_manifest": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/ArtCraft/PdfCraft/0.9.0/ArtCraft.PdfCraft.installer.yaml",
+    "winget_installer_urls": [
+      "https://github.com/storytold/pdfcraft/releases/download/v0.9.0/pdfcraft-0.9.0-windows-x86.msi",
+      "https://github.com/storytold/pdfcraft/releases/download/v0.9.0/pdfcraft-0.9.0-windows-x64.msi",
+      "https://github.com/storytold/pdfcraft/releases/download/v0.9.0/pdfcraft-0.9.0-windows-arm64.msi"
+    ]
+  },
+  {
+    "name": "EffectCraft",
+    "website": "https://getartcraft.com/apps/effectcraft",
+    "repository": "storytold/effectcraft",
+    "release_url": "https://github.com/storytold/effectcraft/releases/tag/v0.17.0",
+    "version": "v0.17.0",
+    "windows_installers": [
+      {
+        "name": "effectcraft-0.17.0-windows-x64.msi",
+        "url": "https://github.com/storytold/effectcraft/releases/download/v0.17.0/effectcraft-0.17.0-windows-x64.msi",
+        "size": 51462144,
+        "digest": "sha256:8f0c2e6f647a679d4075d365f863b9deab2d6ebcfa6bdd1c82826cb6816580ef"
+      }
+    ],
+    "local_previews": [
+      {
+        "src": "/previews/artcraft/effectcraft-1.png",
+        "caption": "EffectCraft — effectcraft hero"
+      },
+      {
+        "src": "/previews/artcraft/effectcraft-2.png",
+        "caption": "EffectCraft — effectcraft graph editor"
+      }
+    ],
+    "asset_sources": [
+      {
+        "asset": "/icons/artcraft/effectcraft.png",
+        "source": "https://raw.githubusercontent.com/storytold/effectcraft/main/assets/app-icon/hicolor/256x256/apps/ai.storyteller.effectcraft.png"
+      },
+      {
+        "asset": "/previews/artcraft/effectcraft-1.png",
+        "source": "https://raw.githubusercontent.com/storytold/effectcraft/main/docs/images/effectcraft-hero.png"
+      },
+      {
+        "asset": "/previews/artcraft/effectcraft-2.png",
+        "source": "https://raw.githubusercontent.com/storytold/effectcraft/main/docs/images/effectcraft-graph-editor.png"
+      }
+    ],
+    "local_icon": "/icons/artcraft/effectcraft.png",
+    "winget_package": "ArtCraft.EffectCraft",
+    "winget_version_observed": "0.17.0",
+    "winget_installer_manifest": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/ArtCraft/EffectCraft/0.17.0/ArtCraft.EffectCraft.installer.yaml",
+    "winget_installer_urls": [
+      "https://github.com/storytold/effectcraft/releases/download/v0.17.0/effectcraft-0.17.0-windows-x86.msi",
+      "https://github.com/storytold/effectcraft/releases/download/v0.17.0/effectcraft-0.17.0-windows-x64.msi",
+      "https://github.com/storytold/effectcraft/releases/download/v0.17.0/effectcraft-0.17.0-windows-arm64.msi"
+    ]
+  },
+  {
+    "name": "DesignCraft",
+    "website": "https://getartcraft.com/apps/designcraft",
+    "repository": "storytold/designcraft",
+    "release_url": "https://github.com/storytold/designcraft/releases/tag/v0.13.0",
+    "version": "v0.13.0",
+    "windows_installers": [
+      {
+        "name": "designcraft-0.13.0-windows-x64.msi",
+        "url": "https://github.com/storytold/designcraft/releases/download/v0.13.0/designcraft-0.13.0-windows-x64.msi",
+        "size": 89624576,
+        "digest": "sha256:84421b0b90a897cd35110cc9b3d3bca13c30b9298ac77f4e13eb9ec9978b20ce"
+      }
+    ],
+    "local_previews": [
+      {
+        "src": "/previews/artcraft/designcraft-1.png",
+        "caption": "DesignCraft — ui spread"
+      },
+      {
+        "src": "/previews/artcraft/designcraft-2.png",
+        "caption": "DesignCraft — page cover"
+      }
+    ],
+    "asset_sources": [
+      {
+        "asset": "/icons/artcraft/designcraft.png",
+        "source": "https://raw.githubusercontent.com/storytold/designcraft/main/assets/app-icon/hicolor/256x256/apps/ai.storyteller.designcraft.png"
+      },
+      {
+        "asset": "/previews/artcraft/designcraft-1.png",
+        "source": "https://raw.githubusercontent.com/storytold/designcraft/main/docs/images/ui-spread.png"
+      },
+      {
+        "asset": "/previews/artcraft/designcraft-2.png",
+        "source": "https://raw.githubusercontent.com/storytold/designcraft/main/docs/images/page-cover.png"
+      }
+    ],
+    "local_icon": "/icons/artcraft/designcraft.png",
+    "winget_package": null,
+    "winget_version_observed": null
+  },
+  {
+    "name": "FigCraft",
+    "website": "https://getartcraft.com/apps/figcraft",
+    "repository": "storytold/figcraft",
+    "release_url": "https://github.com/storytold/figcraft/releases/tag/v0.11.2",
+    "version": "v0.11.2",
+    "windows_installers": [
+      {
+        "name": "figcraft-0.11.2-windows-x64.msi",
+        "url": "https://github.com/storytold/figcraft/releases/download/v0.11.2/figcraft-0.11.2-windows-x64.msi",
+        "size": 71077888,
+        "digest": "sha256:e2cb0f21d84c491a8f570d4f5d0f2f89dc2d53209a508399b080ee5f7525d712"
+      }
+    ],
+    "local_previews": [
+      {
+        "src": "/previews/artcraft/figcraft-1.png",
+        "caption": "FigCraft — shot 1 hero"
+      },
+      {
+        "src": "/previews/artcraft/figcraft-2.png",
+        "caption": "FigCraft — shot 2 components"
+      }
+    ],
+    "asset_sources": [
+      {
+        "asset": "/icons/artcraft/figcraft.png",
+        "source": "https://raw.githubusercontent.com/storytold/figcraft/main/assets/app-icon/hicolor/256x256/apps/ai.storyteller.figcraft.png"
+      },
+      {
+        "asset": "/previews/artcraft/figcraft-1.png",
+        "source": "https://raw.githubusercontent.com/storytold/figcraft/main/docs/images/shot-1-hero.png"
+      },
+      {
+        "asset": "/previews/artcraft/figcraft-2.png",
+        "source": "https://raw.githubusercontent.com/storytold/figcraft/main/docs/images/shot-2-components.png"
+      }
+    ],
+    "local_icon": "/icons/artcraft/figcraft.png",
+    "winget_package": null,
+    "winget_version_observed": null
+  },
+  {
+    "name": "WordCraft",
+    "website": "https://getartcraft.com/apps/wordcraft",
+    "repository": "storytold/wordcraft",
+    "release_url": "https://github.com/storytold/wordcraft/releases/tag/v0.11.0",
+    "version": "v0.11.0",
+    "windows_installers": [
+      {
+        "name": "wordcraft-0.11.0-windows-x64.msi",
+        "url": "https://github.com/storytold/wordcraft/releases/download/v0.11.0/wordcraft-0.11.0-windows-x64.msi",
+        "size": 84500480,
+        "digest": "sha256:fac76d185c3cd5990ceec2fd147748dcf4f2e289aa0085fecbcc7408cef65f87"
+      }
+    ],
+    "local_previews": [
+      {
+        "src": "/previews/artcraft/wordcraft-1.png",
+        "caption": "WordCraft — hero"
+      },
+      {
+        "src": "/previews/artcraft/wordcraft-2.png",
+        "caption": "WordCraft — review"
+      }
+    ],
+    "asset_sources": [
+      {
+        "asset": "/icons/artcraft/wordcraft.png",
+        "source": "https://raw.githubusercontent.com/storytold/wordcraft/main/assets/app-icon/hicolor/256x256/apps/ai.storyteller.wordcraft.png"
+      },
+      {
+        "asset": "/previews/artcraft/wordcraft-1.png",
+        "source": "https://raw.githubusercontent.com/storytold/wordcraft/main/docs/images/hero.png"
+      },
+      {
+        "asset": "/previews/artcraft/wordcraft-2.png",
+        "source": "https://raw.githubusercontent.com/storytold/wordcraft/main/docs/images/review.png"
+      }
+    ],
+    "local_icon": "/icons/artcraft/wordcraft.png",
+    "winget_package": null,
+    "winget_version_observed": null
+  },
+  {
+    "name": "SoundCraft",
+    "website": "https://getartcraft.com/apps/soundcraft",
+    "repository": "storytold/soundcraft",
+    "release_url": "https://github.com/storytold/soundcraft/releases/tag/v0.13.1",
+    "version": "v0.13.1",
+    "windows_installers": [
+      {
+        "name": "soundcraft-0.13.1-windows-x64.msi",
+        "url": "https://github.com/storytold/soundcraft/releases/download/v0.13.1/soundcraft-0.13.1-windows-x64.msi",
+        "size": 12304384,
+        "digest": "sha256:aabdad1afbf3b3717e77304e92d2c86ca3d141505f46612fa5300f2db00ea965"
+      }
+    ],
+    "local_previews": [
+      {
+        "src": "/previews/artcraft/soundcraft-1.png",
+        "caption": "SoundCraft — edit"
+      },
+      {
+        "src": "/previews/artcraft/soundcraft-2.png",
+        "caption": "SoundCraft — mix"
+      }
+    ],
+    "asset_sources": [
+      {
+        "asset": "/icons/artcraft/soundcraft.png",
+        "source": "https://raw.githubusercontent.com/storytold/soundcraft/main/assets/app-icon/hicolor/256x256/apps/ai.storyteller.soundcraft.png"
+      },
+      {
+        "asset": "/previews/artcraft/soundcraft-1.png",
+        "source": "https://raw.githubusercontent.com/storytold/soundcraft/main/docs/images/edit.png"
+      },
+      {
+        "asset": "/previews/artcraft/soundcraft-2.png",
+        "source": "https://raw.githubusercontent.com/storytold/soundcraft/main/docs/images/mix.png"
+      }
+    ],
+    "local_icon": "/icons/artcraft/soundcraft.png",
+    "winget_package": "ArtCraft.SoundCraft",
+    "winget_version_observed": "0.10.0",
+    "winget_installer_manifest": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/ArtCraft/SoundCraft/0.10.0/ArtCraft.SoundCraft.installer.yaml",
+    "winget_installer_urls": [
+      "https://github.com/storytold/soundcraft/releases/download/v0.10.0/soundcraft-0.10.0-windows-x86.msi",
+      "https://github.com/storytold/soundcraft/releases/download/v0.10.0/soundcraft-0.10.0-windows-x64.msi",
+      "https://github.com/storytold/soundcraft/releases/download/v0.10.0/soundcraft-0.10.0-windows-arm64.msi"
+    ]
+  },
+  {
+    "name": "DeckCraft",
+    "website": "https://getartcraft.com/apps/deckcraft",
+    "repository": "storytold/deckcraft",
+    "release_url": "https://github.com/storytold/deckcraft/releases/tag/v0.11.1",
+    "version": "v0.11.1",
+    "windows_installers": [
+      {
+        "name": "deckcraft-0.11.1-windows-x64.msi",
+        "url": "https://github.com/storytold/deckcraft/releases/download/v0.11.1/deckcraft-0.11.1-windows-x64.msi",
+        "size": 64397312,
+        "digest": "sha256:92b629820c7fa213009c9105807653085b3c14aec0ab87fa7bc96b3eeaf3b33e"
+      }
+    ],
+    "local_previews": [
+      {
+        "src": "/previews/artcraft/deckcraft-1.png",
+        "caption": "DeckCraft — editor"
+      },
+      {
+        "src": "/previews/artcraft/deckcraft-2.png",
+        "caption": "DeckCraft — shape format"
+      }
+    ],
+    "asset_sources": [
+      {
+        "asset": "/icons/artcraft/deckcraft.png",
+        "source": "https://raw.githubusercontent.com/storytold/deckcraft/main/assets/app-icon/hicolor/256x256/apps/ai.storyteller.deckcraft.png"
+      },
+      {
+        "asset": "/previews/artcraft/deckcraft-1.png",
+        "source": "https://raw.githubusercontent.com/storytold/deckcraft/main/docs/images/editor.png"
+      },
+      {
+        "asset": "/previews/artcraft/deckcraft-2.png",
+        "source": "https://raw.githubusercontent.com/storytold/deckcraft/main/docs/images/shape-format.png"
+      }
+    ],
+    "local_icon": "/icons/artcraft/deckcraft.png",
+    "winget_package": null,
+    "winget_version_observed": null
+  },
+  {
+    "name": "CADCraft",
+    "website": "https://getartcraft.com/apps/cadcraft",
+    "repository": "storytold/cadcraft",
+    "release_url": "https://github.com/storytold/cadcraft/releases/tag/v0.13.0",
+    "version": "v0.13.0",
+    "windows_installers": [
+      {
+        "name": "cadcraft-0.13.0-windows-x64.msi",
+        "url": "https://github.com/storytold/cadcraft/releases/download/v0.13.0/cadcraft-0.13.0-windows-x64.msi",
+        "size": 51941376,
+        "digest": "sha256:f257fff4ca4f8a887a0906b7416e80911b73c7678da56a10176eee6ea1d253f3"
+      }
+    ],
+    "local_previews": [
+      {
+        "src": "/previews/artcraft/cadcraft-1.png",
+        "caption": "CADCraft — ui apartment"
+      },
+      {
+        "src": "/previews/artcraft/cadcraft-2.png",
+        "caption": "CADCraft — ui layout"
+      }
+    ],
+    "asset_sources": [
+      {
+        "asset": "/icons/artcraft/cadcraft.png",
+        "source": "https://raw.githubusercontent.com/storytold/cadcraft/main/assets/app-icon/hicolor/256x256/apps/ai.storyteller.cadcraft.png"
+      },
+      {
+        "asset": "/previews/artcraft/cadcraft-1.png",
+        "source": "https://raw.githubusercontent.com/storytold/cadcraft/main/docs/images/ui-apartment.png"
+      },
+      {
+        "asset": "/previews/artcraft/cadcraft-2.png",
+        "source": "https://raw.githubusercontent.com/storytold/cadcraft/main/docs/images/ui-layout.png"
+      }
+    ],
+    "local_icon": "/icons/artcraft/cadcraft.png",
+    "winget_package": "ArtCraft.CadCraft",
+    "winget_version_observed": "0.7.0",
+    "winget_installer_manifest": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/ArtCraft/CadCraft/0.7.0/ArtCraft.CadCraft.installer.yaml",
+    "winget_installer_urls": [
+      "https://github.com/storytold/cadcraft/releases/download/v0.7.0/cadcraft-0.7.0-windows-x86.msi",
+      "https://github.com/storytold/cadcraft/releases/download/v0.7.0/cadcraft-0.7.0-windows-x64.msi",
+      "https://github.com/storytold/cadcraft/releases/download/v0.7.0/cadcraft-0.7.0-windows-arm64.msi"
+    ]
+  },
+  {
+    "name": "GridCraft",
+    "website": "https://getartcraft.com/apps/gridcraft",
+    "repository": "storytold/gridcraft",
+    "release_url": "https://github.com/storytold/gridcraft/releases/tag/v0.12.1",
+    "version": "v0.12.1",
+    "windows_installers": [
+      {
+        "name": "gridcraft-0.12.1-windows-x64.msi",
+        "url": "https://github.com/storytold/gridcraft/releases/download/v0.12.1/gridcraft-0.12.1-windows-x64.msi",
+        "size": 14905344,
+        "digest": "sha256:036f271206da7bbb453b1be9fe98fefb419eac829315803315e88df9f1ff4a71"
+      }
+    ],
+    "local_previews": [
+      {
+        "src": "/previews/artcraft/gridcraft-1.png",
+        "caption": "GridCraft — hero sales"
+      },
+      {
+        "src": "/previews/artcraft/gridcraft-2.png",
+        "caption": "GridCraft — budget"
+      }
+    ],
+    "asset_sources": [
+      {
+        "asset": "/icons/artcraft/gridcraft.png",
+        "source": "https://raw.githubusercontent.com/storytold/gridcraft/main/assets/app-icon/hicolor/256x256/apps/ai.storyteller.gridcraft.png"
+      },
+      {
+        "asset": "/previews/artcraft/gridcraft-1.png",
+        "source": "https://raw.githubusercontent.com/storytold/gridcraft/main/docs/images/hero-sales.png"
+      },
+      {
+        "asset": "/previews/artcraft/gridcraft-2.png",
+        "source": "https://raw.githubusercontent.com/storytold/gridcraft/main/docs/images/budget.png"
+      }
+    ],
+    "local_icon": "/icons/artcraft/gridcraft.png",
+    "winget_package": "ArtCraft.GridCraft",
+    "winget_version_observed": "0.9.0",
+    "winget_installer_manifest": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/ArtCraft/GridCraft/0.9.0/ArtCraft.GridCraft.installer.yaml",
+    "winget_installer_urls": [
+      "https://github.com/storytold/gridcraft/releases/download/v0.9.0/gridcraft-0.9.0-windows-x86.msi",
+      "https://github.com/storytold/gridcraft/releases/download/v0.9.0/gridcraft-0.9.0-windows-x64.msi",
+      "https://github.com/storytold/gridcraft/releases/download/v0.9.0/gridcraft-0.9.0-windows-arm64.msi"
+    ]
+  }
+]

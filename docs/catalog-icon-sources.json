@@ -1,0 +1,582 @@
+[
+  {
+    "package_id": "Brave.Brave",
+    "asset": "/icons/catalog/brave-brave.png",
+    "source": "https://brave.com/static-assets/images/cropped-brave_appicon_release-192x192.png"
+  },
+  {
+    "package_id": "Google.Chrome",
+    "asset": "/icons/catalog/google-chrome.png",
+    "source": "https://www.google.com/chrome/static/images/favicons/favicon-32x32.png"
+  },
+  {
+    "package_id": "Hibbiki.Chromium",
+    "asset": "/icons/catalog/hibbiki-chromium.png",
+    "source": "https://www.chromium.org/favicon.ico"
+  },
+  {
+    "package_id": "Microsoft.Edge",
+    "asset": "/icons/catalog/edge-browser.png",
+    "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/microsoft-edge.png"
+  },
+  {
+    "package_id": "Mozilla.Firefox.ESR",
+    "asset": "/icons/catalog/mozilla-firefox-esr.png",
+    "source": "https://www.firefox.com/media/img/favicons/firefox/browser/favicon-196x196.59e3822720be.png"
+  },
+  {
+    "package_id": "Ablaze.Floorp",
+    "asset": "/icons/catalog/ablaze-floorp.ico",
+    "source": "https://floorp.app/favicon.ico"
+  },
+  {
+    "package_id": "ImputNet.Helium",
+    "asset": "/icons/catalog/imputnet-helium.png",
+    "source": "https://helium.computer/favicon.png"
+  },
+  {
+    "package_id": "LibreWolf.LibreWolf",
+    "asset": "/icons/catalog/librewolf-librewolf.svg",
+    "source": "https://librewolf.net/icon.svg"
+  },
+  {
+    "package_id": "MullvadVPN.MullvadBrowser",
+    "asset": "/icons/catalog/mullvad-browser.png",
+    "source": "https://www.google.com/s2/favicons?domain=mullvad.net&sz=128"
+  },
+  {
+    "package_id": "TorProject.TorBrowser",
+    "asset": "/icons/catalog/torproject-torbrowser.png",
+    "source": "https://www.torproject.org/static/images/favicon/favicon.png"
+  },
+  {
+    "package_id": "eloston.ungoogled-chromium",
+    "asset": "/icons/catalog/eloston-ungoogled-chromium.svg",
+    "source": "https://github.githubassets.com/favicons/favicon.svg"
+  },
+  {
+    "package_id": "Vivaldi.Vivaldi",
+    "asset": "/icons/catalog/vivaldi-vivaldi.png",
+    "source": "https://vivaldi.com/wp-content/uploads/cropped-favicon-192x192.png"
+  },
+  {
+    "package_id": "Waterfox.Waterfox",
+    "asset": "/icons/catalog/waterfox-waterfox.png",
+    "source": "https://www.waterfox.net/favicons/apple-touch-icon.png"
+  },
+  {
+    "package_id": "Zen-Team.Zen-Browser",
+    "asset": "/icons/catalog/zen-team-zen-browser.svg",
+    "source": "https://zen-browser.app/favicon.svg"
+  },
+  {
+    "package_id": "Betterbird.Betterbird",
+    "asset": "/icons/catalog/betterbird-betterbird.ico",
+    "source": "https://www.betterbird.eu/favicon.ico"
+  },
+  {
+    "package_id": "ChatterinoTeam.Chatterino",
+    "asset": "/icons/catalog/chatterinoteam-chatterino.svg",
+    "source": "https://www.chatterino.com/logo.svg"
+  },
+  {
+    "package_id": "SpikeHD.Dorion",
+    "asset": "/icons/catalog/spikehd-dorion.png",
+    "source": "https://raw.githubusercontent.com/SpikeHD/Dorion/main/src-tauri/icons/icon.png"
+  },
+  {
+    "package_id": "Element.Element",
+    "asset": "/icons/catalog/element-element.png",
+    "source": "https://element.io/assets-32bb636196f91ed59d7a49190e26b42c/5ef25c0d30ee3108da4c25e9/5f0e1775cd41ebe29c04cac1_webclip.png"
+  },
+  {
+    "package_id": "Proton.ProtonMail",
+    "asset": "/icons/catalog/proton-protonmail.ico",
+    "source": "https://proton.me/favicon.ico"
+  },
+  {
+    "package_id": "Tox.qTox",
+    "asset": "/icons/catalog/tox-qtox.ico",
+    "source": "https://qtox.github.io/assets/imgs/favicon.ico"
+  },
+  {
+    "package_id": "OpenWhisperSystems.Signal",
+    "asset": "/icons/catalog/openwhispersystems-signal.png",
+    "source": "https://signal.org/assets/images/favicon/apple-touch-icon.png"
+  },
+  {
+    "package_id": "SlackTechnologies.Slack",
+    "asset": "/icons/catalog/slacktechnologies-slack.png",
+    "source": "https://a.slack-edge.com/9cc0056/img/icons/favicon-32.png"
+  },
+  {
+    "package_id": "Microsoft.Teams",
+    "asset": "/icons/catalog/microsoft-teams.ico",
+    "source": "https://www.microsoft.com/favicon.ico?v2"
+  },
+  {
+    "package_id": "TeamSpeakSystems.TeamSpeakClient",
+    "asset": "/icons/catalog/teamspeaksystems-teamspeakclient.png",
+    "source": "https://www.teamspeak.com/user/themes/teamspeak/images/favicon.png"
+  },
+  {
+    "package_id": "TeamSpeakSystems.TeamSpeakClient.Beta.6",
+    "asset": "/icons/catalog/teamspeaksystems-teamspeakclient-beta-6.png",
+    "source": "https://www.teamspeak.com/user/themes/teamspeak/images/favicon.png"
+  },
+  {
+    "package_id": "Telegram.TelegramDesktop",
+    "asset": "/icons/catalog/telegram-telegramdesktop.png",
+    "source": "https://telegram.org/img/apple-touch-icon.png"
+  },
+  {
+    "package_id": "Mozilla.Thunderbird",
+    "asset": "/icons/catalog/mozilla-thunderbird.png",
+    "source": "https://www.thunderbird.net/media/img/thunderbird/favicon-196.png"
+  },
+  {
+    "package_id": "Vencord.Vesktop",
+    "asset": "/icons/catalog/vencord-vesktop.svg",
+    "source": "https://vesktop.dev/favicon.svg"
+  },
+  {
+    "package_id": "Rakuten.Viber",
+    "asset": "/icons/catalog/rakuten-viber.png",
+    "source": "https://www.viber.com/app/themes/viber/assets/images/favicon-v2/android-icon-192x192.png"
+  },
+  {
+    "package_id": "9NKSQGP7F2NH",
+    "asset": "/icons/catalog/9nksqgp7f2nh.ico",
+    "source": "https://web.whatsapp.com/favicon-64x64.ico"
+  },
+  {
+    "package_id": "Zoom.Zoom",
+    "asset": "/icons/catalog/zoom-zoom.ico",
+    "source": "https://st1.zoom.us/homepage/20261022-1234/primary/favicon.ico"
+  },
+  {
+    "package_id": "Bruno.Bruno",
+    "asset": "/icons/catalog/bruno-bruno.png",
+    "source": "https://www.usebruno.com/favicon-48x48.png"
+  },
+  {
+    "package_id": "OpenAI.ChatGPT",
+    "asset": "/icons/catalog/logo-chatgpt.png",
+    "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/chatgpt.png"
+  },
+  {
+    "package_id": "Anthropic.Claude",
+    "asset": "/icons/catalog/logo-anthropic.png",
+    "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/anthropic.png"
+  },
+  {
+    "package_id": "Anthropic.ClaudeCode",
+    "asset": "/icons/catalog/logo-anthropic.png",
+    "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/anthropic.png"
+  },
+  {
+    "package_id": "Kitware.CMake",
+    "asset": "/icons/catalog/kitware-cmake.ico",
+    "source": "https://cmake.org/favicon.ico"
+  },
+  {
+    "package_id": "OpenAI.Codex",
+    "asset": "/icons/catalog/openai-codex.png",
+    "source": "https://developers.openai.com/favicon.png"
+  },
+  {
+    "package_id": "Anysphere.Cursor",
+    "asset": "/icons/catalog/anysphere-cursor.png",
+    "source": "https://cursor.com/marketing-static/icon-192x192-light.png"
+  },
+  {
+    "package_id": "Docker.DockerDesktop",
+    "asset": "/icons/catalog/docker-dockerdesktop.png",
+    "source": "https://www.docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
+  },
+  {
+    "package_id": "Schniz.fnm",
+    "asset": "/icons/catalog/schniz-fnm.svg",
+    "source": "https://github.githubassets.com/favicons/favicon.svg"
+  },
+  {
+    "package_id": "GitExtensionsTeam.GitExtensions",
+    "asset": "/icons/catalog/gitextensionsteam-gitextensions.ico",
+    "source": "https://gitextensions.github.io/images/git-extensions-logo.ico"
+  },
+  {
+    "package_id": "GitHub.cli",
+    "asset": "/icons/catalog/github-cli.ico",
+    "source": "https://github.githubassets.com/favicon.ico"
+  },
+  {
+    "package_id": "GitHub.GitHubDesktop",
+    "asset": "/icons/catalog/github-githubdesktop.svg",
+    "source": "https://github.githubassets.com/favicons/favicon.svg"
+  },
+  {
+    "package_id": "GoLang.Go",
+    "asset": "/icons/catalog/golang-go.png",
+    "source": "https://go.dev/images/favicon-gopher-plain.png"
+  },
+  {
+    "package_id": "JesseDuffield.lazygit",
+    "asset": "/icons/catalog/jesseduffield-lazygit.svg",
+    "source": "https://github.githubassets.com/favicons/favicon.svg"
+  },
+  {
+    "package_id": "DEVCOM.Lua",
+    "asset": "/icons/catalog/logo-lua.png",
+    "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/lua.png"
+  },
+  {
+    "package_id": "Neovim.Neovim",
+    "asset": "/icons/catalog/neovim-neovim.ico",
+    "source": "https://neovim.io/favicon.ico"
+  },
+  {
+    "package_id": "OpenJS.NodeJS",
+    "asset": "/icons/catalog/openjs-nodejs.png",
+    "source": "https://nodejs.org/static/images/favicons/favicon.png"
+  },
+  {
+    "package_id": "pnpm.pnpm",
+    "asset": "/icons/catalog/pnpm-pnpm.png",
+    "source": "https://pnpm.io/img/favicon.png"
+  },
+  {
+    "package_id": "JanDeDobbeleer.OhMyPosh",
+    "asset": "/icons/catalog/jandedobbeleer-ohmyposh.svg",
+    "source": "https://ohmyposh.dev/img/favicons.svg"
+  },
+  {
+    "package_id": "Postman.Postman",
+    "asset": "/icons/catalog/logo-postman.png",
+    "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/postman.png"
+  },
+  {
+    "package_id": "Python.Python.3.14",
+    "asset": "/icons/catalog/python-python-3-14.ico",
+    "source": "https://www.python.org/favicon.ico"
+  },
+  {
+    "package_id": "RubyInstallerTeam.Ruby.4.0",
+    "asset": "/icons/catalog/rubyinstallerteam-ruby-4-0.png",
+    "source": "https://rubyinstaller.org/assets/favicon.png"
+  },
+  {
+    "package_id": "Starship.Starship",
+    "asset": "/icons/catalog/starship-starship.png",
+    "source": "https://starship.rs/icon.png"
+  },
+  {
+    "package_id": "SublimeHQ.SublimeText.4",
+    "asset": "/icons/catalog/sublimehq-sublimetext-4.png",
+    "source": "https://www.sublimetext.com/images/icon.png"
+  },
+  {
+    "package_id": "WinsiderSS.SystemInformer",
+    "asset": "/icons/catalog/winsiderss-systeminformer.png",
+    "source": "https://systeminformer.com/favicon-96x96.png"
+  },
+  {
+    "package_id": "Unity.UnityHub",
+    "asset": "/icons/catalog/unity-unityhub.ico",
+    "source": "https://unity.com/favicon.ico?favicon.3nuapaha9dmud.ico?dpl=2b8e3e71204f3a12db22780786d6f5a065d7a07d"
+  },
+  {
+    "package_id": "astral-sh.uv",
+    "asset": "/icons/catalog/astral-sh-uv.png",
+    "source": "https://docs.astral.sh/static/apple-touch-icon.png"
+  },
+  {
+    "package_id": "Hashicorp.Vagrant",
+    "asset": "/icons/catalog/hashicorp-vagrant.ico",
+    "source": "https://developer.hashicorp.com/favicon.ico"
+  },
+  {
+    "package_id": "Microsoft.VisualStudio.2022.Community",
+    "asset": "/icons/catalog/microsoft-visualstudio-2022-community.png",
+    "source": "https://visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/img/favicon/favicon-512.png?ver=1789066767"
+  },
+  {
+    "package_id": "Microsoft.VisualStudio.Community",
+    "asset": "/icons/catalog/microsoft-visualstudio-community.png",
+    "source": "https://visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/img/favicon/favicon-512.png?ver=1789066767"
+  },
+  {
+    "package_id": "VSCodium.VSCodium",
+    "asset": "/icons/catalog/vscodium-vscodium.png",
+    "source": "https://vscodium.com/img/apple-touch-icon.png"
+  },
+  {
+    "package_id": "Yarn.Yarn",
+    "asset": "/icons/catalog/yarn-yarn.svg",
+    "source": "https://yarnpkg.com/img/yarn-favicon.svg"
+  },
+  {
+    "package_id": "ZedIndustries.Zed",
+    "asset": "/icons/catalog/zedindustries-zed.png",
+    "source": "https://zed.dev/favicon_white_64.png"
+  },
+  {
+    "package_id": "Adobe.Acrobat.Reader.64-bit",
+    "asset": "/icons/catalog/adobe-acrobat-reader-64-bit.ico",
+    "source": "https://www.adobe.com/favicon.ico"
+  },
+  {
+    "package_id": "Foxit.FoxitReader",
+    "asset": "/icons/catalog/foxit-foxitreader.png",
+    "source": "https://www.foxit.com/assets/favicons/favicon180.png"
+  },
+  {
+    "package_id": "Joplin.Joplin",
+    "asset": "/icons/catalog/joplin-joplin.ico",
+    "source": "https://joplinapp.org/favicon.ico"
+  },
+  {
+    "package_id": "TheDocumentFoundation.LibreOffice",
+    "asset": "/icons/catalog/thedocumentfoundation-libreoffice.ico",
+    "source": "https://www.libreoffice.org/favicon.ico"
+  },
+  {
+    "package_id": "Cyanfish.NAPS2",
+    "asset": "/icons/catalog/cyanfish-naps2.ico",
+    "source": "https://www.naps2.com/images/favicon.ico"
+  },
+  {
+    "package_id": "Obsidian.Obsidian",
+    "asset": "/icons/catalog/obsidian-obsidian.png",
+    "source": "https://obsidian.md/apple-touch-icon.png"
+  },
+  {
+    "package_id": "KDE.Okular",
+    "asset": "/icons/catalog/kde-okular.ico",
+    "source": "https://okular.kde.org/favicon.ico"
+  },
+  {
+    "package_id": "ONLYOFFICE.DesktopEditors",
+    "asset": "/icons/catalog/onlyoffice-desktopeditors.webp",
+    "source": "https://static-site.onlyoffice.com/public/images/favicons/favicon325.png"
+  },
+  {
+    "package_id": "TrackerSoftware.PDF-XChangeEditor",
+    "asset": "/icons/catalog/trackersoftware-pdf-xchangeeditor.png",
+    "source": "https://cdn.pdf-xchange.com/static/common/images/apple-touch-icon-114x114.png"
+  },
+  {
+    "package_id": "geeksoftwareGmbH.PDF24Creator",
+    "asset": "/icons/catalog/geeksoftwaregmbh-pdf24creator.svg",
+    "source": "https://tools.pdf24.org/static/img/favIcons/sheep.svg?v=69a9889c"
+  },
+  {
+    "package_id": "PDFgear.PDFgear",
+    "asset": "/icons/catalog/pdfgear-pdfgear.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.pdfgear.com&sz=128"
+  },
+  {
+    "package_id": "PDFsam.PDFsam",
+    "asset": "/icons/catalog/pdfsam-pdfsam.png",
+    "source": "https://pdfsam.org/icns/android-chrome-192x192.png"
+  },
+  {
+    "package_id": "pbek.QOwnNotes",
+    "asset": "/icons/catalog/pbek-qownnotes.png",
+    "source": "https://www.qownnotes.org/favicon.png"
+  },
+  {
+    "package_id": "Automattic.Simplenote",
+    "asset": "/icons/catalog/automattic-simplenote.png",
+    "source": "https://simplenote.com/wp-content/uploads/2020/07/cropped-icon_512x512.png?w=192"
+  },
+  {
+    "package_id": "SumatraPDF.SumatraPDF",
+    "asset": "/icons/catalog/sumatrapdf-sumatrapdf.ico",
+    "source": "https://raw.githubusercontent.com/sumatrapdfreader/sumatrapdf/master/docs/favicon.ico"
+  },
+  {
+    "package_id": "Xournal++.Xournal++",
+    "asset": "/icons/catalog/xournal-xournal.ico",
+    "source": "https://xournalpp.github.io/img/favicon.ico"
+  },
+  {
+    "package_id": "DigitalScholar.Zotero",
+    "asset": "/icons/catalog/digitalscholar-zotero.ico",
+    "source": "https://www.zotero.org/favicon.ico"
+  },
+  {
+    "package_id": "Blizzard.BattleNet",
+    "asset": "/icons/catalog/blizzard-battlenet.png",
+    "source": "https://www.google.com/s2/favicons?domain=battle.net&sz=128"
+  },
+  {
+    "package_id": "Cemu.Cemu",
+    "asset": "/icons/catalog/cemu-cemu.ico",
+    "source": "https://cemu.info/favicon.ico"
+  },
+  {
+    "package_id": "ElectronicArts.EADesktop",
+    "asset": "/icons/catalog/electronicarts-eadesktop.png",
+    "source": "https://www.ea.com/assets/images/favicon.png"
+  },
+  {
+    "package_id": "EpicGames.EpicGamesLauncher",
+    "asset": "/icons/catalog/epicgames-epicgameslauncher.ico",
+    "source": "https://www.epicgames.com/favicon.ico"
+  },
+  {
+    "package_id": "ES-DE.EmulationStation-DE",
+    "asset": "/icons/catalog/es-de-emulationstation-de.png",
+    "source": "https://www.google.com/s2/favicons?domain=es-de.org&sz=128"
+  },
+  {
+    "package_id": "Nvidia.GeForceNow",
+    "asset": "/icons/catalog/nvidia-geforcenow.ico",
+    "source": "https://www.nvidia.com/favicon.ico"
+  },
+  {
+    "package_id": "GOG.Galaxy",
+    "asset": "/icons/catalog/gog-galaxy.png",
+    "source": "https://www.gogalaxy.com/favicons/android-icon-192x192.png"
+  },
+  {
+    "package_id": "ItchIo.Itch",
+    "asset": "/icons/catalog/itchio-itch.ico",
+    "source": "https://itch.io/favicon.ico"
+  },
+  {
+    "package_id": "Modrinth.ModrinthApp",
+    "asset": "/icons/catalog/modrinth-modrinthapp.png",
+    "source": "https://modrinth.com/favicon-light-32x32.png"
+  },
+  {
+    "package_id": "Overwolf.CurseForge",
+    "asset": "/icons/catalog/overwolf-curseforge.ico",
+    "source": "https://www.overwolf.com/favicon.ico"
+  },
+  {
+    "package_id": "Playnite.Playnite",
+    "asset": "/icons/catalog/playnite-playnite.ico",
+    "source": "https://playnite.link/favicon.ico"
+  },
+  {
+    "package_id": "Roblox.Roblox",
+    "asset": "/icons/catalog/roblox-roblox.png",
+    "source": "https://images.rbxcdn.com/905bd722ee0a6ceda3caacde54c0b081.png"
+  },
+  {
+    "package_id": "Ubisoft.Connect",
+    "asset": "/icons/catalog/ubisoft-connect.png",
+    "source": "https://static-dm.ubisoft.com/ubisoft/prod/favicon-228x228.png"
+  },
+  {
+    "package_id": "VirtualDesktop.Streamer",
+    "asset": "/icons/catalog/virtualdesktop-streamer.png",
+    "source": "https://static.wixstatic.com/media/e0881d_667d7d32eadb45a282f375385db9a448%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/e0881d_667d7d32eadb45a282f375385db9a448%7Emv2.png"
+  },
+  {
+    "package_id": "AIMP.AIMP",
+    "asset": "/icons/catalog/aimp-aimp.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.aimp.ru&sz=128"
+  },
+  {
+    "package_id": "Audacity.Audacity",
+    "asset": "/icons/catalog/logo-audacity.png",
+    "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/audacity.png"
+  },
+  {
+    "package_id": "BlenderFoundation.Blender",
+    "asset": "/icons/catalog/logo-blender.png",
+    "source": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/blender.png"
+  },
+  {
+    "package_id": "calibre.calibre",
+    "asset": "/icons/catalog/calibre-calibre.png",
+    "source": "https://calibre-ebook.com/favicon.png"
+  },
+  {
+    "package_id": "File-New-Project.EarTrumpet",
+    "asset": "/icons/catalog/file-new-project-eartrumpet.png",
+    "source": "https://raw.githubusercontent.com/File-New-Project/EarTrumpet/master/.chocolatey/logo.png"
+  },
+  {
+    "package_id": "AdrienAllard.FileConverter",
+    "asset": "/icons/catalog/adrienallard-fileconverter.ico",
+    "source": "https://file-converter.io/favicon.ico"
+  },
+  {
+    "package_id": "PeterPawlowski.foobar2000",
+    "asset": "/icons/catalog/peterpawlowski-foobar2000.ico",
+    "source": "https://www.foobar2000.org/favicon.ico"
+  },
+  {
+    "package_id": "GIMP.GIMP.3",
+    "asset": "/icons/catalog/gimp-gimp-3.png",
+    "source": "https://www.gimp.org/images/wilber32.png"
+  },
+  {
+    "package_id": "HandBrake.HandBrake",
+    "asset": "/icons/catalog/handbrake-handbrake.ico",
+    "source": "https://handbrake.fr/favicon.ico"
+  },
+  {
+    "package_id": "DuongDieuPhap.ImageGlass",
+    "asset": "/icons/catalog/duongdieuphap-imageglass.ico",
+    "source": "https://imageglass.org/favicon.ico?favicon.448-tycfsh_ur.ico"
+  },
+  {
+    "package_id": "IrfanSkiljan.IrfanView",
+    "asset": "/icons/catalog/irfanskiljan-irfanview.png",
+    "source": "https://irfanview.com/images/favicon.png"
+  },
+  {
+    "package_id": "Apple.iTunes",
+    "asset": "/icons/catalog/apple-itunes.ico",
+    "source": "https://www.apple.com/favicon.ico"
+  },
+  {
+    "package_id": "CodecGuide.K-LiteCodecPack.Standard",
+    "asset": "/icons/catalog/codecguide-k-litecodecpack-standard.png",
+    "source": "https://www.codecguide.com/mpc_logo.png"
+  },
+  {
+    "package_id": "mpc-qt.mpc-qt",
+    "asset": "/icons/catalog/mpc-qt-mpc-qt.svg",
+    "source": "https://mpc-qt.github.io/favicon.svg"
+  },
+  {
+    "package_id": "clsid2.mpc-hc",
+    "asset": "/icons/catalog/clsid2-mpc-hc.ico",
+    "source": "https://mpc-hc.org/favicon.ico"
+  },
+  {
+    "package_id": "shinchiro.mpv",
+    "asset": "/icons/catalog/shinchiro-mpv.png",
+    "source": "https://mpv.io/images/favicon-5d3b2a52.png"
+  },
+  {
+    "package_id": "nomacs.nomacs",
+    "asset": "/icons/catalog/nomacs-nomacs.png",
+    "source": "https://nomacs.org/apple-touch-icon.png"
+  },
+  {
+    "package_id": "Notepad++.Notepad++",
+    "asset": "/icons/catalog/notepad-notepad-.ico",
+    "source": "https://raw.githubusercontent.com/notepad-plus-plus/notepad-plus-plus/master/PowerEditor/src/icons/npp.ico"
+  },
+  {
+    "package_id": "dotPDN.PaintDotNet",
+    "asset": "/icons/catalog/dotpdn-paintdotnet.png",
+    "source": "https://www.getpaint.net/apple-touch-icon.png"
+  },
+  {
+    "package_id": "ShareX.ShareX",
+    "asset": "/icons/catalog/sharex-sharex.ico",
+    "source": "https://getsharex.com/favicon.ico"
+  },
+  {
+    "package_id": "RARLab.WinRAR",
+    "asset": "/icons/catalog/rarlab-winrar.png",
+    "source": "https://www.google.com/s2/favicons?domain=www.win-rar.com&sz=128"
+  }
+]

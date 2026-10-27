@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-27T14:44:12.1856784Z",
+  "installer": "Winstore_0.1.0_x64-setup.exe",
+  "size_bytes": 25426405,
+  "sha256": "08F61CD7C844C6155BA54B630DF1283E2DE4ABA3A628F6595B4D9C5443BE44EB",
+  "authenticode": "NotSigned",
+  "frontend_build": "passed",
+  "rust_tests": 15,
+  "clippy": "passed",
+  "packaged_runtime": "passed",
+  "update_feed_configured": false,
+  "package_installers_executed": false
+}
